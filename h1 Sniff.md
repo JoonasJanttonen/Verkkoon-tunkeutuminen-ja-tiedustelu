@@ -34,6 +34,15 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y install ufw \
 sudo ufw enable 
 ```
+Lopuksi aikavyöhykkeen asennus, jotta ohjelmat toimivat oikein. Tätä toimintoa ei tarvitse, mutta jos joku haluaa kopioida tästä itselleen, niin:
+
+```
+sudo timedatectl set-timezone Europe/Helsinki
+sudo timedatectl
+set-ntp true
+```
+
+
 
 a) Linux. Asenna Debian tai Kali Linux virtuaalikoneeseen. (Tätä alakohtaa ei poikkeuksellisesti tarvitse raportoida, jos sinulla ei ole mitään ongelmia. 
 Jos on mitään haasteita, tee täsmällinen raportti)
