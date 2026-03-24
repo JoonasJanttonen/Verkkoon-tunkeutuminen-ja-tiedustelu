@@ -51,6 +51,8 @@ Karvinen 2025: Wireshark - Getting Started.
 
 - Halutessasi voit seurata TCP - virtaa, kun tarkastelet suojaamattomia yhteyksiä.
 
+###### 19:26 Läksyjen työstäminen jatkuu seuraavana päivänä
+
 Karvinen 2025: Network Interface Names on Linux
 
 - 
