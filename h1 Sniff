@@ -1,2 +1,42 @@
+Sniff
+===
+###### 24.3.2026.
+
+###### 18:00
+
+Järjestelmä:
+
+Järjestelmän malli: Aspire E5-573G
+
+Käyttöjärjestelmä: Microsoft Windows 10 Home
+
+Suoritin: Inter(R) Pentium(R) 3558U @ 1.70GHz. Mhz, 2 ydin(tä)
+
+Muisti: 6.00 Gt asennettua fyysistä muistia
+
+Oracle Virtualbox
+
+Debian 13 (trixie)
+
+
 ### 18:00
 ### 24.3.2026.
+
+---
+
+Debianin asentamisen syötän tutut komennot, kuten:
+
+```
+sudo apt-get update
+sudo dpkg --configure -a
+sudo apt-get -y dist-upgrade
+sudo apt-get -y install ufw \
+sudo ufw enable 
+```
+
+a) Linux. Asenna Debian tai Kali Linux virtuaalikoneeseen. (Tätä alakohtaa ei poikkeuksellisesti tarvitse raportoida, jos sinulla ei ole mitään ongelmia. 
+Jos on mitään haasteita, tee täsmällinen raportti)
+
+Asennus onnistui ongelmitta.
+
+b) 
