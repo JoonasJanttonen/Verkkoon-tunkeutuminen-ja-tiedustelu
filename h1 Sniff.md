@@ -44,12 +44,19 @@ set-ntp true
 x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 
 Karvinen 2025: Wireshark - Getting Started. 
--
--
--
+
+- Wireshark soveltuu verkon analysointiin, jossa käyttäkä voi tutkia verkon liikennettä.
+
+- Wireshark on monipuolinen ohjelma ja laajasti käytössä, kun analysoidaan verkkoja.
+
+- Halutessasi voit seurata TCP - virtaa, kun tarkastelet suojaamattomia yhteyksiä.
+
 Karvinen 2025: Network Interface Names on Linux
+
+- 
+
 -
--
+
 -
 
 a) Linux. Asenna Debian tai Kali Linux virtuaalikoneeseen. (Tätä alakohtaa ei poikkeuksellisesti tarvitse raportoida, jos sinulla ei ole mitään ongelmia. 
@@ -84,6 +91,8 @@ Lähteet
 ===
 
 Joonas Janttonen 2025. Github. h5 Toimiva versio. Luettavissa: https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%20versio.md. Luettu: 24.3.2026.
+
+Tero Karvinen 2025. Network Interface Names on Linux. Luettavissa: https://terokarvinen.com/network-interface-linux/. Luettu: 24.3.2026.
 
 Tero Karvinen 2026. Verkkoon tunkeutuminen ja tiedustelu. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#kertauspaketti. Luettu: 24.3.2026.
 
