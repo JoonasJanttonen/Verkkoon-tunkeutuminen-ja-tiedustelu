@@ -41,7 +41,16 @@ sudo timedatectl
 set-ntp true
 ```
 
+x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 
+Karvinen 2025: Wireshark - Getting Started. 
+-
+-
+-
+Karvinen 2025: Network Interface Names on Linux
+-
+-
+-
 
 a) Linux. Asenna Debian tai Kali Linux virtuaalikoneeseen. (Tätä alakohtaa ei poikkeuksellisesti tarvitse raportoida, jos sinulla ei ole mitään ongelmia. 
 Jos on mitään haasteita, tee täsmällinen raportti)
@@ -51,7 +60,7 @@ Asennus onnistui ongelmitta.
 b) Ei voi kalastaa. Osoita, että pystyt katkaisemaan ja palauttamaan virtuaalikoneen Internet-yhteyden
 
 
-c) Wireshark. Asenna Wireshark. Sieppaa liikennettä Wiresharkilla. (Vain omaa liikennettäsi. Voit käyttää tähän esimerkiksi virtuaalikonetta).
+c) Wireshark. Asenna Wireshark. Sieppaa liikennettä Wiresharkilla. (Vain omaa liikennettäsi. Voit käyttää tähän esimerkiksi virtuaalikonetta). 
 
 
 d) Oikeesti TCP/IP. Osoita TCP/IP-mallin neljä kerrosta yhdestä siepatusta paketista. Voit selityksen tueksi laatikoida ne ruutukaappauksesta. (Voit käyttää vastauksesi osana ruutukaappaustasi h0-tehtävästä, mutta tässä tehtävässä tarvitaan myös sanallinen selitys.)
@@ -74,8 +83,8 @@ i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selit�
 Lähteet
 ===
 
-Joonas Janttonen 2025. Luettavissa: https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%20versio.md. Luettu: 24.3.2026.
+Joonas Janttonen 2025. Github. h5 Toimiva versio. Luettavissa: https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%20versio.md. Luettu: 24.3.2026.
 
-Tero Karvinen 2026. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#kertauspaketti. Luettu: 24.3.2026.
+Tero Karvinen 2026. Verkkoon tunkeutuminen ja tiedustelu. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#kertauspaketti. Luettu: 24.3.2026.
 
-
+Tero Karvinen 2026. Wireshark - Getting Started. Luettavissa: https://terokarvinen.com/wireshark-getting-started/. Luettu: 24.3.2026.
