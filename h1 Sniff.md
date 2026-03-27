@@ -64,7 +64,14 @@ Karvinen 2025: Network Interface Names on Linux
 a) Linux. Asenna Debian tai Kali Linux virtuaalikoneeseen. (Tätä alakohtaa ei poikkeuksellisesti tarvitse raportoida, jos sinulla ei ole mitään ongelmia. 
 Jos on mitään haasteita, tee täsmällinen raportti)
 
-Asennus onnistui ongelmitta.
+OK.
+
+###### 24.3.2026.
+###### 20:20
+
+
+###### 27.3.2026.
+###### 18:45
 
 b) Ei voi kalastaa. Osoita, että pystyt katkaisemaan ja palauttamaan virtuaalikoneen Internet-yhteyden
 
