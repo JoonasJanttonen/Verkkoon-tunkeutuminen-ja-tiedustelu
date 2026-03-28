@@ -45,11 +45,11 @@ x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokon
 
 Karvinen 2025: Wireshark - Getting Started. 
 
-- Wireshark soveltuu verkon analysointiin, jossa käyttäkä voi tutkia verkon liikennettä.
+- Wireshark soveltuu verkon analysointiin. Käyttäjäj voi tutkia verkon liikennettä sharkin avulla.
 
-- Wireshark on monipuolinen ohjelma ja laajasti käytössä, kun analysoidaan verkkoja.
+- Wireshark on monipuolinen ohjelma, jossa on paljon toimintoja.
 
-- Halutessasi voit seurata TCP - virtaa, kun tarkastelet suojaamattomia yhteyksiä.
+- Yksi suosituimmista ominaisuuksista on Follow TCP stream.
 
 ###### 19:26 Läksyjen työstäminen jatkuu seuraavana päivänä
 
