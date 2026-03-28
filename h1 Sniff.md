@@ -222,7 +222,7 @@ Kuva 12. SRC ja DST
 
 Kuva 13. TTL (Time to Live)
 
-
+SRC kertoo mistä paketti on lähtenyt. DST puolestaan kertoo, että minne paketti on matkalla. 443 kertoo, että se on suojattu nettisivu.
 
 <img width="173" height="31" alt="Image" src="https://github.com/user-attachments/assets/97b59ad0-c030-485d-9af2-23314e182cb2" />
 
