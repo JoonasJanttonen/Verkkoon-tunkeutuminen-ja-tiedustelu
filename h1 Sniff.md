@@ -222,6 +222,12 @@ Kuva 12. SRC ja DST
 
 Kuva 13. TTL (Time to Live)
 
+
+
+<img width="173" height="31" alt="Image" src="https://github.com/user-attachments/assets/97b59ad0-c030-485d-9af2-23314e182cb2" />
+
+Kuva 14. SRC ja DST
+
 Lähteet
 ===
 
