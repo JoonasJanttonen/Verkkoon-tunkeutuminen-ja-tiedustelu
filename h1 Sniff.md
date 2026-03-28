@@ -55,11 +55,17 @@ Karvinen 2025: Wireshark - Getting Started.
 
 Karvinen 2025: Network Interface Names on Linux
 
-- 
+- "Verkkoliitäntä on melkein kuin "verkkokortti". Paitsi että se ei välttämättä ole fyysinen kortti". Lähde: (https://terokarvinen.com/network-interface-linux/)
 
--
+- Nimeämisjärjestelmät:
+- en = langallinen E ja n etwl
+- WLAN, langaton lähiverkko, WiFi
+- lo Lo opback adapteri. Lähde: (https://terokarvinen.com/network-interface-linux/)
 
--
+- wlp4s0 WiFi-kortti.
+- enp1s0 Langallinen Ethernet-kortti
+- lo Loopback-sovitin.
+- enx738899738899 Langallinen Ethernet-kortti. Numero "x": n jälkeen on kortin MAC-numero. Lähde: (https://terokarvinen.com/network-interface-linux/)
 
 a) Linux. Asenna Debian tai Kali Linux virtuaalikoneeseen. (Tätä alakohtaa ei poikkeuksellisesti tarvitse raportoida, jos sinulla ei ole mitään ongelmia. 
 Jos on mitään haasteita, tee täsmällinen raportti)
@@ -70,8 +76,11 @@ OK.
 ###### 20:20
 
 
-###### 27.3.2026.
-###### 18:45
+###### 28.3.2026.
+###### 07:10
+
+Läksyjen tekeminen jatkuu... Välipäivinä alustin koneen ja putsasin sisältä. Kone toimii kuin uusi! :)
+
 
 b) Ei voi kalastaa. Osoita, että pystyt katkaisemaan ja palauttamaan virtuaalikoneen Internet-yhteyden
 
@@ -102,6 +111,8 @@ Lähteet
 Joonas Janttonen 2025. Github. h5 Toimiva versio. Luettavissa: https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%20versio.md. Luettu: 24.3.2026.
 
 Tero Karvinen 2025. Network Interface Names on Linux. Luettavissa: https://terokarvinen.com/network-interface-linux/. Luettu: 24.3.2026.
+
+Tero karvinen. Verkkorajapinnan nimet Linuxissa. Luettavissa: https://terokarvinen.com/network-interface-linux/. Luettu: 28.3.2026.
 
 Tero Karvinen 2026. Verkkoon tunkeutuminen ja tiedustelu. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#kertauspaketti. Luettu: 24.3.2026.
 
