@@ -156,7 +156,11 @@ Käynnistän Wireshark-sieppauksen ja siirryn selaimella osoitteeseen http://www
 
 Kuva 7. Verkkoliitäntäkerros (Ethernet II). Internet-kerros (IPv4). Kuljetuskerros (UDP). Sovelluskerros (DNS).
 
+###### 9:17
+
 Tässä kohtaa palaan h0 tehtävään, ja päivitän raportin.
+
+###### 9:45
 
 e) Mitäs tuli surffattua? Avaa surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
 
