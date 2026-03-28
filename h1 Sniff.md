@@ -132,15 +132,18 @@ sudo apt install wireshark
 Kuva 5. Valitsin Kyllä Tero Karvisen ohjeiden mukaisesti: https://terokarvinen.com/wireshark-getting-started/.
 Tämä mahdollistaa pakettien kaappaamisen ilman, että ohjelmaa tarvitsee ajaa aina root-oikeuksilla (mikä on tietoturvallisempaa).
 
+Lisäsin käyttäjän Wireshark - ryhmään.
 ```
 sudo usermod -aG wireshark joonas
 ```
+Otan muutokset käyttöön:
 ```
 newgrp wireshark
 ```
 
+<img width="1276" height="589" alt="Image" src="https://github.com/user-attachments/assets/f874a8e7-91df-49f3-8d87-7f3ceeadc8fa" />
 
-Wireshark käynnistys syöttämällä terminaaliin: "Wireshark".
+Kuva 6. Lopputulos! Wireshark käynnistys syöttämällä terminaaliin: "Wireshark".
 
 
 
