@@ -107,7 +107,9 @@ Lopuksi palautan yhteyden kommennolla:
 ```
 sudo ip link set enp0s3 up
 ```
+<img width="362" height="125" alt="Image" src="https://github.com/user-attachments/assets/2fe0d5d3-5a4e-4e0c-ad30-c14594abb5ed" />
 
+Kuva 3. Yhteys palautettu.
 
 c) Wireshark. Asenna Wireshark. Sieppaa liikennettä Wiresharkilla. (Vain omaa liikennettäsi. Voit käyttää tähän esimerkiksi virtuaalikonetta). 
 
