@@ -180,8 +180,14 @@ LGb it. Käyttäjällä on käytössä: Giga-byte Technology.
 Kuva 8. Source
 
 h) Millä weppipalvelimella käyttäjä on surffaillut? surfing-secure.pcap
+Huonoja uutisia: yhteys on suojattu TLS-salauksella.
 
-    Huonoja uutisia: yhteys on suojattu TLS-salauksella.
+Lataan tiedoston, joka käynnistyy sharkissa. Syötän komentoriville: "tls.handshake.type == 1"
+Selaan paketteja ja valitsen Client Hello - viestin. Käyn läpi pakettilistoja, ja syötän DNS komentoriville. Huomaan, että listalla on Stand query AAA. Huomaan, että viimeisin sivu, jossa käyttäjä on vieraillut löytyy tältä riviltä:
+
+<img width="1227" height="58" alt="Image" src="https://github.com/user-attachments/assets/0b79f671-d13a-434d-8795-0125444ac2be" />
+
+Kuva 9. Näkymä Wireshark
 
 i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu. (Tässä pääpaino on siis analyysillä ja selityksellä, joten liikennettä kannattaa ottaa tarkasteluun todella vähän - vaikka vain pari pakettia. Gurut huomio: Selitä myös mielestäsi yksinkertaiset asiat.)
 
