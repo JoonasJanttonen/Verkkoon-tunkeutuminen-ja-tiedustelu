@@ -147,15 +147,19 @@ Kuva 6. Lopputulos! Wireshark käynnistys syöttämällä terminaaliin: "Wiresha
 
 
 ###### 8:39
-Tauko
-##### 
-
 
 d) Oikeesti TCP/IP. Osoita TCP/IP-mallin neljä kerrosta yhdestä siepatusta paketista. Voit selityksen tueksi laatikoida ne ruutukaappauksesta. (Voit käyttää vastauksesi osana ruutukaappaustasi h0-tehtävästä, mutta tässä tehtävässä tarvitaan myös sanallinen selitys.)
 
+Käynnistän Wireshark-sieppauksen ja siirryn selaimella osoitteeseen http://www.lonnrot.net. Koska kyseessä on verkkosivun avaaminen, tietokoneeni tekee ensin DNS-kyselyn (Domain Name System) selvittääkseen palvelimen IP-osoitteen:
 
+<img width="1279" height="171" alt="Image" src="https://github.com/user-attachments/assets/dcd2e6bc-e508-471e-ba3f-d44b5c416662" />
+
+Kuva 7. Verkkoliitäntäkerros (Ethernet II). Internet-kerros (IPv4). Kuljetuskerros (UDP). Sovelluskerros (DNS).
+
+Tässä kohtaa palaan h0 tehtävään, ja päivitän raportin.
 
 e) Mitäs tuli surffattua? Avaa surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
+
 
 f) Vapaaehtoinen, vaikea: Mitä selainta käyttäjä käyttää? surfing-secure.pcap (Päivitys 2025-03-31 w14 ma - muutin tehtävän vapaaehtoiseksi Giang:n suosituksesta)
 
@@ -174,6 +178,8 @@ Lähteet
 ===
 
 Joonas Janttonen 2025. Github. h5 Toimiva versio. Luettavissa: https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%20versio.md. Luettu: 24.3.2026.
+
+Projekti Lönnrot 2005. Internet-sivut. Luettavissa: https://www.lonnrot.net/valmiit.html. Luettu: 28.3.2026.
 
 Tero Karvinen 2025. Network Interface Names on Linux. Luettavissa: https://terokarvinen.com/network-interface-linux/. Luettu: 24.3.2026.
 
