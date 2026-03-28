@@ -99,6 +99,7 @@ Seuraavaksi katkaisin yhteyden kommennolla:
 sudo ip link set enp0s3 down
 ```
 <img width="280" height="115" alt="Image" src="https://github.com/user-attachments/assets/6805ee16-ad4d-4359-9195-e80726a00888" />
+
 Kuva 2. Yhteys katkaistu.
 
 Lopuksi palautan yhteyden kommennolla:
