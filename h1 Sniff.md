@@ -111,6 +111,10 @@ sudo ip link set enp0s3 up
 
 Kuva 3. Yhteys palautettu.
 
+<img width="472" height="94" alt="Image" src="https://github.com/user-attachments/assets/b44ef33f-b215-458a-8a60-bb2b6a2e70d8" />
+
+Kuva 4. Näkymä terminaalista kotitehtävää tehdessä.
+
 c) Wireshark. Asenna Wireshark. Sieppaa liikennettä Wiresharkilla. (Vain omaa liikennettäsi. Voit käyttää tähän esimerkiksi virtuaalikonetta). 
 
 
