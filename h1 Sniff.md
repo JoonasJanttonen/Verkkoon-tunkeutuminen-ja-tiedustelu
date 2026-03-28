@@ -164,10 +164,20 @@ Tauko + h0 päivittämistä
 
 e) Mitäs tuli surffattua? Avaa surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
 
+Pakettien määrä näyttäisi olevan: 283. Tiedoston koko näyttäisi olevan pieni, kuten kuva.pgp. Kesto: 7 sekunttia. Osa tiedostosta on salattua, koska protocolissa lukee TLS / SSL, eli kyseessä on salattu liikenne. Kyseessä voi olla yksittäinen pyyntö. 
+
 
 f) Vapaaehtoinen, vaikea: Mitä selainta käyttäjä käyttää? surfing-secure.pcap (Päivitys 2025-03-31 w14 ma - muutin tehtävän vapaaehtoiseksi Giang:n suosituksesta)
 
+Syötin kenttään: tls.handshake.type == 1. Valitsin Quic, ja löysin paljon UDP - liikennettä. Löysin Internetistä tietoa, että  Google kehitti QUIC-protokollan, joka toimii UDP. Tästä voidaan päätellä, että kyseessä on todennököisesti: Google Chrome?
+
 g) Minkä merkkinen verkkokortti käyttäjällä on? surfing-secure.pcap
+
+LGb it. Käyttäjällä on käytössä: Giga-byte Technology.
+
+<img width="892" height="41" alt="Image" src="https://github.com/user-attachments/assets/4c6e18ad-e464-41da-a354-12e46489bcbc" />
+
+Kuva 8. Source
 
 h) Millä weppipalvelimella käyttäjä on surffaillut? surfing-secure.pcap
 
