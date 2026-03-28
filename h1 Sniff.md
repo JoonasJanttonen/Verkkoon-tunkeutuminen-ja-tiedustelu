@@ -187,7 +187,9 @@ Selaan paketteja ja valitsen Client Hello - viestin. Käyn läpi pakettilistoja,
 
 <img width="1227" height="58" alt="Image" src="https://github.com/user-attachments/assets/0b79f671-d13a-434d-8795-0125444ac2be" />
 
-Kuva 9. Näkymä Wireshark
+
+
+Kuva 9. Näkymä Wireshark 
 
 i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu. (Tässä pääpaino on siis analyysillä ja selityksellä, joten liikennettä kannattaa ottaa tarkasteluun todella vähän - vaikka vain pari pakettia. Gurut huomio: Selitä myös mielestäsi yksinkertaiset asiat.)
 
