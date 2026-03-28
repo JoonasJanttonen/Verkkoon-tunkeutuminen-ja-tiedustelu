@@ -193,8 +193,34 @@ Kuva 9. Näkymä Wireshark
 
 i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu. (Tässä pääpaino on siis analyysillä ja selityksellä, joten liikennettä kannattaa ottaa tarkasteluun todella vähän - vaikka vain pari pakettia. Gurut huomio: Selitä myös mielestäsi yksinkertaiset asiat.)
 
+Frame, eli fyysinen kerros: 
+
+Tämä on paketin se osa, joka näyttää biittiä sähköä tai radioaaltoja liikkuu fyysisesti verkkokortin läpi. Se näyttää tiedon, kuten mihin aikaan paketti saapui.
+
+<img width="886" height="58" alt="Vikatehtävä2" src="https://github.com/user-attachments/assets/64902ed8-79a7-40d5-b872-80bb7e3fddd2" />
+
+Kuva 10. Näkymä
+
+Ethernet 2 / MAC-osoitteet
+
+Seuraavassa kuvassa määritellään verkkolaitteiden fyysiset osoitteet. MAC - osoite ei muutu, koska jokaisella laitteellaa on sarjanumero. Ilman tätä yhdistäminen olisi kuin merellä ilman kompassia. Sarjanumero pysyy muuttumattomana. Lisäksi se tarkoittaa, että koneet "keskustelevat" keskenään ja löytävät toisensa verkossa. 
 
 
+<img width="871" height="105" alt="Image" src="https://github.com/user-attachments/assets/ac45e556-0edb-4eae-8e45-d8d10df3a754" />
+
+Kuva 11. MAC - osoitteet.
+
+IPv6 verkkokierros / IP-osoitteet
+ 
+Paketeillä on nk. "postiosoite", joka tarkoittaa sitä, että SRC: on oma kone ja DST: on palvelimen osoite maailmalla. Lisäksi kuvassa on TTL, eli Time to Live. Tämä ei tarkoita, kuten monta sekunttia on kulunut, vaan se kertoo hyppyjen määrästä. Mikäli paketti joutuu hyppimään liian monen reittimen kautta löytämättä perille, se tuhotaan. Tässä tapauksessa niitä on ollut 64, kuten kuvasta voi huomata.
+
+<img width="517" height="22" alt="Image" src="https://github.com/user-attachments/assets/78fb9a15-add1-4d8c-bc91-89016878ee6c" />
+
+Kuva 12. SRC ja DST
+
+<img width="184" height="14" alt="Image" src="https://github.com/user-attachments/assets/0e614f31-52f4-48a7-8a4f-bd03618e2909" />
+
+Kuva 13. TTL (Time to Live)
 
 Lähteet
 ===
