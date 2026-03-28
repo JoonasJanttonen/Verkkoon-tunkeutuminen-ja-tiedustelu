@@ -115,7 +115,35 @@ Kuva 3. Yhteys palautettu.
 
 Kuva 4. Näkymä terminaalista kotitehtävää tehdessä.
 
+###### 8:20
+
 c) Wireshark. Asenna Wireshark. Sieppaa liikennettä Wiresharkilla. (Vain omaa liikennettäsi. Voit käyttää tähän esimerkiksi virtuaalikonetta). 
+
+Asennan Wiresharkin syöttämällä terminaaliin seuraavat komennot:
+
+```
+sudo apt update
+```
+```
+sudo apt install wireshark
+```
+<img width="851" height="537" alt="Image" src="https://github.com/user-attachments/assets/804f6655-e4e6-4076-9069-601083145b48" />
+
+Kuva 5. Valitsin Kyllä Tero Karvisen ohjeiden mukaisesti: https://terokarvinen.com/wireshark-getting-started/.
+Tämä mahdollistaa pakettien kaappaamisen ilman, että ohjelmaa tarvitsee ajaa aina root-oikeuksilla (mikä on tietoturvallisempaa).
+
+```
+sudo usermod -aG wireshark joonas
+```
+```
+newgrp wireshark
+```
+
+
+Wireshark käynnistys syöttämällä terminaaliin: "Wireshark".
+
+
+
 
 
 d) Oikeesti TCP/IP. Osoita TCP/IP-mallin neljä kerrosta yhdestä siepatusta paketista. Voit selityksen tueksi laatikoida ne ruutukaappauksesta. (Voit käyttää vastauksesi osana ruutukaappaustasi h0-tehtävästä, mutta tässä tehtävässä tarvitaan myös sanallinen selitys.)
