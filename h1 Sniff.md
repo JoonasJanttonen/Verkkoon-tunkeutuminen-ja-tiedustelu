@@ -89,9 +89,12 @@ Löysin verkkoliitännän nimen komennalla:
 ```
 ip a
 ```
-<img width="803" height="450" alt="Image" src="https://github.com/user-attachments/assets/cdfa430c-61f7-46d7-ba4b-a87f3ede251f" />
+<img width="830" height="49" alt="Image" src="https://github.com/user-attachments/assets/cb1f65e8-fdc6-4844-8231-299c1013215e" />
 
-Kuva 1. Liitännän nimi näkyy kohdassa 2. Lisäsin kokonaisen kuvan, mutta maalasin liitännän nimen.
+Kuva 1. Liitännän nimi näkyy kohdassa 2. 
+
+
+
 c) Wireshark. Asenna Wireshark. Sieppaa liikennettä Wiresharkilla. (Vain omaa liikennettäsi. Voit käyttää tähän esimerkiksi virtuaalikonetta). 
 
 
