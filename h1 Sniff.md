@@ -228,6 +228,19 @@ SRC kertoo mistä paketti on lähtenyt. DST puolestaan kertoo, että minne paket
 
 Kuva 14. SRC ja DST
 
+Viimeisenä sovelluskerros. Esim HTTPS, mikä kertoo, että yhteys on suojattu. Salaa viestin, eikä ulkopuolinen pysty sitä lukemaan siltä käsin. DNS puolestaan muuntaa selkokieliseksi, esim: ttps://www.gutenberg.org/ebooks/. jolloin se on helposti luettavissa.
+
+<img width="611" height="62" alt="Image" src="https://github.com/user-attachments/assets/747dac49-54c8-4887-ae21-4a36779ad165" />
+
+Kuva 15. Sovelluskerros
+
+<img width="217" height="30" alt="Image" src="https://github.com/user-attachments/assets/25fa40d8-6fe3-47ff-8d0b-96fbdc402652" />
+
+Kuva 16. Hypertext Transfer Protocol
+
+###### 28.3.2026.
+###### 12:40 
+
 Lähteet
 ===
 
