@@ -143,7 +143,7 @@ newgrp wireshark
 
 <img width="1276" height="589" alt="Image" src="https://github.com/user-attachments/assets/f874a8e7-91df-49f3-8d87-7f3ceeadc8fa" />
 
-Kuva 6. Lopputulos! Wireshark käynnistys syöttämällä terminaaliin: "Wireshark".
+Kuva 6. Lopputulos! Wireshark käynnistys syöttämällä terminaaliin: "wireshark".
 
 
 ###### 8:39
