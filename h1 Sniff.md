@@ -9,7 +9,7 @@ Järjestelmä:
 
 Järjestelmän malli: Aspire E5-573G
 
-Käyttöjärjestelmä: Microsoft Windows 10 Home
+Käyttöjärjestelmä: Microsoft Windows 11 Home
 
 Suoritin: Inter(R) Pentium(R) 3558U @ 1.70GHz. Mhz, 2 ydin(tä)
 
