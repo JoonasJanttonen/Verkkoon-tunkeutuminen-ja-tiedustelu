@@ -39,6 +39,19 @@ set-ntp true
 
 x) Lue ja vastaa lyhyesti kysymyksiin. Tässä alakohdassa x ei tällä kertaa tarvitse lukea artikkeleita kokonaan, ei tarvitse tiivistää niitä, eikä tehdä testejä koneella.
 
+Selitä tuskan pyramidin idea 1-2 virkkeellä. Bianco 2013: Pyramid of Pain. (Katso eritoten pyramidin kuvaa.) 
+
+- Pyramid of Pain on malli, joka kuvaa kyberhyökkääjän havaitsemiseen käytettyjen indikaattoreiden suhdetta siihen, kuinka paljon niiden estäminen vaikeuttaa vastustajan toimintaa. Alhaalta ylöspäin siirryttäessä indikaattorit muuttuvat helpoista teknisistä tiedoista, kuten tiivisteistä, monimutkaisiin toimintatapoihin (TTPs), joiden muuttaminen aiheuttaa hyökkääjälle suurinta mahdollista haittaa.
+
+- Pyramidin huipulla sijaitsevien taktiikoiden ja menetelmien (TTPs) estäminen on tehokkainta, sillä niiden muuttaminen aiheuttaa hyökkääjälle suurimmat menetykset, kuten kustannukset ja vaikeudet.
+
+Selitä timanttimallin (Diamond Model) idea 1-2 virkkeellä. Tekijä esittelee sen aika juhlallisesti, voit myös etsiä yksinkertaisempia artikkeleita hakukoneella tai kelata suoraan timantin kuvaan. Caltagirone et al 2013: Diamond Model.
+
+- Diamond Model on analyysikehys, joka yhdistää hyökkäyksen neljä ydintekijää: hyökkääjän, kyvykkyyden, infrastruktuurin ja uhrin.
+- Mallin avulla analyytikot voivat hahmottaa hyökkäysten välisiä yhteyksiä ja muodostaa kokonaiskuvan uhkista niiden tehokkaampaa torjumista varten.
+
+###### 20:13 
+
 
 
 
@@ -52,3 +65,5 @@ Lähteet
 ===
 
 Tero Karvinen 2026. Verkkoon tunkeutuminen ja tiedustelu. Kotitehtävät. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#h2-lempivari-violetti. Luettu: 4.4.2026.
+
+WebAsha 7.17.2025. What Is the Diamond Model in Cybersecurity? A Beginner-Friendly Guide with Real-World Exambles and Analysis. Luettavissa: https://www.webasha.com/blog/what-is-the-diamond-model-in-cybersecurity-a-beginner-friendly-guide-with-real-world-examples-and-analysis. Luettu: 4.4.2026.
