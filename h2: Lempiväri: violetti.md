@@ -51,8 +51,16 @@ Selitä timanttimallin (Diamond Model) idea 1-2 virkkeellä. Tekijä esittelee s
 - Mallin avulla analyytikot voivat hahmottaa hyökkäysten välisiä yhteyksiä ja muodostaa kokonaiskuvan uhkista niiden tehokkaampaa torjumista varten.
 
 ###### 20:13 
+###### 20:20
+a) Apache log. Asenna Apache-weppipalvelin paikalliselle virtuaalikoneellesi. Surffaa palvelimellesi salaamattomalla HTTP-yhteydellä, http://localhost . Etsi omaa sivulataustasi vastaava lokirivi. Analysoi yksi tällainen lokirivi, eli selitä sen kaikki kohdat. (Jos Apache ei ole kovin tuttu, voit tätä tehtävää varten vain asentaa sen ja testata oletusweppisivulla. Eli ei tarvitse tehdä omia kotisvuja tms.)
 
+Asennus Tero karvisen ohjeiden mukaisesti:
 
+  ```  
+    sudo apt-get update
+    sudo apt-get install apache2
+    sudo systemctl start apache2
+```
 
 
 
