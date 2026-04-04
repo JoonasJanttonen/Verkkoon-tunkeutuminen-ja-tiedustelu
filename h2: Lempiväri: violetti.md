@@ -79,6 +79,18 @@ Kuva 2. Apache2 localhost
 
 Kuva 3. Lokirivi
 
+Lokirivin analyysiä:
+
+127.0.0.1 IP-osoite, eli oma localhost
+- - Identiteetti ja käyttäjätunnus tyhjä, koska sivusto on julkinen.
+04/April/2026/20:28:51 on aikaleima, jolloin pyyntö on vastaanotettu.
+"Get / HTTP /1.1" 200 3883 " ozilla Firefox haettu tiedostopolku, eli juurihakemisto ja protokolla.
+200 HTTP tilakoodi 200 tarkoittaa, että pyyntö onnistui, eli on OK.
+Palvelimelta lähetettyjen tavujen määrä: 3383 tämä ei sisällä otsikkotietoja.
+"-" Tämä tarkoittaa, että viittaaja ei ole.
+Selain - ja käyttöjärjestelmä, jolla sivu ladattiin, eli Mozilla Firefox 5.0 (X11 Linux x86_64)
+
+###### 20:52 
 
 
 
