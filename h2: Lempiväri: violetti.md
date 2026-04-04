@@ -70,7 +70,14 @@ Kuva 1. Näkymä terminaalissa.
 
 Kuva 2. Apache2 localhost
 
+  ``` 
+    /var/log/apache2/
+    sudo tail -F /var/log/apache2/access.log
+    (Useimmat muut lokit ovat nykyisin 'sudo journalctl --follow')
+  ```
+<img width="847" height="55" alt="Image" src="https://github.com/user-attachments/assets/87291422-958e-4334-944e-ba0d9848e0ca" />
 
+Kuva 3. Lokirivi
 
 
 
