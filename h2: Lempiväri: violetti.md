@@ -20,3 +20,19 @@ Debian 13 (trixie)
 
 ---
 
+Debianin asentamisen syötän tutut komennot, kuten:
+
+```
+sudo apt-get update
+sudo dpkg --configure -a
+sudo apt-get -y dist-upgrade
+sudo apt-get -y install ufw \
+sudo ufw enable 
+```
+Lopuksi aikavyöhykkeen asennus, jotta ohjelmat toimivat oikein. Tätä toimintoa ei tarvitse, mutta jos joku haluaa kopioida tästä itselleen, niin:
+
+```
+sudo timedatectl set-timezone Europe/Helsinki
+sudo timedatectl
+set-ntp true
+```
