@@ -36,3 +36,19 @@ sudo timedatectl set-timezone Europe/Helsinki
 sudo timedatectl
 set-ntp true
 ```
+
+x) Lue ja vastaa lyhyesti kysymyksiin. Tässä alakohdassa x ei tällä kertaa tarvitse lukea artikkeleita kokonaan, ei tarvitse tiivistää niitä, eikä tehdä testejä koneella.
+
+
+
+
+
+
+
+
+
+
+Lähteet
+===
+
+Tero Karvinen 2026. Verkkoon tunkeutuminen ja tiedustelu. Kotitehtävät. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#h2-lempivari-violetti. Luettu: 4.4.2026.
