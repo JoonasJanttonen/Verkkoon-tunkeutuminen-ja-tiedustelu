@@ -62,6 +62,13 @@ Asennus Tero karvisen ohjeiden mukaisesti:
     sudo systemctl start apache2
 ```
 
+<img width="463" height="16" alt="Image" src="https://github.com/user-attachments/assets/d5eea7a5-5153-4491-b535-539c0081a26f" />
+
+Kuva 1. Näkymä terminaalissa.
+
+<img width="793" height="322" alt="Image" src="https://github.com/user-attachments/assets/13d4dab6-8b30-40c1-9a77-a71349c20019" />
+
+Kuva 2. Apache2 localhost
 
 
 
