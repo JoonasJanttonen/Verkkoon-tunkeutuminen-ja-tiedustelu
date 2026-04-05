@@ -136,6 +136,18 @@ c) Skriptit. Mitkä skriptit olivat automaattisesti päällä, kun käytit "-A" 
 
 Kuva 8. Skriptit
 
+d) Jäljet lokissa. Etsi weppipalvelimen lokeista jäljet porttiskannauksesta (NSE eli Nmap Scripting Engine -skripteistä skannauksessa). Löydätkö sanan "nmap" isolla tai pienellä? Selitä osumat. Millaisilla hauilla tai säännöillä voisit tunnistaa porttiskannauksen jostain muusta lokista, jos se on niin laaja, että et pysty lukemaan itse kaikkia rivejä?
+
+Löysin "namp", mutta en ollut varma vastaako tämä tehtävänantoa / vastausta, joten otin kaksi kuvaa:
+
+<img width="1263" height="41" alt="Image" src="https://github.com/user-attachments/assets/4e9a83bd-a332-4a0e-8901-adfc858b7ba1" />
+
+Kuva 9. 
+
+<img width="811" height="32" alt="Image" src="https://github.com/user-attachments/assets/6810c87e-90f0-49aa-b757-f7e9cd54e20f" />
+
+Kuva 10.
+
 
 
 
