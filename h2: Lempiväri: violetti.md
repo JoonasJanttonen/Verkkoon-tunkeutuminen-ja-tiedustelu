@@ -285,6 +285,40 @@ k) Vapaaehtoinen, vaikea: Invisible, invincible. Etsi jokin toinen nmap:n skript
 
 Suljen jälleen kerrran Internet-yhteyden, jotta testit voidaan ajaa turvallisesti.
 
+###### 11:35
+
+Aloitan komennolla:
+
+sudo systemctl start apache2
+
+Tämän jälkeen valitsen skriptin seuraavanlaisesti: 
+
+ngrep -W byline -d lo "nmap" port 80
+
+Tämän jälkeen avaan toisen terminaalin ja lisään siihen:
+
+nmap --script http-enum localhost
+
+Tämän jälkeen käyn muokkaamassa tiedostoa:
+
+suno nano /usr/share/nmap/nselib/http.lua
+
+Tämän jälkeen etsin ctrl+w nanossa rivin, joka alkaa USER_AGENT. Muokkaan tiedostoa:
+
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+
+Tämän jålkeen tallennan muokatun tiedoston.
+
+Ajan komennon:
+
+nmap -- script http-enum localhost
+
+Tuloksena ei löydy nmap. Tämän jälkeen testaan uutta "valepukua" komennolla:
+
+sudo ngrep -W byline -d lo port 80
+
+
+
 
 
 Lähteet
