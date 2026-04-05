@@ -281,6 +281,10 @@ Salauksessa esim, kuinka laite voidaan yhdistää koneeseen.
 
 ###### 11:04
 
+k) Vapaaehtoinen, vaikea: Invisible, invincible. Etsi jokin toinen nmap:n skripti, jonka verkkoliikenteessä esiintyy merkkijono "nmap" isolla tai pienellä. Muuta nmap:n koodia niin, että tuo merkkijono ei enää näy verkkoliikenteessä.
+
+Suljen jälleen kerrran Internet-yhteyden, jotta testit voidaan ajaa turvallisesti.
+
 
 
 Lähteet
