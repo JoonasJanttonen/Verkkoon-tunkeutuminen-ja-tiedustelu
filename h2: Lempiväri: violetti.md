@@ -223,9 +223,21 @@ Kuva 14. Näkymä terminaalissa.
 
 g) Agentti. Vaihda nmap:n user-agent niin, että se näyttää tavalliselta weppiselaimelta.
 
+Tero karvisen ohjeiden mukaisesti vaihdan kuvan mukaisesti, niin että se näyttää tavalliselta Web-selaimelta.
 
+<img width="792" height="34" alt="Image" src="https://github.com/user-attachments/assets/bf875743-9ea6-41e4-a55b-f79fc6fcbf6c" />
 
+Kuva 15. Uusi User-Agent.
 
+h) Pienemmät jäljet. Porttiskannaa weppipalvelimesi uudelleen localhost-osoitteella. Tarkastele sekä Apachen lokia että siepattua verkkoliikennettä. Mikä on muuttunut, kun vaihdoit user-agent:n? Löytyykö lokista edelleen tekstijono "nmap"?
+
+Tekstijonosta ei löytynyt "nmap" enää. Ennen lokissa luki tämä, mutta se on poistettu. Nyt siinä näkyy se merkkijono, jonka olen kirjoittanut ohjeisden mukaisesti.
+
+<img width="799" height="58" alt="Image" src="https://github.com/user-attachments/assets/0ceb9c52-9879-41a4-a9f8-94d1d8ab669f" />
+
+Kuva 16. Terminaalista katsottuna
+
+i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä. (Tässä tehtävässä voit muokata suoraan lua-skriptejä /usr/share/nmap alta, 'sudoedit'. Muokatun version paketoiminen siis rajataan ulos tehtävästä.)
 
 
 
