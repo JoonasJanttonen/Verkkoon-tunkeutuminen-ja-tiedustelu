@@ -91,6 +91,23 @@ Palvelimelta lähetettyjen tavujen määrä: 3383 tämä ei sisällä otsikkotie
 Selain - ja käyttöjärjestelmä, jolla sivu ladattiin, eli Mozilla Firefox 5.0 (X11 Linux x86_64)
 
 ###### 20:52 
+###### 5.4.2026.
+###### 7:35 
+
+b) Nmapped. Porttiskannaa oma weppipalvelimesi käyttäen localhost-osoitetta ja 'nmap -A' päällä. Selitä tulokset. (Pelkkä http-portti 80/tcp riittää)
+
+Suoritan peruskomennot, ja asennan Nmappedin kommennolla:
+`` 
+sudo apt update && sudo apt install nmap -y
+`` 
+Varmistan, että apache2 on käynnissä.
+
+<img width="794" height="100" alt="Image" src="https://github.com/user-attachments/assets/a06aaa96-31fc-4332-99b4-ae07d29ed832" />
+
+Kuva 4. Apache on käynnissä.
+
+Tämän jälkeen suljen Internetin, jotta tehtävä tulee suoritetuksi suljetussa ympäristössä.
+
 
 
 
