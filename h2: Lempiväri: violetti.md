@@ -265,7 +265,7 @@ Päätän tarkistaa langattoman hiireni tiedot. Hetken sain etisiä, kunnes löy
 
 <img width="814" height="79" alt="Image" src="https://github.com/user-attachments/assets/915a1e87-1a50-4307-8457-516c8d3ded98" />
 
-Kuva 20. Laitteen tiedot 
+Kuva 20. Laitteen tiedot löytyivät tämän linkin kautta.
 
 Liikenteen analysointiin seuraavanlaisia:
 
@@ -278,6 +278,8 @@ Fyysiseen hakkerointiin:
 Laiteetn kuvat ja kaaviot sekä yleistasolta, kuinka virta ja data kulkevat sensorilta radiolähettimelle.
 
 Salauksessa esim, kuinka laite voidaan yhdistää koneeseen.
+
+###### 11:04
 
 
 
