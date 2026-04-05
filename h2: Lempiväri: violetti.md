@@ -265,9 +265,19 @@ Päätän tarkistaa langattoman hiireni tiedot. Hetken sain etisiä, kunnes löy
 
 Kuva 20. 
 
+Liikenteen analysointiin seuraavanlaisia:
+
 Operational Description (Theory of Operation): Tämä on tärkein tiedosto protokollan ymmärtämiseen. Se kertoo, mitä taajuuksia laite käyttää.
 
 Test Report: Tästä näen tarkat radiotaajuudet ja kanavalistan.
+
+Fyysiseen hakkerointiin:
+
+Laiteetn kuvat ja kaaviot sekä yleistasolta, kuinka virta ja data kulkevat sensorilta radiolähettimelle.
+
+Salauksessa esim, kuinka laite voidaan yhdistää koneeseen.
+
+
 
 Lähteet
 ===
