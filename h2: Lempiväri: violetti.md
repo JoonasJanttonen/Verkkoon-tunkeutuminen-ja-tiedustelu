@@ -263,7 +263,9 @@ Kuva 19. FCC
 
 Päätän tarkistaa langattoman hiireni tiedot. Hetken sain etisiä, kunnes löysin tiedot USB -vastaanottimesta. Irroitin tämän osan koneesta, ja teksti löytyi siitä. Syötin nämä tiedot nettisivulle.
 
-Kuva 20. 
+<img width="814" height="79" alt="Image" src="https://github.com/user-attachments/assets/915a1e87-1a50-4307-8457-516c8d3ded98" />
+
+Kuva 20. Laitteen tiedot 
 
 Liikenteen analysointiin seuraavanlaisia:
 
