@@ -251,6 +251,24 @@ Kokeilin porttiskannusta uudelleen (suljetussa ympäristössä).
 
 Kuva 18. Skannaus.
 
+###### 10:31 
+
+j) FCC ID. Etsi valitsemasi langattoman laitteen tiedot FCC ID:llä. Mitä liikenteen purkamista tai manipuloimista hyödyttävää tietoa löydät?
+
+Kirjaudun Federal Communications Commissions - sivuille. Nettisivut olivat tutut edelliseltä luennolta, jossa käsiteltiin aihetta.
+
+<img width="249" height="34" alt="Image" src="https://github.com/user-attachments/assets/f618679a-e49c-4271-9293-b54d09f5f550" />
+
+Kuva 19. FCC
+
+Päätän tarkistaa langattoman hiireni tiedot. Hetken sain etisiä, kunnes löysin tiedot USB -vastaanottimesta. Irroitin tämän osan koneesta, ja teksti löytyi siitä. Syötin nämä tiedot nettisivulle.
+
+Kuva 20. 
+
+Operational Description (Theory of Operation): Tämä on tärkein tiedosto protokollan ymmärtämiseen. Se kertoo, mitä taajuuksia laite käyttää.
+
+Test Report: Tästä näen tarkat radiotaajuudet ja kanavalistan.
+
 Lähteet
 ===
 
