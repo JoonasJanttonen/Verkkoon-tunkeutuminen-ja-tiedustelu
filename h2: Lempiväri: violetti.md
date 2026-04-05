@@ -177,14 +177,12 @@ nmap -sV localhost
 
 <img width="179" height="25" alt="Image" src="https://github.com/user-attachments/assets/d8a9d1da-b9ba-4116-bf0c-769190c59b26" />
 
-Kirjoitan Wiresharkin yläreunan suodatinpalkkiin (Display Filter) "Nmap". Tämän jälkeen Wireshark näytti vain ne paketit, joiden sisällöstä löytyy "Nmap".
-
 Kuva 12. Paketin suodatus
 
+Kirjoitan Wiresharkin yläreunan suodatinpalkkiin (Display Filter) "Nmap". Tämän jälkeen Wireshark näytti vain ne paketit, joiden sisällöstä löytyy "Nmap".
 
 
-
-
+<img width="917" height="67" alt="Image" src="https://github.com/user-attachments/assets/737c6430-7f85-41d3-9cec-81078ad134e4" />
 
 Lähteet
 ===
