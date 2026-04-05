@@ -126,6 +126,26 @@ Seuraava kuva osoittaa, että kyseessä on tavallinen tietokone, eikä esim reit
 
 Kuva 7. Device type.
 
+Ilman -A - parametria Nmap kertoisi vain, onko portti 80 auki vai kiinni. Näin sain selville palvelimen nimen, version, käyttöjärjestelmän ja webbisivun otsikon yhdellä komennolla.
+
+###### 8:44
+
+c) Skriptit. Mitkä skriptit olivat automaattisesti päällä, kun käytit "-A" parametria? (Näkyy avoimien porttinumeroiden alta, http-blah, http-blöh...).
+
+<img width="528" height="40" alt="Image" src="https://github.com/user-attachments/assets/2e030d8c-0616-49f9-a8d6-f96acbdf3804" />
+
+Kuva 8. Skriptit
+
+
+
+
+
+
+
+
+
+
+
 
 Lähteet
 ===
