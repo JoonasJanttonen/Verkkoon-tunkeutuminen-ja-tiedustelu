@@ -187,6 +187,28 @@ Lopuksi tarkistin User-Agent-tiedot
 
 Kuva 13. User-Agent.
 
+Löysin nmä tunnistetiedot HTTP-otsikoiden joukosta.
+
+###### 9:17
+
+Tässä vaiheessa siirytessäni tehtävään f) huomasin, että minulla ei ole Ngrep asennettuna koneeseen. Pysäytän testaamiseen, ja avaan Internet-yhteyden, ja päivitän raporttia tänne Githubiin.
+
+###### 9:45
+
+f) Net grep. Sieppaa verkkoliikenne 'ngrep' komennolla ja näytä kohdat, joissa on sana "nmap".
+
+
+
+
+
+
+
+
+
+
+
+
+
 Lähteet
 ===
 
