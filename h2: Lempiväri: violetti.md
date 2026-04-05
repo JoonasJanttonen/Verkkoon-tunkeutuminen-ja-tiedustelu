@@ -350,6 +350,8 @@ Kuva 22. Lopullinen tilanne.
 Lähteet
 ===
 
+Enterprise Detection & Response 1.17.2014. Blogikirjoitus. D, Bianco. Luettavissa: https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html. Luettu: 4.4.2026.
+
 Tero Karvinen 2026. Verkkoon tunkeutuminen ja tiedustelu. Kotitehtävät. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#h2-lempivari-violetti. Luettu: 4.4.2026.
 
 WebAsha 7.17.2025. What Is the Diamond Model in Cybersecurity? A Beginner-Friendly Guide with Real-World Exambles and Analysis. Luettavissa: https://www.webasha.com/blog/what-is-the-diamond-model-in-cybersecurity-a-beginner-friendly-guide-with-real-world-examples-and-analysis. Luettu: 4.4.2026.
