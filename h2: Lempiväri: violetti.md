@@ -287,6 +287,10 @@ Suljen jälleen kerrran Internet-yhteyden, jotta testit voidaan ajaa turvallises
 
 ###### 11:35
 
+<img width="631" height="94" alt="Image" src="https://github.com/user-attachments/assets/fb94986a-b42d-489f-a813-85b3baf89ce6" />
+
+Kuva 20. Näkymä tehtävän alussa.
+
 Aloitan komennolla:
 ```
 sudo systemctl start apache2
@@ -321,14 +325,27 @@ Ajan komennon:
 ```
 nmap -- script http-enum localhost
 ```
-Tuloksena ei löydy nmap. Tämän jälkeen testaan uutta "valepukua" komennolla:
+Tuloksena ei löydy nmap. 
+
+<img width="646" height="57" alt="Image" src="https://github.com/user-attachments/assets/52064728-85ae-4fbe-97a3-2e1169bfcc42" />
+
+Kuva 21. Nmap ei löydy hakusanalla.
+
+Tämän jälkeen testaan uutta "valepukua" komennolla:
 
 ```
 sudo ngrep -W byline -d lo port 80
 ```
 
+Lopuksi kuuntelen kaikkea liikennettä.
 
 
+<img width="691" height="61" alt="Image" src="https://github.com/user-attachments/assets/d9ad198f-fa79-454e-89c8-4b76878bf423" />
+
+Kuva 22. Lopullinen tilanne.
+
+###### 11:52 
+###### 5.4.2026.
 
 Lähteet
 ===
