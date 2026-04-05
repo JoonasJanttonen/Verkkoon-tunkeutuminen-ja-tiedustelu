@@ -148,11 +148,36 @@ Kuva 9.
 
 Kuva 10.
 
+Nmap työkalulla havaitsin terminaalissa, että kyseessä on skanneri.
 
+Suodattamisessa voisin käyttää komentoa, kuten: 
+`` 
+sudo grep -i "nmap" /var/log/apache2/access.log
+`` 
 
+tai
 
+`` 
+sudo grep "HEAD" /var/log/apache2/access.log
+`` 
 
+e) Wire sharking. Sieppaa verkkoliikenne porttiskannatessa Wiresharkilla. Huomaa, että localhost käyttää "Loopback adapter" eli "lo". Tallenna pcap. Etsi kohdat, joilla on sana "nmap" ja kommentoi niitä. Jokaisen paketin jokaista kohtaa ei tarvitse analysoida, yleisempi tarkastelu riittää.
 
+Käynnistän Wiresharkin ja valitsen liitännän: Loopback: Io. Tuplaklikkaamalla tätä Wireshark tallentaa koneen sisäistä liikennettä.
+
+<img width="800" height="85" alt="Image" src="https://github.com/user-attachments/assets/51b7e214-893f-4b1a-8dd5-fe190dbae8f7" />
+
+Kuva 11. Wireshark käynnistetty.
+
+Avaan uuden terminaalin, ja suoritan Namp-skannauksen, komennolla:
+
+`` 
+nmap -sV localhost
+`` 
+
+<img width="179" height="25" alt="Image" src="https://github.com/user-attachments/assets/d8a9d1da-b9ba-4116-bf0c-769190c59b26" />
+
+Kuva 12. Paketin suodatus
 
 
 
