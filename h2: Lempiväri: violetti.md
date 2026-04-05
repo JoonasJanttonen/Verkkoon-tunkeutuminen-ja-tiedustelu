@@ -181,9 +181,11 @@ Kirjoitan Wiresharkin yläreunan suodatinpalkkiin (Display Filter) "Nmap". Täm�
 
 Kuva 12. Paketin suodatus
 
+Lopuksi tarkistin User-Agent-tiedot
 
+<img width="601" height="63" alt="Image" src="https://github.com/user-attachments/assets/ed5291c0-2469-4698-989e-4be139f2cf28" />
 
-
+Kuva 13. User-Agent.
 
 Lähteet
 ===
