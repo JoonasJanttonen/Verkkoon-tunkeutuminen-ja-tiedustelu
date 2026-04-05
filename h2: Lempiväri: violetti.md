@@ -196,7 +196,7 @@ Löysin nmä tunnistetiedot HTTP-otsikoiden joukosta.
 
 Tässä vaiheessa siirytessäni tehtävään f) huomasin, että minulla ei ole Ngrep asennettuna koneeseen. Pysäytän testaamiseen, ja avaan Internet-yhteyden, ja päivitän raporttia tänne Githubiin.
 
-###### 9:45
+###### 9:27
 
 f) Net grep. Sieppaa verkkoliikenne 'ngrep' komennolla ja näytä kohdat, joissa on sana "nmap".
 
@@ -209,6 +209,8 @@ sudo apt-get update
 ```
 sudo apt install ngrep
 ```
+Tämän jälkeen suljen Internet-yhteyden, jotta testaaminen tapahtuu "suljetussa ympäristössä".
+
 
 
 
