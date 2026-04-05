@@ -56,7 +56,7 @@ a) Apache log. Asenna Apache-weppipalvelin paikalliselle virtuaalikoneellesi. Su
 
 Asennus Tero karvisen ohjeiden mukaisesti:
 
-  ```  
+ ```  
     sudo apt-get update
     sudo apt-get install apache2
     sudo systemctl start apache2
@@ -70,11 +70,11 @@ Kuva 1. Näkymä terminaalissa.
 
 Kuva 2. Apache2 localhost
 
-  ``` 
+``` 
     /var/log/apache2/
     sudo tail -F /var/log/apache2/access.log
     (Useimmat muut lokit ovat nykyisin 'sudo journalctl --follow')
-  ```
+```
 <img width="847" height="55" alt="Image" src="https://github.com/user-attachments/assets/87291422-958e-4334-944e-ba0d9848e0ca" />
 
 Kuva 3. Lokirivi
@@ -97,9 +97,11 @@ Selain - ja käyttöjärjestelmä, jolla sivu ladattiin, eli Mozilla Firefox 5.0
 b) Nmapped. Porttiskannaa oma weppipalvelimesi käyttäen localhost-osoitetta ja 'nmap -A' päällä. Selitä tulokset. (Pelkkä http-portti 80/tcp riittää)
 
 Suoritan peruskomennot, ja asennan Nmappedin kommennolla:
-`` 
+
+```
 sudo apt update && sudo apt install nmap -y
-`` 
+```
+
 Varmistan, että apache2 on käynnissä.
 
 <img width="794" height="100" alt="Image" src="https://github.com/user-attachments/assets/a06aaa96-31fc-4332-99b4-ae07d29ed832" />
@@ -151,15 +153,16 @@ Kuva 10.
 Nmap työkalulla havaitsin terminaalissa, että kyseessä on skanneri.
 
 Suodattamisessa voisin käyttää komentoa, kuten: 
-`` 
+
+```
 sudo grep -i "nmap" /var/log/apache2/access.log
-`` 
+```
 
 tai
 
-`` 
+```
 sudo grep "HEAD" /var/log/apache2/access.log
-`` 
+```
 
 e) Wire sharking. Sieppaa verkkoliikenne porttiskannatessa Wiresharkilla. Huomaa, että localhost käyttää "Loopback adapter" eli "lo". Tallenna pcap. Etsi kohdat, joilla on sana "nmap" ja kommentoi niitä. Jokaisen paketin jokaista kohtaa ei tarvitse analysoida, yleisempi tarkastelu riittää.
 
@@ -171,9 +174,9 @@ Kuva 11. Wireshark käynnistetty.
 
 Avaan uuden terminaalin, ja suoritan Namp-skannauksen, komennolla:
 
-`` 
+```
 nmap -sV localhost
-`` 
+```
 
 Kirjoitan Wiresharkin yläreunan suodatinpalkkiin (Display Filter) "Nmap". Tämän jälkeen Wireshark näytti vain ne paketit, joiden sisällöstä löytyy "Nmap".
 
@@ -199,13 +202,13 @@ f) Net grep. Sieppaa verkkoliikenne 'ngrep' komennolla ja näytä kohdat, joissa
 
 Asentaminen tapahtui komennolla:
 
-`` 
+```
 sudo apt-get update
-`` 
+```
 
-`` 
+```
 sudo apt install ngrep
-`` 
+```
 
 
 
