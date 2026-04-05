@@ -239,9 +239,17 @@ Kuva 16. Terminaalista katsottuna
 
 i) Hieman vaikeampi: LoWeR ChEcK. Poista skritiskannauksesta viimeinenkin "nmap" -teksti. Etsi löytämääsi tekstiä /usr/share/nmap -hakemistosta ja korvaa se toisella. Tee porttiskannaus ja tarkista, että "nmap" ei näy isolla eikä pienellä kirjoitettuna Apachen lokissa eikä siepatussa verkkoliikenteessä. (Tässä tehtävässä voit muokata suoraan lua-skriptejä /usr/share/nmap alta, 'sudoedit'. Muokatun version paketoiminen siis rajataan ulos tehtävästä.)
 
+Käyn poistamassa tekstistä kaikki "nmap" -sanat ja vaihdan ne Internet Explorer 11. Tämän jälkeen testasin vielä, että löytyykö sanaa mistään. Tämä vei hetken aikaa, koska vaihdoin kaikki, ehkä noin 15 minuuttia. Näppäimellä ctrl+W ja syötin hakukenttään "nmap". Tämän avulla löysin sanat tekstitiedostosta.
 
+<img width="241" height="29" alt="Image" src="https://github.com/user-attachments/assets/e61aaadc-a79c-482d-9842-56440554fe8f" />
 
+Kuva 17. Nmap ei löydy tiedostosta enää. 
 
+Kokeilin porttiskannusta uudelleen (suljetussa ympäristössä).
+
+<img width="801" height="462" alt="Image" src="https://github.com/user-attachments/assets/1ec04136-79ba-4e33-a36b-7e7977773913" />
+
+Kuva 18. Skannaus.
 
 Lähteet
 ===
