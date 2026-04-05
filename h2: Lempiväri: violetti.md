@@ -108,8 +108,23 @@ Kuva 4. Apache on käynnissä.
 
 Tämän jälkeen suljen Internetin, jotta tehtävä tulee suoritetuksi suljetussa ympäristössä.
 
+Seuraava kuva kertoo, että portti 80 on auki. -A versiontunnistus, kun Nmap kysyi palvelimelta sen numeä ja versiota. Tämä on ilmeisesti hyvä, jos halutaan etsiä kyseiseen versioon sopivia haavoittuvuuksia.
 
+<img width="539" height="37" alt="Image" src="https://github.com/user-attachments/assets/cce13256-9d51-4664-913e-86880d11e5ff" />
 
+Kuva 5. Portti 80
+
+-A ajaa automaattisesti skriptejä. Tämän löysin http-title kohdasta. Namp päättelee verkkopakettien perusteella, että kyseessä on Linux (Debian). Tämä on tarkka, koska käytän localhostia.
+
+<img width="523" height="19" alt="Image" src="https://github.com/user-attachments/assets/b0febe2c-fe8c-4412-80ac-0d081cfba2d2" />
+
+Kuva 6. Namp onnistui lukemaan webbisivun otsikon.
+
+Seuraava kuva osoittaa, että kyseessä on tavallinen tietokone, eikä esim reititin.
+
+<img width="305" height="19" alt="Image" src="https://github.com/user-attachments/assets/e95fecda-c619-4e86-add3-c4d2aee98f06" />
+
+Kuva 7. Device type.
 
 
 Lähteet
