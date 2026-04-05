@@ -197,7 +197,14 @@ Tässä vaiheessa siirytessäni tehtävään f) huomasin, että minulla ei ole N
 
 f) Net grep. Sieppaa verkkoliikenne 'ngrep' komennolla ja näytä kohdat, joissa on sana "nmap".
 
+Asentaminen tapahtui komennolla:
 
+`` 
+sudo apt-get update
+`` 
+`` 
+sudo apt install ngrep
+`` 
 
 
 
