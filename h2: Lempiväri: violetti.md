@@ -211,8 +211,17 @@ sudo apt install ngrep
 ```
 Tämän jälkeen suljen Internet-yhteyden, jotta testaaminen tapahtuu "suljetussa ympäristössä".
 
+###### 10:12 
 
+Yhteys palateuttu!
 
+Sieppasin verkkoliikennettä "ngrep" komennolla:
+
+<img width="466" height="89" alt="Image" src="https://github.com/user-attachments/assets/c9d6fde4-4000-44ca-a5c2-c26d8da39c9b" />
+
+Kuva 14. Näkymä terminaalissa.
+
+g) Agentti. Vaihda nmap:n user-agent niin, että se näyttää tavalliselta weppiselaimelta.
 
 
 
