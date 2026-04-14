@@ -19,3 +19,10 @@ Oracle Virtualbox
 
 Debian 13 (trixie)
 
+###### 14.4.2026
+###### 20:12 
+
+Kotitehtävät
+===
+
+
