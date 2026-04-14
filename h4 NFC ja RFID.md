@@ -61,7 +61,7 @@ Kotitehtävät
 
    Iltasanomien digijulkaisu otsikolla: 15 euroa riitti murtamaan asuntojen hienot sähkölukot
 
-   Otsikko on silmäänpistävä ja vuodelta 2013. Tästä on jo tekniikka kehittynyt merkittävästi, mutta uutinen on mielenkiintoinen. 
+   Digijulkaisu on julkaistu 31.12.2013. Julkaisussa kerrotaan Itävaltalaisesta henkilöstä, joka onnistui murtamaan sähköisen avainkorttijärjestelmän. Lisäksi Artikkeli             älykorttien (myös henkilökorttien) sirujen tietoturvaa ja APDU-komentoihin liittyvää tutkimusta.
 
 
 
