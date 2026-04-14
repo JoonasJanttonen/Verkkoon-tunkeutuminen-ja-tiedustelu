@@ -57,7 +57,20 @@ Kotitehtävät
 
    Kuva 2. APDU-komennot ja statuskoodit. Lähde: ChatGPT
    
+3. Tutki ja kerro minkä mielenkiintoisen RFID hakkerointi uutiset löysit. (Vinkki, useimmat liittyvät henkilökortteihin)
 
+   Iltasanomien digijulkaisu otsikolla: 15 euroa riitti murtamaan asuntojen hienot sähkölukot
+
+   Otsikko on silmäänpistävä ja vuodelta 2013. Tästä on jo tekniikka kehittynyt merkittävästi, mutta uutinen on mielenkiintoinen. 
+
+
+
+
+
+
+
+
+   
 
 
 Lähde
