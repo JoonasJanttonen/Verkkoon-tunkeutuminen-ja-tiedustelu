@@ -25,4 +25,46 @@ Debian 13 (trixie)
 Kotitehtävät
 ===
 
+1. Tarkastele käytössäsi olevia RFID tuotteita, mieti miten hyvin olet suojautunut RFID urkinnalta?
 
+   Lomapakossa oleva(t) kortit ovat pääosin huonosti suojattuja, koska lompakko ei varsinaisesti suojaa. Näin ollen kortin lukeminen onnistuisi helposti, mikäli laite olisi          riittävän lähellä. Tässä on kyse heikosta suojauksesta.Vähemmän heikko, tai kohtalainen korttisuojaus on mahdollinen, mikäli kortit ovat lompakossa päällekkäin. Tämä häritsisi    signaalia yksittäisen kortin kohdalla. Tästä voidaan päätellä, että kortit ovat huonosti suojattuja.
+
+   Älypuhelin on vahvasti suojattu, sikäli siihen kirjautuminen vaatii esimerkiksi tunnistautumisen. Lisäksi puhelin on suojattu tietoturvapaketilla.
+
+2. Tutustu APDU komentojen rakenteeseen (voit käyttää tekoälyä tutustumiseen)
+
+   Tutustuin aiheeseen syöttämällä APDU:n Googlen tekoälyyn. Tämän jälkeen etsin YouTubesta aiheeseen liittyviä videoita. Hakutuloksena löytyi yksi video, joka sisältää seitsemän
+   slidia, eli lyhen esitelmän liittyen teemaan. Lähde: https://www.youtube.com/watch?v=1YBkkdM1tKU.
+
+   Lyhyt tiivistelmä
+
+   APDU (Application Protocol Data Unit) on viestimuoto, jota käytetään älykortin ja lukijalaitteen välillä.
+
+   Command APDU = laite lähettää käskyn kortille
+   Response APDU = kortti vastaa ja kertoo onnistuiko toiminto
+
+   👉 Käytetään esim. maksukorteissa, SIM-korteissa ja NFC-teknologiassa. (Lähde: ChatGBT)
+
+   APDU komento koostuu yleensä näistä kentistä:
+
+    CLA | INS | P1 | P2 | Lc | Data | Le
+
+   <img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/9e78771b-7917-42b9-9ae3-827515748aeb" />
+
+   Kuva 1. APDU-komennot. Lähde: ChatGPT
+
+   <img width="1024" height="1536" alt="Image" src="https://github.com/user-attachments/assets/64c48482-c8c0-4d84-b0b7-22655e80f555" />
+
+   Kuva 2. APDU-komennot ja statuskoodit. Lähde: ChatGPT
+   
+
+
+
+Lähde
+===
+
+
+YouTube. Understanding the APDU Command Variance in Personal ID Card Readers. Katsottu: 14.4.2026. Katsottavissa: https://www.youtube.com/watch?v=1YBkkdM1tKU. 
+
+
+   
