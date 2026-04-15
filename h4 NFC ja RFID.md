@@ -56,18 +56,22 @@ Kotitehtävät
    <img width="1024" height="1536" alt="Image" src="https://github.com/user-attachments/assets/64c48482-c8c0-4d84-b0b7-22655e80f555" />
 
    Kuva 2. APDU-komennot ja statuskoodit. Lähde: ChatGPT
+
+###### 15.4.2026.
+###### 17:05 
    
-3. Tutki ja kerro minkä mielenkiintoisen RFID hakkerointi uutiset löysit. (Vinkki, useimmat liittyvät henkilökortteihin)
+4. Tutki ja kerro minkä mielenkiintoisen RFID hakkerointi uutiset löysit. (Vinkki, useimmat liittyvät henkilökortteihin)
 
    Iltasanomien digijulkaisu otsikolla: 15 euroa riitti murtamaan asuntojen hienot sähkölukot
 
-   Digijulkaisu on julkaistu 31.12.2013. Julkaisussa kerrotaan Itävaltalaisesta henkilöstä, joka onnistui murtamaan sähköisen avainkorttijärjestelmän. Lisäksi Artikkeli              älykorttien (myös henkilökorttien) sirujen tietoturvaa ja APDU-komentoihin liittyvää tutkimusta. Ilta-Sanomien Digitoday julkaisu käsittelee älykorttien tietoturvaa.              Tutkimuksessa analysoitiin, miten APDU-komennoilla voidaan kommunikoida kortin sirun kanssa ja tutkia sen toimintaa. Tutkimus todisti sen, että haavoittuvuuksien löytäminen       ei aiheuttanut välitöntä vaaraa käyttäjille, mutta se ei ole turvallinen verrattuna perinteisiin avaimeen, kuten Iloq. (Lähde: Ilta-Sanomat)
+   Wieniläinen Adrian Dabrowski osoitti Chaos Communication Congressissa, kuinka haavoittuvia sähköiset avainkorttijärjestelmät ovat, murtaen alle 15 euron korttisimulaattorilla     jopa 93 % Begeh Schließsysteme -lukoista. Tutkimus paljastaa, että skannaamalla postinkantajan RFID-signaali, järjestelmästä saadaan avattua merkittävä osa ovista, eikä           sähköistä lukkoa ole mahdollista päivittää turvallisemmaksi murtamisen jälkeen. Lisäksi artikkelissa kerrotaan, että vuonna 2011 tutkijat olivat onnistuneet avaamaan              vankilasellin ovet etänä. (Lähde: Ilta-Sanomat)
 
-   Artikkelin julkaisusta on 13 vuotta, mutta se on mielenkiintoinen. En löytänyt julkaisun alkuperäistä lähdettä.
+   Uutinen on vuodelta 2013, enkä löytänyt alkuperäistä uutista googlettamalla.
 
    
 
-
+###### 15.4.2026.
+###### 17:57
 
 
 
