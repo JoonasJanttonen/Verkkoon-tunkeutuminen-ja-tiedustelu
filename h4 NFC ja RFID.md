@@ -57,6 +57,9 @@ Kotitehtävät
 
    Kuva 2. APDU-komennot ja statuskoodit. Lähde: ChatGPT
 
+###### 14.4.2026
+###### 21:35 
+
 ###### 15.4.2026.
 ###### 17:05 
    
@@ -75,8 +78,7 @@ Kotitehtävät
 
 
 
-###### 14.4.2026
-###### 21:35 
+
    
 
 
