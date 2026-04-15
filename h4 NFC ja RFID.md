@@ -61,7 +61,7 @@ Kotitehtävät
 
    Iltasanomien digijulkaisu otsikolla: 15 euroa riitti murtamaan asuntojen hienot sähkölukot
 
-   Digijulkaisu on julkaistu 31.12.2013. Julkaisussa kerrotaan Itävaltalaisesta henkilöstä, joka onnistui murtamaan sähköisen avainkorttijärjestelmän. Lisäksi Artikkeli             älykorttien (myös henkilökorttien) sirujen tietoturvaa ja APDU-komentoihin liittyvää tutkimusta. Ilta-Sanomien Digitoday julkaisu käsittelee älykorttien tietoturvaa.             Tutkimuksessa analysoitiin, miten APDU-komennoilla voidaan kommunikoida kortin sirun kanssa ja tutkia sen toimintaa. Tutkimus todisti sen, että haavoittuvuuksien löytäminen      ei aiheuttanut välitöntä vaaraa käyttäjille, mutta se ei ole turvallinen verrattuna perinteisiin avaimeen, kuten Iloq. (Lähde: Ilta-Sanomat)
+   Digijulkaisu on julkaistu 31.12.2013. Julkaisussa kerrotaan Itävaltalaisesta henkilöstä, joka onnistui murtamaan sähköisen avainkorttijärjestelmän. Lisäksi Artikkeli              älykorttien (myös henkilökorttien) sirujen tietoturvaa ja APDU-komentoihin liittyvää tutkimusta. Ilta-Sanomien Digitoday julkaisu käsittelee älykorttien tietoturvaa.              Tutkimuksessa analysoitiin, miten APDU-komennoilla voidaan kommunikoida kortin sirun kanssa ja tutkia sen toimintaa. Tutkimus todisti sen, että haavoittuvuuksien löytäminen       ei aiheuttanut välitöntä vaaraa käyttäjille, mutta se ei ole turvallinen verrattuna perinteisiin avaimeen, kuten Iloq. (Lähde: Ilta-Sanomat)
 
    Artikkelin julkaisusta on 13 vuotta, mutta se on mielenkiintoinen. En löytänyt julkaisun alkuperäistä lähdettä.
 
