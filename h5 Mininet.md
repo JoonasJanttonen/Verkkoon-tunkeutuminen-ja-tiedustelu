@@ -1,3 +1,13 @@
+###### 23.4.2026.
+###### 18:20
+
+
+Mininet
+===
+
+
+
+
 Järjestelmä:
 
 Järjestelmän malli: Aspire E5-573G
