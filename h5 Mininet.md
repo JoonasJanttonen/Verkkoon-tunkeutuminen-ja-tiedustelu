@@ -35,3 +35,11 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y install ufw \
 sudo ufw enable 
 ```
+
+Lopuksi aikavyöhykkeen asennus, jotta ohjelmat toimivat oikein:
+
+```
+sudo timedatectl set-timezone Europe/Helsinki
+sudo timedatectl
+set-ntp true
+```
