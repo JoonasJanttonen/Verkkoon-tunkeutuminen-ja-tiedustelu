@@ -43,3 +43,6 @@ sudo timedatectl set-timezone Europe/Helsinki
 sudo timedatectl
 set-ntp true
 ```
+
+
+a) Aja tunnilla esitetty ARP hyökkäys ja tutki, miten se toimii.
