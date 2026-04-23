@@ -21,3 +21,9 @@ Muisti: 6.00 Gt asennettua fyysistä muistia
 Oracle Virtualbox
 
 Debian 13 (trixie)
+
+
+Kotitehtävät
+===
+
+
