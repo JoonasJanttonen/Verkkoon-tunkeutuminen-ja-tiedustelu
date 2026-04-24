@@ -143,9 +143,55 @@ ICMP Spoofing (b1):
     H2 (Uhri): h2 ping 10.0.0.1 (Normaali ping-yhteys).
     H3 (Hyökkääjä): h3 python3 spoof_icmp.py (Väärentää vastaukset).
 
+<img width="659" height="159" alt="Image" src="https://github.com/user-attachments/assets/c54f8846-e3fa-4e4b-acdb-21b975058ed0" />
+
+Kuva 6. ICMP Spoofing
+
 TCP Session Hijacking (b2):
 
     H1 (Palvelin): h1 python3 tcp_server.py &
     H2 (Asiakas): h2 python3 tcp_client.py &
     H3 (Hyökkääjä): h3 python3 sniff_tcp_session.py & (Haistelee sekvenssinumerot).
     H3 (Hyökkääjä): h3 python3 tcp_hijack.py (Syöttää väärennetyn paketin).
+
+<img width="613" height="134" alt="Image" src="https://github.com/user-attachments/assets/db034c56-af99-4791-9524-e5e2d9c82cae" />
+
+Kuva 7. TCP Session Hijacking
+
+ICMP Spoofingissa hyökkääjä lähettää väärennettyjä ohjaus / vastauspaketteja uhrille, mikä mahdollistaa verkkoliikenteen harhaanjohtamisen. TCP Session Hijackingissa mennään askeleen edelle, eli siinä hyökkääjä kaappaa jo käynnissä olevan luotetun yhteyden ennustamalla TCP-sekvenssinumerot. Tällöin hyökkääjä voi syöttää omia komentojaan suoraan istuntoon uhrin nimissä.
+
+###### 19:41
+###### 19:50
+
+c) Hakemistossa 02-SDN-DDos_Simulation tryout-kansiossa on työkalut, jotta voit ajaa TCP SYN-Flood-hyökkäyksen turvallisesti. Kirjoita, miten ajoit hyökkäyksen ja miten kyseinen hyökkäys toimii.
+
+Aloitin siirtymällä kansioon: 
+```
+cd ~/Lataukset/labs/02-SDN_DDoS_Simulation-tryout/
+```
+ Verkon puhdistaminen:
+```
+sudo mn -c
+```
+Verkon käynnistäminen:
+```
+sudo python3 simple_tree_top.py
+```
+
+
+Ajoin TCP SYN-Flood -hyökkäyksen käyttämällä tree_topology.py -skriptiä. Skripti loi automaattisen simulaation, jossa eri isäntäkoneet (kuten host5 ja host4) vuorotellen suorittivat hyökkäyksiä ja normaaleja tietoliikennepyyntöjä. Simulaatio hyödynsi SDN-verkkotopologiaa hyökkäyksen vaikutusten analysointiin.
+
+<img width="591" height="190" alt="Image" src="https://github.com/user-attachments/assets/a5c6a9e4-ea23-41ab-af45-510329ffd0b4" />
+
+Kuva 7. Näkymä terminaalissa TCP SYN-Floodia tehdessä.
+
+###### 20:07 
+
+d) Vapaaehtoinen tutustu myös seuraaviin työkaluihin
+
+    https://evilginx.com/
+    https://github.com/utoni/ptunnel-ng
+
+Kerro kyseisistä työkaluista, mitä ne tekevät, saitko asennettua ne, lisää ohjeraporttiin ja olivatko kyseiset työkalut mielenkiintoisia, jos olivat, niin miksi? Pohdi raportissasi, mihin ja missä tilanteissä kyseisiä työkaluja voidaan käyttää? Arvioi, onko käyttö kohde moraalisesti oikein tai väärin.
+
+
