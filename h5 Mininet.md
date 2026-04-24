@@ -183,7 +183,13 @@ Ajoin TCP SYN-Flood -hyökkäyksen käyttämällä tree_topology.py -skriptiä. 
 
 <img width="591" height="190" alt="Image" src="https://github.com/user-attachments/assets/a5c6a9e4-ea23-41ab-af45-510329ffd0b4" />
 
+
 Kuva 7. Näkymä terminaalissa TCP SYN-Floodia tehdessä.
+
+TCP SYN-Flood on palvelunestohyökkäys (DoS), joka perustuu TCP-protokollan kolmivaiheisen kättelyn väärinkäyttöön. Hyökkääjä tarkoituksena on lähettää kohteeseen suuren määrän SYN-paketteja (pyyntöjä), mutta ei koskaan vastaa palvelimen lähettämiin SYN-ACK-viesteihin. Tällä hyökkääjä tavoittelee sitä, että kulutetaan palvelimen resursseja ja estetään laillisten käyttäjien pääsyn palveluun.
+
+
+
 
 ###### 20:07 
 
