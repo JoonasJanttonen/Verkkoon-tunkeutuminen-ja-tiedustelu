@@ -44,5 +44,18 @@ sudo timedatectl
 set-ntp true
 ```
 
+Tutustuin aiheeseen Moodlessa.
+
+###### 23.4.2026.
+###### 20:10 
+
+###### 24.4.2026.
+###### 15:09
+
+Lataan VMWAREN koneelle Moodlen kautta. Tässä vaiheessa olin jo rekisteröitynyt verkkosivuille, mutta tämä ei ollut ilmeisesti tarkoitus. 
+
+<img width="434" height="188" alt="Image" src="https://github.com/user-attachments/assets/388dd6a9-2fc0-47f6-a3fd-7256c13709b7" />
+
+Kuva 1.
 
 a) Aja tunnilla esitetty ARP hyökkäys ja tutki, miten se toimii.
