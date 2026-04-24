@@ -63,6 +63,17 @@ Annan tiedostolle suoritusoikeuden:
 ```
 chmod +x VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle
 ```
+
+Kuvassa vielä kertaalleen annetut komennot.
+
+<img width="800" height="285" alt="Image" src="https://github.com/user-attachments/assets/0d6eba66-9d46-454e-aedc-f177985d0755" />
+
+Kuva 2. Asennus suoritettu!
+
+
+
+
+
 Tämän jälkeen käynnistän asennusohjelman komennolla: 
 
 ```
