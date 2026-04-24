@@ -191,7 +191,7 @@ TCP SYN-Flood on palvelunestohyökkäys (DoS), joka perustuu TCP-protokollan kol
 
 
 
-###### 20:44  
+###### 20:55 
 
 d) Vapaaehtoinen tutustu myös seuraaviin työkaluihin
 
@@ -199,5 +199,42 @@ https://evilginx.com/
 https://github.com/utoni/ptunnel-ng
 
 Kerro kyseisistä työkaluista, mitä ne tekevät, saitko asennettua ne, lisää ohjeraporttiin ja olivatko kyseiset työkalut mielenkiintoisia, jos olivat, niin miksi? Pohdi raportissasi, mihin ja missä tilanteissä kyseisiä työkaluja voidaan käyttää? Arvioi, onko käyttö kohde moraalisesti oikein tai väärin.
+
+Ptunnel-ng asennus:
+
+```
+sudo apt update
+sudo apt install ptunnel-ng
+```
+Esimerkki, kun tunneloidaan:
+
+```
+sudo ptunnel-ng
+```
+
+Ptunnel-ng (Ping Tunnel New Generation) on työkalu, joka kapseloi muun liikenteen sallitun ICMP-protokollan (ping) sisään, mahdollistaen tiedonsiirron tiukasti rajoitetuissa verkoissa. Menetelmä mahdollistaa palomuurien kierron, mikä on hyödyllistä sensuurin kiertämisessä, mutta voi väärinkäytettynä vaarantaa yritysten tietoturvan tai kiertää maksullisia palveluita.
+
+Eettisesti työkalu riippuu tilanteesta. Mikäli käyttäjä / henkilö asuu maassa, jossa on tiukat säännöt, kuten sananvapaudessa, ptunnel-ng työkalu on tähän oiva tapa ohittaa esteet. Esimerkkinä, jossa henkilö on kafkamaisessa tilanteessa, ja hänn haluaa ohittaa - on tunnelointi skeä moraalisesti että eettisesti perusteltua ja oikein. Tietysti siinä tilaneessa, mikäli agenda kallistuu hyvän puolelle.
+
+Eettisesti se on väärin, kun tietoturvan vaarantaminen ja lain rikkominen sekä sääntöjen vastainen toiminta. Toinen eettisesti väärä keino on ohittaa maksumuurit, kuten Wi-fi. 
+
+Evilgnix Pro lataaminen ei onnistunut. Yritin myös Evilgnix2, mutta sekään ei onnistunut. 
+
+Exilgnix Pro on kehittynyt tietoturvatyökalu, joka on suunniteltu simuloimaan nykyaikaisia tietojenkalasteluhyökkäyksiä (phishing). Sen eettisyys riippuu täysin sen käyttötarkoituksesta: se on ammattilaisten työkalu suojautumisen parantamiseen, mutta väärissä käsissä se on vaarallinen ase, sillä sen kriittisin ominaisuus on kyky ohittaa monivaiheinen tunnistautuminen (MFA) varastamalla hyväksyttyjä istuntoevästeitä, mikä antaa hyökkääjälle pääsyn tilille ilman salasanaa. Työkalun Pro-versio tehostaa tätä automaatiolla ja hienostuneella verkkotunnusten hallinnalla, tehden hyökkäyksistä vaikeammin havaittavia.
+
+Eettisyys:
+
+Valkohattu, kuten tietoturvakonsultti on eettinen käyttjä. Kun tietoturva-asiantuntija testaa yrityksen turvallisuutta / puolustusta - hän voi käyttää tähän kyseistä ohjelmaa. Työkalun avulla hän voi löytää heikkoudet ja opettaa esimerkiksi henkilöstöä välttämään / turvautumaan näiltä.
+
+
+
+
+
+Lähteet
+===
+
+Evilgnix Pro 2026. Luettavissa: https://evilginx.com/ Luettu: 24.4.2026.
+
+
 
 
