@@ -52,10 +52,22 @@ Tutustuin aiheeseen Moodlessa.
 ###### 24.4.2026.
 ###### 15:09
 
-Lataan VMWAREN koneelle Moodlen kautta. Tässä vaiheessa olin jo rekisteröitynyt verkkosivuille, mutta tämä ei ollut ilmeisesti tarkoitus. 
+Moodlen kautta tutustun oppitunnin aiheisiin. Samalla lataan WMWAREN virtuaaalikoneeseen sekä purkaan tiedostot.
 
 <img width="434" height="188" alt="Image" src="https://github.com/user-attachments/assets/388dd6a9-2fc0-47f6-a3fd-7256c13709b7" />
 
 Kuva 1.
 
+Annan tiedostolle suoritusoikeuden:
+
+```
+chmod +x VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle
+```
+Tämän jälkeen käynnistän asennusohjelman komennolla: 
+
+```
+sudo ./VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle
+```
+
 a) Aja tunnilla esitetty ARP hyökkäys ja tutki, miten se toimii.
+
