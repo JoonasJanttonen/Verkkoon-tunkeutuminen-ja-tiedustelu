@@ -78,7 +78,16 @@ Kuva 3. gparted.
 
 
 ###### 17:33 
+###### 18:37
 
+En ollut varma, että pitääkö nämä purkaa koneelle, mutta siirryn tekemään kotitehtäviä. 
+
+Asennan mininetin, komennolla:
+
+```
+sudo apt update
+sudo apt install mininet -y
+```
 
 
 
