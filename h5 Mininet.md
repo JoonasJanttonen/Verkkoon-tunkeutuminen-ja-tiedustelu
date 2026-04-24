@@ -97,7 +97,20 @@ sudo apt update
 sudo apt install mininet -y
 ```
 
-
+######
 
 a) Aja tunnilla esitetty ARP hyökkäys ja tutki, miten se toimii.
 
+Asennetaan Scrapy ohjeiden mukaisesti:
+```
+sudo apt install python3-scapy -y
+```
+
+Käynnistetään verkkotopologia:
+```
+cd ~/Lataukset/labs/01-Network-Security-Lab/scripts
+```
+ja lopuksi mininetin käynnistys:
+```
+sudo python3 hub_topo.py
+```
