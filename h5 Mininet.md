@@ -77,6 +77,14 @@ Yritin purkaa tiedoston, mutta tilan puutteen vuoksi en päässyt sitä tekemä�
 Kuva 3. gparted.
 
 
+
+Tämän jälkeen käynnistän asennusohjelman komennolla: 
+
+```
+sudo ./VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle
+```
+
+
 ###### 17:33 
 ###### 18:37
 
@@ -90,13 +98,6 @@ sudo apt install mininet -y
 ```
 
 
-
-
-Tämän jälkeen käynnistän asennusohjelman komennolla: 
-
-```
-sudo ./VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle
-```
 
 a) Aja tunnilla esitetty ARP hyökkäys ja tutki, miten se toimii.
 
