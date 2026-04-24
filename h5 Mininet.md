@@ -114,3 +114,20 @@ ja lopuksi mininetin käynnistys:
 ```
 sudo python3 hub_topo.py
 ```
+<img width="793" height="286" alt="Image" src="https://github.com/user-attachments/assets/45c76356-bf9a-4620-9be7-d6818ea5fc0b" />
+
+Kuva 4. Mininetin käynnistys
+
+Syötän mininettiin komennot:
+```
+mininet> h1 python3 udp_server.py &
+mininet> h2 python3 udp_client.py &
+mininet> h3 python3 arp_poison.py
+Poisoning ARP cache of 10.0.0.1 and 10.0.0.2
+```
+<img width="463" height="76" alt="Image" src="https://github.com/user-attachments/assets/b7ac4750-2af1-4b32-8a8b-b8ba1f380e17" />
+
+Kuva 5. Terminaalin näkymä
+
+Itse tehtävästä: Suoritin ARP-myrkytyshyökkäyksen, jossa hyökkääjä (H3) lähetti väärennettyjä ARP-viestejä uhreille (H1 ja H2). Hyökkäys hyödyntää ARP-protokollan luottamusta: uhrit saatiin uskomaan, että vastapuolen IP-osoite kuuluu hyökkääjän MAC-osoitteelle. Tämän seurauksena uhrien välinen liikenne ohjautui hyökkääjän kautta, mikä mahdollisti datan salakuuntelun. Hyökkäyksen onnistuminen varmistettiin tarkistamalla uhrien ARP-taulukot, joissa näyttäytyi hyökkääjän fyysinen osoite kohteen kohdalla.
+
