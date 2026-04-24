@@ -226,6 +226,15 @@ Eettisyys:
 
 Valkohattu, kuten tietoturvakonsultti on eettinen käyttjä. Kun tietoturva-asiantuntija testaa yrityksen turvallisuutta / puolustusta - hän voi käyttää tähän kyseistä ohjelmaa. Työkalun avulla hän voi löytää heikkoudet ja opettaa esimerkiksi henkilöstöä välttämään / turvautumaan näiltä.
 
+Valkohattu, kuten tietoturvakonsultti on eettinen käyttjä. Kun tietoturva-asiantuntija testaa yrityksen turvallisuutta / puolustusta - hän voi käyttää tähän kyseistä ohjelmaa. Työkalun avulla voidaan etsiä ja löytää heikkouksia yrityksen kyberturvallisuudessa sekä opettamaan henkilöstöä välttämään näitä hyökkäyksiä.
+
+Epäeettinen toiminta pohjautuu rikollisuteen, kuten rahan varastamiseen tai yrityssalaisuuksien varastamiseen. 
+
+Ohjelmiston kehittäjä Kuba Gretzky kehitti työkalun organisaatioiden hyväksi, ja jotta ihmiset ymmärtäisivät, että perinteiset MFA-menetelmät eivät ole murtumattomia.
+
+
+###### 24.4.2026.
+###### 21:50 
 
 
 
@@ -235,6 +244,8 @@ Lähteet
 
 Evilgnix Pro 2026. Luettavissa: https://evilginx.com/ Luettu: 24.4.2026.
 
+Git-Hub. Utoni. 27.11.2024. p-tunnel-ng. Luettavissa: https://github.com/utoni/ptunnel-ng. Luettu: 24.4.2026.
 
+Joonas Janttonen 2026. GitHub. Luettavissa: https://github.com/JoonasJanttonen/Verkkoon-tunkeutuminen-ja-tiedustelu/tree/main. Luettu: 23.4.2026.
 
 
