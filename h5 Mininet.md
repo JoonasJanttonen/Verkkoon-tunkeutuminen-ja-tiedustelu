@@ -191,12 +191,12 @@ TCP SYN-Flood on palvelunestohyökkäys (DoS), joka perustuu TCP-protokollan kol
 
 
 
-###### 20:07 
+###### 20:44  
 
 d) Vapaaehtoinen tutustu myös seuraaviin työkaluihin
 
-    https://evilginx.com/
-    https://github.com/utoni/ptunnel-ng
+https://evilginx.com/
+https://github.com/utoni/ptunnel-ng
 
 Kerro kyseisistä työkaluista, mitä ne tekevät, saitko asennettua ne, lisää ohjeraporttiin ja olivatko kyseiset työkalut mielenkiintoisia, jos olivat, niin miksi? Pohdi raportissasi, mihin ja missä tilanteissä kyseisiä työkaluja voidaan käyttää? Arvioi, onko käyttö kohde moraalisesti oikein tai väärin.
 
