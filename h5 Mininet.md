@@ -70,6 +70,13 @@ Kuvassa vielä kertaalleen annetut komennot.
 
 Kuva 2. Asennus suoritettu!
 
+Yritin purkaa tiedoston, mutta tilan puutteen vuoksi en päässyt sitä tekemään. Oraclen kautta lisäsin muistitilaa, mutta sekään ei auttanut. Kokeilin vielä gpartedia:
+
+<img width="780" height="301" alt="Image" src="https://github.com/user-attachments/assets/ed2cb331-1cb9-4955-a715-8442a8d8f8fe" />
+
+Kuva 3. gparted.
+
+
 ###### 17:33 
 
 
