@@ -70,6 +70,8 @@ Kuvassa vielä kertaalleen annetut komennot.
 
 Kuva 2. Asennus suoritettu!
 
+###### 17:33 
+
 
 
 
