@@ -131,3 +131,21 @@ Kuva 5. Terminaalin näkymä
 
 Itse tehtävästä: Suoritin ARP-myrkytyshyökkäyksen, jossa hyökkääjä (H3) lähetti väärennettyjä ARP-viestejä uhreille (H1 ja H2). Hyökkäys hyödyntää ARP-protokollan luottamusta: uhrit saatiin uskomaan, että vastapuolen IP-osoite kuuluu hyökkääjän MAC-osoitteelle. Tämän seurauksena uhrien välinen liikenne ohjautui hyökkääjän kautta, mikä mahdollisti datan salakuuntelun. Hyökkäyksen onnistuminen varmistettiin tarkistamalla uhrien ARP-taulukot, joissa näyttäytyi hyökkääjän fyysinen osoite kohteen kohdalla.
 
+Suljen tehtävien ajaksi Internetyhteyden, jotta tehtävien tekeminen tapahtuu turvallisesti.
+
+###### 19:05
+
+b) Samassa hakemistossa on myös ICMP Spoofing ja TCP Session Hijacking. Aja molemmat labrat läpi ja kerro, miten molemmat tekniikat toimivat.
+
+ICMP Spoofing (b1):
+
+    H1 (Kuuntelija): h1 python3 sniff_icmp.py & (Tämä havaitsee paketit).
+    H2 (Uhri): h2 ping 10.0.0.1 (Normaali ping-yhteys).
+    H3 (Hyökkääjä): h3 python3 spoof_icmp.py (Väärentää vastaukset).
+
+TCP Session Hijacking (b2):
+
+    H1 (Palvelin): h1 python3 tcp_server.py &
+    H2 (Asiakas): h2 python3 tcp_client.py &
+    H3 (Hyökkääjä): h3 python3 sniff_tcp_session.py & (Haistelee sekvenssinumerot).
+    H3 (Hyökkääjä): h3 python3 tcp_hijack.py (Syöttää väärennetyn paketin).
