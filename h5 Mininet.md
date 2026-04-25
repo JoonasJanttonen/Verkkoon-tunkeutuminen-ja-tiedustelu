@@ -56,9 +56,9 @@ Päivittämisen jälkeen tutustuin oppitunnin aiheeseen Moodlessa. Tämän jälk
 
 <img width="434" height="188" alt="Image" src="https://github.com/user-attachments/assets/388dd6a9-2fc0-47f6-a3fd-7256c13709b7" />
 
-Kuva 1.
+Kuva 1. Purkaaminen
 
-Annan tiedostolle suoritusoikeuden:
+Annetaan suoritusoikeus:
 
 ```
 chmod +x VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle
@@ -70,15 +70,14 @@ Kuvassa vielä kertaalleen annetut komennot.
 
 Kuva 2. Asennus suoritettu!
 
-Yritin purkaa tiedoston, mutta tilan puutteen vuoksi en päässyt sitä tekemään. Oraclen kautta lisäsin muistitilaa, mutta sekään ei auttanut. Kokeilin vielä gpartedia:
+Kun lähdin purkamaan tiedostoa, sain ilmoitukseksi, että tila on loppunut. Tämän jälkeen lisäsin muistitilaa Oraclessa, mutta sekään ei auttanut. Tämän jälkeen kokeilin gpartedia:
 
 <img width="780" height="301" alt="Image" src="https://github.com/user-attachments/assets/ed2cb331-1cb9-4955-a715-8442a8d8f8fe" />
 
 Kuva 3. gparted.
 
 
-
-Tämän jälkeen käynnistän asennusohjelman komennolla: 
+Seuraavaksi käynnistin asennusohjelman komennolla: 
 
 ```
 sudo ./VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle
@@ -88,9 +87,9 @@ sudo ./VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle
 ###### 17:33 
 ###### 18:37
 
-En ollut varma, että pitääkö nämä purkaa koneelle, mutta siirryn tekemään kotitehtäviä. 
+Tässä vaiheessa en ollut tietoinen siitä, että pitääkö tiedostot purkaa koneelle? Tässä kohtaa siirryin työstämään kotitehtäviä.
 
-Asennan mininetin, komennolla:
+Mininetin asennus, komennolla:
 
 ```
 sudo apt update
@@ -131,7 +130,7 @@ Kuva 5. Terminaalin näkymä
 
 Itse tehtävästä: Suoritin ARP-myrkytyshyökkäyksen, jossa hyökkääjä (H3) lähetti väärennettyjä ARP-viestejä uhreille (H1 ja H2). Hyökkäys hyödyntää ARP-protokollan luottamusta: uhrit saatiin uskomaan, että vastapuolen IP-osoite kuuluu hyökkääjän MAC-osoitteelle. Tämän seurauksena uhrien välinen liikenne ohjautui hyökkääjän kautta, mikä mahdollisti datan salakuuntelun. Hyökkäyksen onnistuminen varmistettiin tarkistamalla uhrien ARP-taulukot, joissa näyttäytyi hyökkääjän fyysinen osoite kohteen kohdalla.
 
-Suljen tehtävien ajaksi Internetyhteyden, jotta tehtävien tekeminen tapahtuu turvallisesti.
+Suljen tehtävien ajaksi Internetyhteyden, jotta tehtävien tekeminen tapahtuu turvallisesti. Tämä ei ollut kuitenkaan tarpeellista, koska Mininetissä harjoittelu on turvallista.
 
 ###### 19:05
 
@@ -165,11 +164,11 @@ ICMP Spoofingissa hyökkääjä lähettää väärennettyjä ohjaus / vastauspak
 
 c) Hakemistossa 02-SDN-DDos_Simulation tryout-kansiossa on työkalut, jotta voit ajaa TCP SYN-Flood-hyökkäyksen turvallisesti. Kirjoita, miten ajoit hyökkäyksen ja miten kyseinen hyökkäys toimii.
 
-Aloitin siirtymällä kansioon: 
+Siirtyminen kansioon: 
 ```
 cd ~/Lataukset/labs/02-SDN_DDoS_Simulation-tryout/
 ```
- Verkon puhdistaminen:
+Verkon puhdistaminen:
 ```
 sudo mn -c
 ```
@@ -214,9 +213,9 @@ sudo ptunnel-ng
 
 Ptunnel-ng (Ping Tunnel New Generation) on työkalu, joka kapseloi muun liikenteen sallitun ICMP-protokollan (ping) sisään, mahdollistaen tiedonsiirron tiukasti rajoitetuissa verkoissa. Menetelmä mahdollistaa palomuurien kierron, mikä on hyödyllistä sensuurin kiertämisessä, mutta voi väärinkäytettynä vaarantaa yritysten tietoturvan tai kiertää maksullisia palveluita.
 
-Eettisesti työkalu riippuu tilanteesta. Mikäli käyttäjä / henkilö asuu maassa, jossa on tiukat säännöt, kuten sananvapaudessa, ptunnel-ng työkalu on tähän oiva tapa ohittaa esteet. Esimerkkinä, jossa henkilö on kafkamaisessa tilanteessa, ja hänn haluaa ohittaa - on tunnelointi skeä moraalisesti että eettisesti perusteltua ja oikein. Tietysti siinä tilaneessa, mikäli agenda kallistuu hyvän puolelle.
+Eettisesti työkalu riippuu tilanteesta. Mikäli käyttäjä / henkilö asuu maassa, jossa on tiukat säännöt, kuten sananvapaudessa, ptunnel-ng työkalu on tähän oiva tapa ohittaa esteet. Esimerkkinä, jossa henkilö on kafkamaisessa tilanteessa, jossa sananvapautta on rajoitettu - on tunnelointi skeä moraalisesti että eettisesti perusteltua ja oikein. Lisäksi, kun agendalla halutaan edistää hyvää.
 
-Eettisesti se on väärin, kun tietoturvan vaarantaminen ja lain rikkominen sekä sääntöjen vastainen toiminta. Toinen eettisesti väärä keino on ohittaa maksumuurit, kuten Wi-fi. 
+Eettisesti väärin, mikäli henkilö altistaa yrityksen tietoturvan vaaraan, tai henkilö rikkoo lakia sekä toiminnallaan toimii yhteiskunnan asettaminen normien vastaisesti. Kuluttajana on epäeettistä ohittaa, esimerkiksi maksumuuri(t), kuten maksullinen Wi-fi. Työkalu mahdollistaa maksumuurien ohittamisen, mutta on epäeettistä, että tunneloidaan näin läpi.
 
 Evilgnix Pro lataaminen ei onnistunut. Yritin myös Evilgnix2, mutta sekään ei onnistunut. 
 
@@ -235,6 +234,11 @@ Ohjelmiston kehittäjä Kuba Gretzky kehitti työkalun organisaatioiden hyväksi
 
 ###### 24.4.2026.
 ###### 21:50 
+
+###### 25.5.2026
+###### 5:38 
+
+Ennen tehtävien palauttmista päätin yrittää vielä kerran, mikäli saisin Evilgnixin ladattua virtuaalikoneeseen.
 
 
 
