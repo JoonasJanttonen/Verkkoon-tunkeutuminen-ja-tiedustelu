@@ -238,10 +238,10 @@ Ohjelmiston kehittäjä Kuba Gretzky kehitti työkalun organisaatioiden hyväksi
 ###### 25.5.2026
 ###### 5:38 
 
-En onnistunut lataamaan (evilgnix) kyseistä ohjelmaa virtuaalikoneelle. Kokeilin erilaisa menetelmiä, mutta mikään näistä ei toiminut.
+En onnistunut lataamaan (evilgnix) kyseistä ohjelmaa virtuaalikoneelle. Kokeilin erilaisa menetelmiä, mutta mikään näistä ei toiminut. Ongelmaksi osoittautui se, että en saanut ladattua git clone github.com
 
 ###### 25.5.2026.
-###### 6:51 
+###### 6:59 
 
 
 Lähteet
