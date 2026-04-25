@@ -52,7 +52,7 @@ Tutustuin aiheeseen Moodlessa.
 ###### 24.4.2026.
 ###### 15:09
 
-Moodlen kautta tutustun oppitunnin aiheisiin. Samalla lataan WMWAREN virtuaaalikoneeseen sekä purkaan tiedostot.
+Päivittämisen jälkeen tutustuin oppitunnin aiheeseen Moodlessa. Tämän jälkeen latasin tiedostot virtuaalikoneeseen, ja purkasin tiedostot.
 
 <img width="434" height="188" alt="Image" src="https://github.com/user-attachments/assets/388dd6a9-2fc0-47f6-a3fd-7256c13709b7" />
 
