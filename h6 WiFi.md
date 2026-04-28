@@ -44,7 +44,32 @@ a) Tutustu wifi challenge lab 2.1 harjoitus ympäristöön ja käytä tarvittaes
 
 
 
+
+
+
+
 b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
+
+Internetissä surffailessani löysin loistavan sivuston ohjeisiin ja harjoitteluun: https://www.aircrack-ng.org/doku.php?id=airmon-ng. Ohjeita seuraamalla tein harjoituksia ja tutustuin WifiChallenge 2.1 labin harjoituksiin. Käytin seuraavanlaisia komentoja tehdessäni harjoituksia:
+
+Check status and/or listing wireless interfaces
+```
+sudo airmon-ng
+```
+Checking for interfering processes
+```
+sudo airmon-ng check
+```
+Enable monitor mode
+```
+sudo airmon-ng start wlan0
+```
+Killing interfering processes
+```
+sudo airmon-ng check kill
+```
+###### 28.4.2026.
+###### 21:46 
 
 c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?
 
@@ -60,6 +85,8 @@ c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit har
 
 Lähde
 ===
+
+Aircrack-ng 2026. Luettavissa: https://www.aircrack-ng.org/doku.php?id=airmon-ng. Luettu: 28.4.2026
 
 GitHub 2026. WifiChallenge. Luettavissa: https://github.com/koutto/pi-pwnbox-rogueap/wiki/03.-WiFi-Monitoring-(Passive-Scanning) Luettu: 27.4.2026.
 
