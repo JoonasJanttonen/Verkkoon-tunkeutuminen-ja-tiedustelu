@@ -21,11 +21,28 @@ Wi-FiChallenge Lab v2.4.2 Oracle VirtualBox
 
 Kotitehtävät
 ===
+###### 28.4.2026.
+###### 20:34 
 
+```
+sudo apt-get update
+sudo dpkg --configure -a
+sudo apt-get -y dist-upgrade
+sudo apt-get -y install ufw \
+sudo ufw enable 
+```
+
+```
+sudo timedatectl set-timezone Europe/Helsinki
+sudo timedatectl
+set-ntp true
+```
 
 h6 kotitehtävät
 
 a) Tutustu wifi challenge lab 2.1 harjoitus ympäristöön ja käytä tarvittaessa hyväksesi jo olemassa olevia ohjeita.
+
+
 
 b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
 
