@@ -109,6 +109,13 @@ Harjoittelun myötä opin tietotekniikka, jossa WiFiChallenge Lab on virtuaaline
 
 c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?
 
+Suhtautuminen Wlanin turvallisuuteen muuttui jo luennon aikana, kun opettaja (Lari) kertoi tilanteita ja esimerkkejä liittyen verkkojen turvallisuudesta. Harjoitusten myötä koin ymmärryksen, että verkot jakavat tietoa kaikkiin suuntiin. Lisäksi opin sen, että avoimia verkkoja tulisi välttää, kuten lentonkentän WiFiä, jota verrkorikkolliset voivat hyödyntää. Päivittämisen tärkeydestä sekä siihen, että salasana itsessään ei tee verkosta murtumatonta. 
+
+
+###### 29.4.2026.
+###### 22:10 
+
+
 
 
 
