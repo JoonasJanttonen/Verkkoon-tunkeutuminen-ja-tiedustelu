@@ -70,9 +70,21 @@ sudo airmon-ng check kill
 
 <img width="833" height="445" alt="Image" src="https://github.com/user-attachments/assets/db8508cd-25e9-452f-9715-f3c78c7c11c2" />
 
+Kuva 1. WiFiChallenges
+
+sudo airmon-ng #listaa langattomat interfacet
+sudo airmon-ng check #näyttää prosessit, jotka voivat häiritä tutkimista
+sudo airmon-ng check kill #lopettaa häiritsevät prosessit
+sudo airmon-ng start wlan1 #monitor mode päälle
+sudo airmon-ng stop wlan1 #pois päältä
+
+sudo airodump-ng --help #näyttää kaikki komennot
+sudo airodump-ng wlan1 -w scan --manufacturer #kuunnellaan kanavia, "-w" kirjoittaa uuteen tiedostoon, "--manufacturer" kertoo myös verkkokortin valmistajan
+sudo airodump-ng wlan1 --band ag #"b" ja "g" käyttää 2,4GHz taajuutta, "a" käyttää 5GHz taajuutta
+sudo besside-ng -c 6 -b F0:9F:C2:1A:CA:25 wlan1 -v #käytetään WEP ja WPA avainten purkamiseen, "-c" lukitsee kanavan, "-b" tarkentaa tiettyyn MAC-osoitteeseen (b=BSSID)
 
 
-
+sudo iwconfig #näyttää langattomien interfacejen statuksen, tällä löytyi esimerkiksi tieto, että wlan60 käyttää 5GHz taajuutta
 
 
 
