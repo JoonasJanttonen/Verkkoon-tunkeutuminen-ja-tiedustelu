@@ -95,21 +95,12 @@ sudo airodump-ng --help
 
 Kuva 1. WiFiChallenges
 
-Walkthroughsta löytyy ohjeita tehtävien tekemiseen, mikäli jää jumiin. 
+Walkthroughsta löytyy ohjeita tehtävien tekemiseen, mikäli jää jumiin: https://r4ulcl.com/posts/walkthrough-wifichallenge-lab-2.0/. 
 
 
+<img width="302" height="254" alt="Image" src="https://github.com/user-attachments/assets/e12176eb-1a79-432e-b935-97cdcd7dc743" />
 
-
-
-sudo airodump-ng wlan1 -w scan --manufacturer #kuunnellaan kanavia, "-w" kirjoittaa uuteen tiedostoon, "--manufacturer" kertoo myös verkkokortin valmistajan
-sudo airodump-ng wlan1 --band ag #"b" ja "g" käyttää 2,4GHz taajuutta, "a" käyttää 5GHz taajuutta
-sudo besside-ng -c 6 -b F0:9F:C2:1A:CA:25 wlan1 -v #käytetään WEP ja WPA avainten purkamiseen, "-c" lukitsee kanavan, "-b" tarkentaa tiettyyn MAC-osoitteeseen (b=BSSID)
-
-
-sudo iwconfig #näyttää langattomien interfacejen statuksen, tällä löytyi esimerkiksi tieto, että wlan60 käyttää 5GHz taajuutta
-
-
-
+Kuva 2. Näkymä terminaalissa harjoittelun päätyttyä.
 
 
 b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
