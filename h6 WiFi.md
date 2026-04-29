@@ -105,7 +105,7 @@ Kuva 2. Näkymä terminaalissa harjoittelun päätyttyä.
 
 b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
 
-
+Harjoittelun myötä opin tietotekniikka, jossa WiFiChallenge Lab on virtuaalinen harjoitusympäristö, jonka avulla voin oppia langattomien verkkojen tietoturvasta ja testaamista ilman fyysisiä Wi-Fi-adaptereita. Lisäksi eri suojausmenetelmien murtamisesta ja analysoinnista. Aircrackin kautta opin uusia työkaluja Wi-Fi turvallisuuden tutkimiseen. Lopuksi opin, että Wireshark on hyvin moniulotteinen työkalu verkon tutkimiseen. Yhteenvetona: opin uutta tietoturvasta.
 
 c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?
 
