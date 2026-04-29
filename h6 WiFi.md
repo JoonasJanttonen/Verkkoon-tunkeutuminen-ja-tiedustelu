@@ -78,6 +78,11 @@ Näytä status (interface)
 ```
 sudo iwconfig
 ```
+Tarvittaessa voit löytää ohjeet, käyttämällä komentoa: 
+```
+sudo airodump-ng --help
+```
+
 
 
 ###### 28.4.2026.
@@ -90,12 +95,12 @@ sudo iwconfig
 
 Kuva 1. WiFiChallenges
 
+Walkthroughsta löytyy ohjeita tehtävien tekemiseen, mikäli jää jumiin. 
 
 
 
 
 
-sudo airodump-ng --help #näyttää kaikki komennot
 sudo airodump-ng wlan1 -w scan --manufacturer #kuunnellaan kanavia, "-w" kirjoittaa uuteen tiedostoon, "--manufacturer" kertoo myös verkkokortin valmistajan
 sudo airodump-ng wlan1 --band ag #"b" ja "g" käyttää 2,4GHz taajuutta, "a" käyttää 5GHz taajuutta
 sudo besside-ng -c 6 -b F0:9F:C2:1A:CA:25 wlan1 -v #käytetään WEP ja WPA avainten purkamiseen, "-c" lukitsee kanavan, "-b" tarkentaa tiettyyn MAC-osoitteeseen (b=BSSID)
@@ -132,7 +137,7 @@ GitHub 1.11.2020. Koutto. Luettavissa: https://github.com/koutto/pi-pwnbox-rogue
 
 GitHub 2026. WifiChallenge. Luettavissa: https://github.com/koutto/pi-pwnbox-rogueap/wiki/03.-WiFi-Monitoring-(Passive-Scanning) Luettu: 27.4.2026.
 
-Haaga-Helia Moodle. Larin luennot 2026. 6. WiFi. Luettu: 27.4.2026.
+Haaga-Helia Moodle (pohjana). Larin luennot 2026. 6. WiFi. Luettu: 27.4.2026.
 
 Joonas Janttonen GitHub 2026. h5 Mininet. Luettavissa: https://github.com/JoonasJanttonen/Verkkoon-tunkeutuminen-ja-tiedustelu/blob/main/h5%20Mininet.md. Luettu: 27.4.2026.
 
