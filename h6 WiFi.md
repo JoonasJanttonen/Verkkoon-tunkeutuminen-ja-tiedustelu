@@ -44,24 +44,42 @@ h6 kotitehtävät
 a) Tutustu wifi challenge lab 2.1 harjoitus ympäristöön ja käytä tarvittaessa hyväksesi jo olemassa olevia ohjeita. 
 
 WifiChallenge Lab v2.4.2.VIrtualbox latasin tikulta luennon aikana. Haasteet löytyinvät sivulta: https://lab.wifichallenge.com/challenges.
-Internetissä surffailessani löysin loistavan sivuston ohjeisiin ja harjoitteluun: https://www.aircrack-ng.org/doku.php?id=airmon-ng. Toinen sivu, josta löysin vinkkejä: https://github.com/koutto/pi-pwnbox-rogueap/wiki/03.-WiFi-Monitoring-(Passive-Scanning). Ohjeita seuraamalla tein harjoituksia ja tutustuin WifiChallenge 2.1 labin harjoituksiin: https://r4ulcl.com/posts/walkthrough-wifichallenge-lab-2.0/.  Käytin seuraavanlaisia komentoja tehdessäni harjoituksia:
+Internetissä surffailessani löysin loistavan sivuston ohjeisiin ja harjoitteluun: https://www.aircrack-ng.org/doku.php?id=airmon-ng. Toinen sivu, josta löysin vinkkejä: https://github.com/koutto/pi-pwnbox-rogueap/wiki/03.-WiFi-Monitoring-(Passive-Scanning). Ohjeita seuraamalla tein harjoituksia ja tutustuin WifiChallenge 2.1 labin harjoituksiin: https://r4ulcl.com/posts/walkthrough-wifichallenge-lab-2.0/.  
 
-Check status and/or listing wireless interfaces
+Käytin seuraavanlaisia komentoja harjoiteltaessa:
+
+Listaa langattomat interfacet
 ```
 sudo airmon-ng
 ```
-Checking for interfering processes
+Näyttää prosessit
+
 ```
 sudo airmon-ng check
 ```
-Enable monitor mode
+
+Mode päälle
 ```
 sudo airmon-ng start wlan0
 ```
-Killing interfering processes
+Sulje pois päältä
+
+```
+sudo airmon-ng stop wlan1 
+```
+
+Lopettaa prosessit, jotka häiritsevät
+
 ```
 sudo airmon-ng check kill
 ```
+
+Näytä status (interface)
+```
+sudo iwconfig
+```
+
+
 ###### 28.4.2026.
 ###### 21:46 
 
@@ -72,11 +90,10 @@ sudo airmon-ng check kill
 
 Kuva 1. WiFiChallenges
 
-sudo airmon-ng #listaa langattomat interfacet
-sudo airmon-ng check #näyttää prosessit, jotka voivat häiritä tutkimista
-sudo airmon-ng check kill #lopettaa häiritsevät prosessit
-sudo airmon-ng start wlan1 #monitor mode päälle
-sudo airmon-ng stop wlan1 #pois päältä
+
+
+
+
 
 sudo airodump-ng --help #näyttää kaikki komennot
 sudo airodump-ng wlan1 -w scan --manufacturer #kuunnellaan kanavia, "-w" kirjoittaa uuteen tiedostoon, "--manufacturer" kertoo myös verkkokortin valmistajan
