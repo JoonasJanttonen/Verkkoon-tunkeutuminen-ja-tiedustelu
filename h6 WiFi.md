@@ -136,7 +136,11 @@ airodump-ng wlan1 --channel 11
 
 Kuva 4. Wi-Fi-IT
 
+Jos olen tehnyt tämän oikein tämä pitäisi olla ESSID verkon piilotettu nimi:
 
+<img width="274" height="11" alt="Image" src="https://github.com/user-attachments/assets/d81b0ece-1e53-497f-a6c0-2b2c12b6473c" />
+
+Kuva 5. ESSID
 
 b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
 
