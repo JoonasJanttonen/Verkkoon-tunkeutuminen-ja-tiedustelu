@@ -142,6 +142,11 @@ Jos olen tehnyt tämän oikein tämä pitäisi olla ESSID verkon piilotettu nimi
 
 Kuva 5. ESSID
 
+En saanut tehtyä kaikkia tehtäviä niiden haasteellisuden vuoksi. Lopetan tehtävien päivittämisen tähän. 
+
+###### 3.5.2026.
+###### 4:31
+
 b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
 
 Harjoittelun myötä opin tietotekniikka, jossa WiFiChallenge Lab on virtuaalinen harjoitusympäristö, jonka avulla voin oppia langattomien verkkojen tietoturvasta ja testaamista ilman fyysisiä Wi-Fi-adaptereita. Lisäksi eri suojausmenetelmien murtamisesta ja analysoinnista. Aircrackin kautta opin uusia työkaluja Wi-Fi turvallisuuden tutkimiseen. Lopuksi opin, että Wireshark on hyvin moniulotteinen työkalu verkon tutkimiseen. Yhteenvetona: opin uutta tietoturvasta.
