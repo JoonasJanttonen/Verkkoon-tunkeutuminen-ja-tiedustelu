@@ -97,6 +97,14 @@ Kuva 1. WiFiChallenges
 
 Walkthroughsta löytyy ohjeita tehtävien tekemiseen, mikäli jää jumiin: https://r4ulcl.com/posts/walkthrough-wifichallenge-lab-2.0/. 
 
+
+###### 3.5.2026
+###### 03:05
+
+Päivitän kotiläksyt, koska olin lisännyt väärät kuvat tänne Githubiin.
+
+
+
 ```
 sudo su
 cat /root/flag.txt
@@ -119,7 +127,14 @@ airodump-ng wlan1 --band abg
 
 Kuva 3. Global
 
+Seuraavaksi löydin Wi-FI-IT, joka löytyi kanavalta 11
 
+```
+airodump-ng wlan1 --channel 11
+```
+<img width="371" height="11" alt="Image" src="https://github.com/user-attachments/assets/494e16c2-a6be-4056-932e-a853a99644f8" />
+
+Kuva 4. Wi-Fi-IT
 
 b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
 
