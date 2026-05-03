@@ -97,10 +97,28 @@ Kuva 1. WiFiChallenges
 
 Walkthroughsta löytyy ohjeita tehtävien tekemiseen, mikäli jää jumiin: https://r4ulcl.com/posts/walkthrough-wifichallenge-lab-2.0/. 
 
+```
+sudo su
+cat /root/flag.txt
+```
+<img width="548" height="130" alt="Image" src="https://github.com/user-attachments/assets/18a8e9d9-2eb6-49e4-b23d-9812edfdd71b" />
 
-<img width="302" height="254" alt="Image" src="https://github.com/user-attachments/assets/e12176eb-1a79-432e-b935-97cdcd7dc743" />
+Kuva 2. Flag
 
-Kuva 2. Näkymä terminaalissa harjoittelun päätyttyä.
+Seuraavaaksi katsoin mitä laitteita löydän komennolla: 
+
+```
+ip a
+```
+Kokeilin airdodump-ng wlan0 mutta en löytänyt globalia. Tämän jälkeen kokeilin wlan1 ja sieltä löytyi:
+
+```
+airodump-ng wlan1 --band abg
+```
+<img width="383" height="13" alt="Image" src="https://github.com/user-attachments/assets/c8cc95b6-03b3-416a-b828-4ab05746a56c" />
+
+Kuva 3. Global
+
 
 
 b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
