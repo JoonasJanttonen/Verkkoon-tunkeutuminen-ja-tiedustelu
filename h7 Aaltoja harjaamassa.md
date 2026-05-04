@@ -29,11 +29,11 @@ Hubacek 2019: Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs (Video,
 
 - Universal Radio Hackerillä voidaan tallentaa signaalia tiedostoksi hyödyntämällä spektrianalysaattoria.
 - Signaali voidaan purkaa bittimuotoon säätämällä modulaatiota.
-- Data muunnetaan HEx-koodiksi myöhempää toistoa varten.
+- Data muunnetaan Hex-koodiksi myöhempää toistoa varten.
 
 Cornelius 2022: Decode 433.92 MHz weather station data
 
--
+- 
 -
 -
 
