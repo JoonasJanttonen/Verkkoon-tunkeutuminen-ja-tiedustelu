@@ -33,13 +33,15 @@ Hubacek 2019: Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs (Video,
 
 Cornelius 2022: Decode 433.92 MHz weather station data
 
-- 
--
--
+- SDR-laitteisto ja URH-ohjelmisto mahdollistavat ASK-moduloitujen 433 MHz:n signaalien analysoinnin ja toisintamisen helposti Arduino-pohjaisilla ratkaisuilla.
+- Tallennetut signaalit voidaan purkaa vastaanottimella tai vaihtoehtoisesti analysoida Audacity-ohjelmistolla SSB-demodulaation jälkeen.  
+- 36-bittistä tiedonsiirtoa ei ole mahdotonta purkaa. 
+
+(Tekstissä on paljon uutta sanastoa, joten apuna käytin Google Kääntäjää ja Google Geminiä lukiessani käännöstä. Tässä tehtävässä sovellettiin tekoälyä.
 
 Vapaaehtoinen, vaikeahko: Lohner 2019: Decoding ASK/OOK_PPM Signals with URH and rtl_433
 
--
+- 
 -
 -
 
@@ -55,6 +57,10 @@ Lähde
 ===
 
 GitHub. Karl. Decoding ASK/OOK_PPM Signals with URH and rtl_433. Luettavissa: https://github.karllohner.com/SDR/Decoding/Example_2019-01-24/. Luettu: 4.5.2026.
+
+Google Gemini 2026. Käännöksessä käytetty: https://gemini.google.com/app. Luotu: 4.5.2026.
+
+Google Kääntäjä 2026. Käännöksessä käytetty: https://translate.google.fi/?sl=auto&tl=fi&op=translate. Luotu: 4.5.2026.
 
 One Transistor.eu. Cornelius. 4.1.2022. (Updated, 2024). Decode 433.92 MHz weather station data. Luettavissa: https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html. Luettu: 4.5.2026.
 
