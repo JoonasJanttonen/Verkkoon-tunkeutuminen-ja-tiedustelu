@@ -41,10 +41,14 @@ Cornelius 2022: Decode 433.92 MHz weather station data
 
 Vapaaehtoinen, vaikeahko: Lohner 2019: Decoding ASK/OOK_PPM Signals with URH and rtl_433
 
-- 
--
--
+- Universal Radio Hacker (URH) ja rtl_433 sovelluksien avulla voidaan purkaa esim. sääasmien signaaleja ja langattomia ovikelloja. 
+- Teksti osoittaa, että digitaalinen radioliikenne perustuu tarkkaan ajoitukseen.
+- Informaatio ei ole itse pulsseissa, vaan niiden välimatkassa.
 
+(Tässä osiossa hyödynsin (kääntäjänä) Google Geminiä).
+
+###### 4.5.2026.
+###### 18:57
 
 
 
@@ -56,7 +60,7 @@ Vapaaehtoinen, vaikeahko: Lohner 2019: Decoding ASK/OOK_PPM Signals with URH and
 Lähde
 ===
 
-GitHub. Karl. Decoding ASK/OOK_PPM Signals with URH and rtl_433. Luettavissa: https://github.karllohner.com/SDR/Decoding/Example_2019-01-24/. Luettu: 4.5.2026.
+GitHub. Karllohner. Decoding ASK/OOK_PPM Signals with URH and rtl_433. Luettavissa: https://github.karllohner.com/SDR/Decoding/Example_2019-01-24/. Luettu: 4.5.2026.
 
 Google Gemini 2026. Käännöksessä käytetty: https://gemini.google.com/app. Luotu: 4.5.2026.
 
