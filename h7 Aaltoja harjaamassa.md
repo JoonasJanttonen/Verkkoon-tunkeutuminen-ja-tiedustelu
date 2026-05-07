@@ -82,12 +82,29 @@ Kuva 1. Näkymä terminaalissa.
 ###### 7.5.2026.
 ###### 18:35
 
+###### 18:45
+
+c) Automaattinen analyysi. Mitä tässä näytteessä tapahtuu? Mitä tunnisteita (id yms) löydät? Converted_433.92M_2000k.cs8. Analysoi näyte 'rtl_433' ohjelmalla.
+
+Tiedosto oli tuntematon. Alkuun en saanut avattua tiedostoa. Tämän jälkeen selvitin asiaa googlettamalla. En saanut avattua tiedostoa terminaalista, joten pyysin tekoälyltä opastusta tehtävän suorittamiseen. (Google Gemini).
+
+```
+rtl_433 -r /home/jjoonas123/Lataukset/Converted_433.92M_2000k.cs8 -A
+```
+<img width="400" height="56" alt="Image" src="https://github.com/user-attachments/assets/6ab2e496-ea88-4256-aafb-fa691b4de925" />
+
+Kuva 2. Input
+
+
+Terminalista huomaan, että avattu tiedosto sisältää radiotaajuista dataa, joka on lähetetty 433.92 MHZ taajuudella käyttäen OOK-modulaatiota (on-off keying). Ohjelma tunnistaa signaalin olevan peräisin kauko-ohjattavasta pistorasiasta tai kytkemisestä.
 
 
 
+Näyte sisältää viestejä, kuten toistuvaa lähetystä, jotta se menisi varmasti perille. Nämä merkit ovat (KlikAaanKlikUit, Proove ja Nexa), sillä ne käyttävät samaa protokollaa. Signaali on tyypiltään "Off" -komento eli laite on kytketty pois päältä.
 
+<img width="359" height="154" alt="Image" src="https://github.com/user-attachments/assets/cb3009d1-656b-4c17-b919-e81c8a624755" />
 
-
+Kuva 3. Näyte.
 
 
 
