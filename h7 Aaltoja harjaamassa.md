@@ -68,5 +68,7 @@ Google Kääntäjä 2026. Käännöksessä käytetty: https://translate.google.f
 
 One Transistor.eu. Cornelius. 4.1.2022. (Updated, 2024). Decode 433.92 MHz weather station data. Luettavissa: https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html. Luettu: 4.5.2026.
 
+Tero Karvinen 2026. Verkkoon tunkeutuminen ja tiedustelu (kotitehtävät). Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#tehtavanannot. Luettu: 4.5.2026.
+
 YouTube 18.1.2019. Hubmartin. Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs, 3:19 min – 7:40 min. Katsottavissa: https://www.youtube.com/watch?v=sbqMqb6FVMY&t=199s. Katsottu: 4.5.2026.
 
