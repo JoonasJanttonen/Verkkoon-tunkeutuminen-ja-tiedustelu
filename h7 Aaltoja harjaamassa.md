@@ -95,6 +95,12 @@ rtl_433 -r /home/jjoonas123/Lataukset/Converted_433.92M_2000k.cs8 -A
 
 Kuva 2. Input
 
+Malli (model): KlikAanKlikUit-Switch / Proove-Security / Nexa-Security
+ID / House Code: 8785315 
+Kanava (Channel): 3
+Yksikkö (Unit): 0 tai 3
+Komento (Command/State): Off (pois päältä)
+Raakadata (codes): {64}5956955a6995a555
 
 Terminalista huomaan, että avattu tiedosto sisältää radiotaajuista dataa, joka on lähetetty 433.92 MHZ taajuudella käyttäen OOK-modulaatiota (on-off keying). Ohjelma tunnistaa signaalin olevan peräisin kauko-ohjattavasta pistorasiasta tai kytkemisestä.
 
@@ -106,7 +112,7 @@ Näyte sisältää viestejä, kuten toistuvaa lähetystä, jotta se menisi varma
 
 Kuva 3. Näyte.
 
-
+###### 19:32
 
 
 Lähde
