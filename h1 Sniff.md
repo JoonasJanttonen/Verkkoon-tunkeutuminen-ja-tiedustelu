@@ -24,7 +24,7 @@ Debian 13 (trixie)
 
 ---
 
-Debianin asentamisen syötän tutut komennot, kuten:
+Kun debian on asennettu, syötän tutut komennot, kuten:
 
 ```
 sudo apt-get update
@@ -33,7 +33,7 @@ sudo apt-get -y dist-upgrade
 sudo apt-get -y install ufw \
 sudo ufw enable 
 ```
-Lopuksi aikavyöhykkeen asennus, jotta ohjelmat toimivat oikein. Tätä toimintoa ei tarvitse, mutta jos joku haluaa kopioida tästä itselleen, niin:
+Ja sitten aikavyöhykkeen asentamista, jotta ohjelmat toimivat oikein. Tätä toimintoa ei tarvitse, mutta jos joku haluaa kopioida tästä itselleen, niin:
 
 ```
 sudo timedatectl set-timezone Europe/Helsinki
@@ -45,11 +45,13 @@ x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokon
 
 Karvinen 2025: Wireshark - Getting Started. 
 
-- Wireshark soveltuu verkon analysointiin. Käyttäjäj voi tutkia verkon liikennettä sharkin avulla.
+- Wireshark soveltuu verkon analysointiin. Wireshark mahdollistaa sen, että käyttäjä voi tutkia verkkoliikennettä ja tallentaa liikennettä.
 
-- Wireshark on monipuolinen ohjelma, jossa on paljon toimintoja.
+- Wireshark on monipuolinen ohjelma, joka mahdollistaa käyttäjälle laajan valikoiman eri toimintoja liittyen verkon seuraamiseen ja tutkimiseen.
 
-- Yksi suosituimmista ominaisuuksista on Follow TCP stream.
+-  Follow TCP stream on erittäin suosittu ja käytännöllinen ohjelma Wiresharkilla.
+
+( Päivitetty / korjattu: 7.5.2026.)
 
 ###### 19:26 Läksyjen työstäminen jatkuu seuraavana päivänä
 
@@ -79,7 +81,9 @@ OK.
 ###### 28.3.2026.
 ###### 07:10
 
-Läksyjen tekeminen jatkuu... Välipäivinä alustin koneen ja putsasin sisältä. Kone toimii kuin uusi! :)
+Läksyjen tekeminen jatkuu... Välipäivinä alustin koneen. Tämän jälkeen avasin koneen takaosan ja putsasin sen. Tämän jälkeen muistitilaa on huomattavasti enemmän sekä kone toimii kuin uusi :)
+
+( Päivitetty: 7.5.2026.)
 
 
 b) Ei voi kalastaa. Osoita, että pystyt katkaisemaan ja palauttamaan virtuaalikoneen Internet-yhteyden
@@ -195,9 +199,12 @@ i) Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selit�
 
 Frame, eli fyysinen kerros: 
 
-Tämä on paketin se osa, joka näyttää biittiä sähköä tai radioaaltoja liikkuu fyysisesti verkkokortin läpi. Se näyttää tiedon, kuten mihin aikaan paketti saapui.
+
+Tämä on paketin (verkkoliikenteen) osa, joka edustaa datan siirtoa sähköisenä signaaleina tai radioaaltoina. Tämän lisäksi se sisältää varsinaisen datan lisäksi metadataa, kuten tiedon paketin tarkan saapumisajan.
 
 <img width="886" height="58" alt="Vikatehtävä2" src="https://github.com/user-attachments/assets/64902ed8-79a7-40d5-b872-80bb7e3fddd2" />
+
+(Päivitetty: 7.5.2026)
 
 Kuva 10. Näkymä
 
@@ -212,7 +219,7 @@ Kuva 11. MAC - osoitteet.
 
 IPv6 verkkokierros / IP-osoitteet
  
-Paketeillä on nk. "postiosoite", joka tarkoittaa sitä, että SRC: on oma kone ja DST: on palvelimen osoite maailmalla. Lisäksi kuvassa on TTL, eli Time to Live. Tämä ei tarkoita, kuten monta sekunttia on kulunut, vaan se kertoo hyppyjen määrästä. Mikäli paketti joutuu hyppimään liian monen reittimen kautta löytämättä perille, se tuhotaan. Tässä tapauksessa niitä on ollut 64, kuten kuvasta voi huomata.
+Paketeilla on nk. "postiosoite", joka tarkoittaa sitä, että SRC: on oma kone ja DST: on palvelimen osoite maailmalla. Lisäksi kuvassa on TTL, eli Time to Live. Tämä ei tarkoita, kuten monta sekunttia on kulunut, vaan se kertoo hyppyjen määrästä. Mikäli paketti joutuu hyppimään liian monen reittimen kautta löytämättä perille, se tuhotaan. Tässä tapauksessa niitä on ollut 64, kuten kuvasta voi huomata.
 
 <img width="517" height="22" alt="Image" src="https://github.com/user-attachments/assets/78fb9a15-add1-4d8c-bc91-89016878ee6c" />
 
