@@ -190,11 +190,13 @@ sudo apt-get -y install atool wget libssl-dev libtool libusb-1.0-0-dev librtlsdr
 ```
 wget https://github.com/merbanan/rtl_433/releases/download/25.02/rtl_433-soapysdr-openssl3-Linux-amd64-25.02.zip
 ```
+<img width="373" height="157" alt="Image" src="https://github.com/user-attachments/assets/ec64b46c-67cc-4334-ae78-1a3bf1ef629f" />
 
-
-
+Kuva 4. URH, the Ultimate Radio Hacker
 Lähde
 ===
+
+GitHub 2026. Joonas Janttonen. Läksyt. Luettavissa: https://github.com/JoonasJanttonen/Verkkoon-tunkeutuminen-ja-tiedustelu/blob/main/h6%20WiFi.md. Luettu: 7.5.2026.
 
 GitHub. Karllohner. Decoding ASK/OOK_PPM Signals with URH and rtl_433. Luettavissa: https://github.karllohner.com/SDR/Decoding/Example_2019-01-24/. Luettu: 4.5.2026.
 
