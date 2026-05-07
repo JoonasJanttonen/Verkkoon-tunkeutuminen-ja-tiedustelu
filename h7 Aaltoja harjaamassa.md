@@ -86,7 +86,7 @@ Kuva 1. Näkymä terminaalissa.
 
 c) Automaattinen analyysi. Mitä tässä näytteessä tapahtuu? Mitä tunnisteita (id yms) löydät? Converted_433.92M_2000k.cs8. Analysoi näyte 'rtl_433' ohjelmalla.
 
-Tiedosto oli tuntematon. Alkuun en saanut avattua tiedostoa. Tämän jälkeen selvitin asiaa googlettamalla. En saanut avattua tiedostoa terminaalista, joten pyysin tekoälyltä opastusta tehtävän suorittamiseen. (Google Gemini).
+Tiedosto oli tuntematon. Alkuun en saanut avattua tiedostoa. Tämän jälkeen selvitin asiaa googlettamalla. En saanut avattua tiedostoa terminaalista, joten pyysin tekoälyltä opastusta tehtävän suorittamiseen. Lähde: Google Gemini
 
 ```
 rtl_433 -r /home/jjoonas123/Lataukset/Converted_433.92M_2000k.cs8 -A
@@ -112,8 +112,8 @@ Näyte sisältää viestejä, kuten toistuvaa lähetystä, jotta se menisi varma
 
 Kuva 3. Näyte.
 
-###### 19:32
-
+###### 7.5.2026.
+###### 19:35
 
 Lähde
 ===
@@ -121,6 +121,8 @@ Lähde
 GitHub. Karllohner. Decoding ASK/OOK_PPM Signals with URH and rtl_433. Luettavissa: https://github.karllohner.com/SDR/Decoding/Example_2019-01-24/. Luettu: 4.5.2026.
 
 Google Gemini 2026. Käännöksessä käytetty: https://gemini.google.com/app. Luotu: 4.5.2026.
+
+Google Gemini 2026. c) tehtävässä käytetty alustavasti tekoälyä. Tekoäly: https://gemini.google.com/app. Luotu: 7.5.2026.
 
 Google Kääntäjä 2026. Käännöksessä käytetty: https://translate.google.fi/?sl=auto&tl=fi&op=translate. Luotu: 4.5.2026.
 
