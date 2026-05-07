@@ -149,12 +149,31 @@ Johtopäätös:
 Vaikka tiedosto saatiin muunnettua ja analysoitua, laite on todennäköisesti sellainen, jota ohjelma ei osaa automaattisesti tulkita. Tehtävä on suoritettu siltä osin, että näyte on muunnettu ja sen tekninen sisältö on tutkittu automaattisella analyysilla.
 
 ###### 21:13
-
+###### 21:16
 
 
 e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
 
 Asennetaan URH, the Ultimate Radio Hacker, Tero Karvisen ohjeiden mukaisesti: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/. 
+
+Sudo oikeudet, komennolla: 
+
+```
+Su -
+usermod -aG sudo jjoonas123
+
+```
+Exit. Uudelleen kirjautuminen terminaaliin.
+
+```
+sudo apt-get update
+sudo apt-get -y install pipx
+pipx install urh --force
+pipx ensurepath
+sulje ja avaa terminaali
+urh
+```
+
 
 
 
