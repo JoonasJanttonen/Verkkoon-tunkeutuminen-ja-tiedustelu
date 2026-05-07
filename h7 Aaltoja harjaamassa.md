@@ -121,7 +121,21 @@ Tauko
 
 d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se. Näyte Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s
 
+Lataan tiedoston: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/.
 
+Seuraavaksi syötän terminaaliin seuraavat komennot:
+
+```
+python3 -c "import numpy as np; d = np.fromfile('/home/jjoonas123/Lataukset/Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s', dtype='<i2'); (d.astype('float32') / 32768 * 127 + 128).astype('uint8').tofile('muunnettu.cu8')"
+```
+Analysoidaan tiedosto syöttämällä terminaaliin:
+
+```
+rtl_433 -r muunnettu.cu8 -s 2000k -A
+```
+
+2. Analyysin tulokset (rtl_433 -r muunnettu_hackrf.cu8 -s 2000k -A)
+Tehtävän d-kohdan näyte on peräisin laitteesta, jota rtl_433 ei suoraan tue, tai tallennettu signaali on pirstaleista. Muunnosprosessi kuitenkin onnistui, ja Pulse Analyzer pystyi erottamaan signaalin kohinan seasta, vaikka varsinaista laite-ID:tä ei voitu vahvistaa
 
 
 
