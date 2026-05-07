@@ -126,20 +126,37 @@ Lataan tiedoston: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
 Seuraavaksi syötän terminaaliin seuraavat komennot:
 
 ```
-python3 -c "import numpy as np; d = np.fromfile('/home/jjoonas123/Lataukset/Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s', dtype='<i2'); (d.astype('float32') / 32768 * 127 + 128).astype('uint8').tofile('muunnettu.cu8')"
+python3 -c "import numpy as np; d = np.fromfile('/home/jjoonas123/Lataukset/Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s', dtype='<i2'); (d.astype('float32') / 32768 * 127 + 128).astype('uint8').tofile('/home/jjoonas123/Lataukset/muunnettu_hackrf.cu8')"
+
 ```
 Analysoidaan tiedosto syöttämällä terminaaliin:
 
 ```
-rtl_433 -r muunnettu.cu8 -s 2000k -A
+rtl_433 -r ~/Lataukset/muunnettu_hackrf.cu8 -s 2000k -A
+
 ```
 
-2. Analyysin tulokset (rtl_433 -r muunnettu_hackrf.cu8 -s 2000k -A)
-Tehtävän d-kohdan näyte on peräisin laitteesta, jota rtl_433 ei suoraan tue, tai tallennettu signaali on pirstaleista. Muunnosprosessi kuitenkin onnistui, ja Pulse Analyzer pystyi erottamaan signaalin kohinan seasta, vaikka varsinaista laite-ID:tä ei voitu vahvistaa
+Signaalin tyyppi: Näyte sisältää sarjan voimakkaita (n. 19 dB SNR) OOK-moduloituja radiopurskeita.
 
-Tapahtuma: Näyte sisältää useita lyhyitä radiopurskeita (OOK-paketteja), jotka toistuvat tietyin väliajoin (esim. kohdissa 0.127s, 0.134s ja 0.143s).
+Toistuvuus: Paketteja havaitaan useita peräkkäin hyvin lyhyen ajan sisällä (esim. kohdissa 0.127s, 0.134s ja 0.146s)
+
+Modulaation tunnistus: Ohjelma tunnistaa osan paketeista PWM-moduloiduiksi (Pulse Width Modulation), mutta monien kohdalla se ei löydä tunnettua kaavaa ("No clue"). Tämä viittaa siihen, että kyseessä on joko sääasema, auton kauko-ohjain tai muu laite, jonka protokolla on monimutkaisempi kuin perusvirtakytkimillä.
+
+Tästä näytteestä ei löytynyt selkeitä laitetunnisteita (ID, kanava tai malli), koska signaali ei vastannut mitään rtl_433:n valmista purkukoodia.Raakadata: Pulse Analyzer sai poimittua vain lyhyitä bittijonoja, kuten {4}1 ja {6}7c.Tekniset parametrit: Ohjelma tunnisti pulssien pituuksiksi tyypillisesti 12 µs (lyhyt) ja 29 µs (pitkä).
+
+Johtopäätös:
+
+Vaikka tiedosto saatiin muunnettua ja analysoitua, laite on todennäköisesti sellainen, jota ohjelma ei osaa automaattisesti tulkita. Tehtävä on suoritettu siltä osin, että näyte on muunnettu ja sen tekninen sisältö on tutkittu automaattisella analyysilla.
+
+###### 21:13
+
+
 
 e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
+
+Asennetaan URH, the Ultimate Radio Hacker, Tero Karvisen ohjeiden mukaisesti: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/. 
+
+
 
 - Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
 
