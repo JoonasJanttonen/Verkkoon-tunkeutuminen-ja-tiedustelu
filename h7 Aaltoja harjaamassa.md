@@ -115,6 +115,34 @@ Kuva 3. Näyte.
 ###### 7.5.2026.
 ###### 19:35
 
+Tauko
+
+###### 20:26
+
+d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se. Näyte Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s
+
+
+
+
+
+e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
+
+- Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
+
+Lataan tämän ohjelmistojen / tiedostojen kääntämistä varten Tero Karvisen ohjeiden mukaisesti:
+
+Lataan tämän ohjelmistojen / tiedostojen kääntämistä varten Tero Karvisen ohjeiden mukaisesti:
+
+```
+sudo apt-get -y install atool wget libssl-dev libtool libusb-1.0-0-dev librtlsdr-dev rtl-sdr libsoapysdr-dev
+```
+
+```
+wget https://github.com/merbanan/rtl_433/releases/download/25.02/rtl_433-soapysdr-openssl3-Linux-amd64-25.02.zip
+```
+
+
+
 Lähde
 ===
 
