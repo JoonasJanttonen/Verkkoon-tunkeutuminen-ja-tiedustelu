@@ -20,7 +20,7 @@ Debian 13 (trixie)
 
 ---
 
-Debianin asentamisen syötän tutut komennot, kuten:
+Käynnistämisen yhteydessä käytetyt tutut komennot. Näiden komentojen syöttäminen alussa mahdollistaa sen, että ohjelmat ovat sekä päivitettyjä että turvallisia:
 
 ```
 sudo apt-get update
@@ -79,7 +79,7 @@ Kuva 2. Apache2 localhost
 
 Kuva 3. Lokirivi
 
-Lokirivin analyysiä:
+Lokirivin analyysia:
 
 127.0.0.1 IP-osoite, eli oma localhost
 - - Identiteetti ja käyttäjätunnus tyhjä, koska sivusto on julkinen.
@@ -166,7 +166,7 @@ sudo grep "HEAD" /var/log/apache2/access.log
 
 e) Wire sharking. Sieppaa verkkoliikenne porttiskannatessa Wiresharkilla. Huomaa, että localhost käyttää "Loopback adapter" eli "lo". Tallenna pcap. Etsi kohdat, joilla on sana "nmap" ja kommentoi niitä. Jokaisen paketin jokaista kohtaa ei tarvitse analysoida, yleisempi tarkastelu riittää.
 
-Käynnistän Wiresharkin ja valitsen liitännän: Loopback: Io. Tuplaklikkaamalla tätä Wireshark tallentaa koneen sisäistä liikennettä.
+Käynnistän Wiresharkin ja valitsen liitännäksi: Loopback: Io. Tuplaklikkaamalla tätä Wireshark tallentaa koneen sisäistä liikennettä. (Korjattu: 7.5.2026.)
 
 <img width="800" height="85" alt="Image" src="https://github.com/user-attachments/assets/51b7e214-893f-4b1a-8dd5-fe190dbae8f7" />
 
@@ -275,7 +275,7 @@ Test Report: Tästä näen tarkat radiotaajuudet ja kanavalistan.
 
 Fyysiseen hakkerointiin:
 
-Laiteetn kuvat ja kaaviot sekä yleistasolta, kuinka virta ja data kulkevat sensorilta radiolähettimelle.
+Laitteen kuvat ja kaaviot sekä yleistasolta, kuinka virta ja data kulkevat sensorilta radiolähettimelle.
 
 Salauksessa esim, kuinka laite voidaan yhdistää koneeseen.
 
