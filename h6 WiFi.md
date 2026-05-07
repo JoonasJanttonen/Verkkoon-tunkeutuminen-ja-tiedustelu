@@ -25,6 +25,7 @@ Kotitehtävät
 ###### 28.4.2026.
 ###### 20:34 
 
+Koneen päivittämistä ennen tehtävien työstämistä.
 ```
 sudo apt-get update
 sudo dpkg --configure -a
@@ -39,6 +40,7 @@ sudo timedatectl
 set-ntp true
 ```
 
+(Päivitetty: 7.5.2026.)
 h6 kotitehtävät
 
 a) Tutustu wifi challenge lab 2.1 harjoitus ympäristöön ja käytä tarvittaessa hyväksesi jo olemassa olevia ohjeita. 
