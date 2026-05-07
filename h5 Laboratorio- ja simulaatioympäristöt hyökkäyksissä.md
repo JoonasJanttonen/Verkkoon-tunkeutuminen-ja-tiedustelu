@@ -52,7 +52,7 @@ Tutustuin aiheeseen Moodlessa.
 ###### 24.4.2026.
 ###### 15:09
 
-Päivittämisen jälkeen tutustuin oppitunnin aiheeseen Moodlessa. Tämän jälkeen latasin tiedostot virtuaalikoneeseen, ja purkasin tiedostot.
+Päivittämisen jälkeen tutustun oppitunnin aiheisiin Moodlen kautta. Tämän jälkeen latasin tiedostot virtuaalikoneeseen, ja purkasin tiedostot.
 
 <img width="434" height="188" alt="Image" src="https://github.com/user-attachments/assets/388dd6a9-2fc0-47f6-a3fd-7256c13709b7" />
 
@@ -70,14 +70,14 @@ Kuvassa vielä kertaalleen annetut komennot.
 
 Kuva 2. Asennus suoritettu!
 
-Kun lähdin purkamaan tiedostoa, sain ilmoitukseksi, että tila on loppunut. Tämän jälkeen lisäsin muistitilaa Oraclessa, mutta sekään ei auttanut. Tämän jälkeen kokeilin gpartedia:
+Kun lähdin purkamaan tiedostoa, sain ilmoitukseksi, että tila on loppunut. Tämän jälkeen lisäsin muistitilaa Oraclessa, mutta sekään ei auttanut. Lopuksi kokeilin gpartedia:
 
 <img width="780" height="301" alt="Image" src="https://github.com/user-attachments/assets/ed2cb331-1cb9-4955-a715-8442a8d8f8fe" />
 
 Kuva 3. gparted.
 
 
-Seuraavaksi käynnistin asennusohjelman komennolla: 
+Seuraava vaihde oli käynnistää asennusohjelma, komennolla: 
 
 ```
 sudo ./VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle
@@ -87,7 +87,7 @@ sudo ./VMware-Workstation-Full-25H2u1-25219725.x86_64.bundle
 ###### 17:33 
 ###### 18:37
 
-Tässä vaiheessa en ollut tietoinen siitä, että pitääkö tiedostot purkaa koneelle? Tässä kohtaa siirryin työstämään kotitehtäviä.
+Tässä vaiheessa en ollut tietoinen siitä, että pitääkö tiedostot purkaa koneelle? TÄstä eteenpäin siirryin työstämään kotitehtäviä.
 
 Mininetin asennus, komennolla:
 
@@ -130,7 +130,9 @@ Kuva 5. Terminaalin näkymä
 
 Itse tehtävästä: Suoritin ARP-myrkytyshyökkäyksen, jossa hyökkääjä (H3) lähetti väärennettyjä ARP-viestejä uhreille (H1 ja H2). Hyökkäys hyödyntää ARP-protokollan luottamusta: uhrit saatiin uskomaan, että vastapuolen IP-osoite kuuluu hyökkääjän MAC-osoitteelle. Tämän seurauksena uhrien välinen liikenne ohjautui hyökkääjän kautta, mikä mahdollisti datan salakuuntelun. Hyökkäyksen onnistuminen varmistettiin tarkistamalla uhrien ARP-taulukot, joissa näyttäytyi hyökkääjän fyysinen osoite kohteen kohdalla.
 
-Suljen tehtävien ajaksi Internetyhteyden, jotta tehtävien tekeminen tapahtuu turvallisesti. Tämä ei ollut kuitenkaan tarpeellista, koska Mininetissä harjoittelu on turvallista.
+Tehtävien ajaksi suljin Internet-yhteyden, jotta tehtävien tekeminen tapahtuu turvallisesti. Tämä ei ollut kuitenkaan tarpeellista, koska Mininetissä harjoittelu on turvallista.
+
+(Päivitetty: 7.5.2026.)
 
 ###### 19:05
 
@@ -157,7 +159,7 @@ TCP Session Hijacking (b2):
 
 Kuva 7. TCP Session Hijacking
 
-ICMP Spoofingissa hyökkääjä lähettää väärennettyjä ohjaus / vastauspaketteja uhrille, mikä mahdollistaa verkkoliikenteen harhaanjohtamisen. TCP Session Hijackingissa mennään askeleen edelle, eli siinä hyökkääjä kaappaa jo käynnissä olevan luotetun yhteyden ennustamalla TCP-sekvenssinumerot. Tällöin hyökkääjä voi syöttää omia komentojaan suoraan istuntoon uhrin nimissä.
+ICMP Spoofingissa hyökkääjä lähettää väärennettyjä ohjaus / vastauspaketteja uhrille, joka mahdollistaa verkkoliikenteen harhaanjohtamisen. TCP Session Hijackingissa mennään askeleen edelle, eli siinä hyökkääjä kaappaa jo käynnissä olevan luotetun yhteyden ennustamalla TCP-sekvenssinumerot. Tällöin hyökkääjä voi syöttää omia komentojaan suoraan istuntoon uhrin nimissä.
 
 ###### 19:41
 ###### 19:50
