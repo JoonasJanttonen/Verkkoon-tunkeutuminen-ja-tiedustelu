@@ -137,7 +137,7 @@ rtl_433 -r muunnettu.cu8 -s 2000k -A
 2. Analyysin tulokset (rtl_433 -r muunnettu_hackrf.cu8 -s 2000k -A)
 Tehtävän d-kohdan näyte on peräisin laitteesta, jota rtl_433 ei suoraan tue, tai tallennettu signaali on pirstaleista. Muunnosprosessi kuitenkin onnistui, ja Pulse Analyzer pystyi erottamaan signaalin kohinan seasta, vaikka varsinaista laite-ID:tä ei voitu vahvistaa
 
-
+Tapahtuma: Näyte sisältää useita lyhyitä radiopurskeita (OOK-paketteja), jotka toistuvat tietyin väliajoin (esim. kohdissa 0.127s, 0.134s ja 0.143s).
 
 e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
 
