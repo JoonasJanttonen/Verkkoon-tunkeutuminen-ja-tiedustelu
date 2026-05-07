@@ -193,6 +193,15 @@ wget https://github.com/merbanan/rtl_433/releases/download/25.02/rtl_433-soapysd
 <img width="373" height="157" alt="Image" src="https://github.com/user-attachments/assets/ec64b46c-67cc-4334-ae78-1a3bf1ef629f" />
 
 Kuva 4. URH, the Ultimate Radio Hacker
+
+###### 7.5.2026.
+###### 21:47
+
+
+
+
+
+
 Lähde
 ===
 
