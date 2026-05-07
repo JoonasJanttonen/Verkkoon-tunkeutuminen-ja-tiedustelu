@@ -50,7 +50,14 @@ Vapaaehtoinen, vaikeahko: Lohner 2019: Decoding ASK/OOK_PPM Signals with URH and
 ###### 4.5.2026.
 ###### 18:57
 
+###### 7.5.2026.
+###### 17:08 
 
+a) Lähteet ja läppä. Tarkista, että jokaisessa kotitehtäväraportissasi on viitattu lähteisiin (kurssiin, tehtäviin, kirjoihin, ohjeisiin...). Tarkista myös, että tekoälyn käyttö on kerrottu läpikyvästi ja merkitty lähteisiin. Laita läppäri valmiiksi lipunryöstöön. Opettaja voi tarkistaa läppärin. Jos käytät lipunryöstössä pelkästään virtuaalikonetta (myös weppiselailun), tarkastan vain virtuaalikoneen. Tätä alakohtaa a ei tarvitse raportoida, pelkkä kuittaus tekemisestä riittää.
+
+OK.
+
+###### 18:10 
 
 
 
