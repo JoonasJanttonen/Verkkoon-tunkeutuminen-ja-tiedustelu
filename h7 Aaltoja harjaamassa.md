@@ -58,11 +58,26 @@ a) Lähteet ja läppä. Tarkista, että jokaisessa kotitehtäväraportissasi on 
 OK.
 
 ###### 18:10 
+###### 18:28
+b) rtl_433. Asenna rtl_433 automaattista analyysia varten. Kokeile, että voit ajaa sitä. './rtl_433' vastaa "rtl_433 version 25.02 branch..."
 
+Ennen asentamista varmistan sudo apt-get update, että kone ohjelmat ovat ajantasalla. Tämän jälkeen asennan rtl_433 komennolla:
 
+```
+sudo apt update
+sudo apt install rtl-433
 
+```
 
+Tarkistan, että päivitys on onnistunut komennolla:
 
+```
+rtl_433 -V
+```
+
+<img width="358" height="11" alt="Image" src="https://github.com/user-attachments/assets/0082ce4d-252d-4694-aac9-cb05b13cb64e" />
+
+Kuva 1. Näkymä terminaalissa.
 
 Lähde
 ===
