@@ -169,6 +169,8 @@ Vaikka tiedosto saatiin muunnettua ja analysoitua, laite on todennäköisesti se
 ###### 21:13
 ###### 21:16
 
+###### 8.5.2026.
+###### 17:23 
 
 e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
 
@@ -200,8 +202,6 @@ Kuva 4. urh
 
 Lataan tämän ohjelmistojen / tiedostojen kääntämistä varten Tero Karvisen ohjeiden mukaisesti:
 
-Lataan tämän ohjelmistojen / tiedostojen kääntämistä varten Tero Karvisen ohjeiden mukaisesti:
-
 ```
 sudo apt-get -y install atool wget libssl-dev libtool libusb-1.0-0-dev librtlsdr-dev rtl-sdr libsoapysdr-dev
 ```
@@ -209,15 +209,38 @@ sudo apt-get -y install atool wget libssl-dev libtool libusb-1.0-0-dev librtlsdr
 ```
 wget https://github.com/merbanan/rtl_433/releases/download/25.02/rtl_433-soapysdr-openssl3-Linux-amd64-25.02.zip
 ```
-<img width="373" height="157" alt="Image" src="https://github.com/user-attachments/assets/ec64b46c-67cc-4334-ae78-1a3bf1ef629f" />
 
-Kuva 5. URH, the Ultimate Radio Hacker
+Tässä kohtaan jäin jumiin, kun en saanut pysäytettyä näytettä. Tutustuin ohjelmaan samalla.
 
-###### 7.5.2026.
-###### 21:47
+<img width="629" height="227" alt="Image" src="https://github.com/user-attachments/assets/eb8c7f28-750b-473f-aaae-0154a74e3d46" />
 
-###### 8.5.2026.
-###### 17:23 
+Kuva 5. HackRF
+
+###### 18:28
+
+f) Yleiskuva. Kuvaile näytettä yleisesti: kuinka pitkä, millä taajuudella, milloin nauhoitettu? Miltä näyte silmämääräisesti näyttää?
+
+Tiedosto: 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s
+
+Tiedoston nimestä päätellen nauhoitusaika on: 12.4.2025. Kello: 11:38:05. 
+
+Taajuus on 433 MHz.
+
+Silmämääräisesti näkyy kolme painallusta, jossa tauot. Kolme painallusta. Näen myös viisi kehystä / viivaa, kun katson signaalia.
+
+g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
+
+Modulaatio on ASK/OOK. Analyysissa on 45 näytettä. Demoduloitu raakabittijono on pituudeltaan 68 näytettä. Tehtävän alussa asetin vaakaviivan kohinan yläpuolelle. Signal viewiin asetin: "demodulated". Analysis välilehdelllä asetin Manchester 1.
+
+<img width="640" height="227" alt="Image" src="https://github.com/user-attachments/assets/89c555fe-9120-4892-8525-0351802e18b1" />
+
+Kuva 6. Demoduloitu
+
+###### 18:51 
+Tauko
+######
+h) Vapaaehtoinen: Sdr++. Kokeile sdr++ -sovellusta ja esittele sillä jokin "hei maailma" -tyyppinen esimerkki.
+
 
 
 
