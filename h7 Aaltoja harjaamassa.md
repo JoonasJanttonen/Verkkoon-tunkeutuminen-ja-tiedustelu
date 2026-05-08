@@ -238,14 +238,51 @@ Kuva 6. Demoduloitu
 
 ###### 18:51 
 Tauko
-######
-h) Vapaaehtoinen: Sdr++. Kokeile sdr++ -sovellusta ja esittele sillä jokin "hei maailma" -tyyppinen esimerkki.
+###### 20:49
+h) Vapaaehtoinen: Sdr++. Kokeile sdr++ -sovellusta ja esittele sillä jokin "hei maailma" -tyyppinen esimerkki. 
+
+Tiedoston lataaminen
+```
+sudo apt update && sudo apt install gqrx-sdr
+```
+Käynnistys:
+
+```
+gqrx
+```
+
+<img width="534" height="190" alt="Image" src="https://github.com/user-attachments/assets/006f2d58-f719-4839-958e-01cfb3b3c68b" />
+Kuva 7. gqrx
 
 
+###### 21:14
 
+i) Vapaaehtoinen, vaikeahko: GNU Radio. Asenne GNU Radio ja tee sillä yksinkertainen "Hei maailma".
 
+Geminin ohjeiden mukaisesti syötin komentoriviin:
 
+```
+sudo apt update
+sudo apt install gnuradio gr-osmosdr
+```
+Jonka jälkeen ohjelmiston käynnistäminen, komennolla:
 
+```
+gnuradio-companion
+```
+
+<img width="403" height="315" alt="Image" src="https://github.com/user-attachments/assets/68049299-8688-461a-9102-9087c6bfaff4" />
+
+Kuva 8. GNU Radio
+
+<img width="398" height="326" alt="Image" src="https://github.com/user-attachments/assets/85b30609-62f9-48bd-a8a7-220b840208c0" />
+
+Kuva 9. Source
+
+Löysin osat, jotka pitää yhdistää Hello Worldia varten, mutta en saanut niitä toimimaan. Alkuun varmistin, että ovat in-out-in tilassa. Vahdoin complexin -> floattiin. Tästä huolimatta ohjelma ei suostunut toimimaan, kun painoin play - nappulaa.
+
+###### 8.5.2026.
+###### 22:08
 
 Lähde
 ===
@@ -254,6 +291,8 @@ GitHub 2026. Joonas Janttonen. Läksyt. Luettavissa: https://github.com/JoonasJa
 
 GitHub. Karllohner. Decoding ASK/OOK_PPM Signals with URH and rtl_433. Luettavissa: https://github.karllohner.com/SDR/Decoding/Example_2019-01-24/. Luettu: 4.5.2026.
 
+GNU Radio 2026. Tehtävässä i). Luettavissa: https://www.gnuradio.org/. Luettu: 8.5.2026.
+
 Google Gemini 2026. Käännöksessä käytetty: https://gemini.google.com/app. Luotu: 4.5.2026.
 
 Google Gemini 2026. c) tehtävässä käytetty alustavasti tekoälyä. Tekoäly: https://gemini.google.com/app. Luotu: 7.5.2026.
@@ -261,6 +300,8 @@ Google Gemini 2026. c) tehtävässä käytetty alustavasti tekoälyä. Tekoäly:
 Google Kääntäjä 2026. Käännöksessä käytetty: https://translate.google.fi/?sl=auto&tl=fi&op=translate. Luotu: 4.5.2026.
 
 One Transistor.eu. Cornelius. 4.1.2022. (Updated, 2024). Decode 433.92 MHz weather station data. Luettavissa: https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html. Luettu: 4.5.2026.
+
+SDR++ 2026. The bloat-free SDR receiver. Lähteenä käytetytty tehtävässä h). Luettavissa: https://www.sdrpp.org/. Luettu: 8.5.2026.
 
 Tero Karvinen 2026. Verkkoon tunkeutuminen ja tiedustelu (kotitehtävät). Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#tehtavanannot. Luettu: 4.5.2026.
 
