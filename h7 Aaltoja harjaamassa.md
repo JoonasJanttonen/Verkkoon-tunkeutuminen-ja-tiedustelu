@@ -19,6 +19,24 @@ Oracle Virtualbox
 
 Debian 13 (trixie)
 
+Koneen päivittämistä ennen tehtävien työstämistä.
+```
+sudo apt-get update
+sudo dpkg --configure -a
+sudo apt-get -y dist-upgrade
+sudo apt-get -y install ufw \
+sudo ufw enable 
+```
+
+```
+sudo timedatectl set-timezone Europe/Helsinki
+sudo timedatectl
+set-ntp true
+```
+
+
+
+
 Kotitehtävät
 ===
 
@@ -173,8 +191,9 @@ pipx ensurepath
 sulje ja avaa terminaali
 urh
 ```
+<img width="337" height="58" alt="Image" src="https://github.com/user-attachments/assets/d3d4de0b-a344-4b8d-b562-fed84be34a8b" />
 
-
+Kuva 4. urh
 
 
 - Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
@@ -192,10 +211,13 @@ wget https://github.com/merbanan/rtl_433/releases/download/25.02/rtl_433-soapysd
 ```
 <img width="373" height="157" alt="Image" src="https://github.com/user-attachments/assets/ec64b46c-67cc-4334-ae78-1a3bf1ef629f" />
 
-Kuva 4. URH, the Ultimate Radio Hacker
+Kuva 5. URH, the Ultimate Radio Hacker
 
 ###### 7.5.2026.
 ###### 21:47
+
+###### 8.5.2026.
+###### 17:23 
 
 
 
