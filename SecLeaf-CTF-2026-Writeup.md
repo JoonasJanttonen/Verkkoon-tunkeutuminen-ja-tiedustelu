@@ -60,13 +60,16 @@ Lataan vain tavallisimmat ohjelmat, jotta voin suorittaa helpoimmat tehtävät h
 sudo apt update && sudo apt install -y exiftool binwalk seclists gobuster curl p7zip-full
 ```
 
-Näillä ohjelmilla voin oletettavasti suorittaa web -tehtävät ja kuva-tehtävät / Forensics. Selaimena käytän Firefoxia.   Valmistautuessani CTF-haasteeseen loin Debian Trixie -ympäristöön erillisen projektikansion (~/SecLeaf) ja sinne sanalistat-alihakemiston. Latasin sinne Daniel Miesslerin SecLists-kokoelmasta common.txt-sanalistan, jota hyödynnetään Web-haasteiden piilotettujen hakemistojen ja tiedostojen automatisoidussa etsinnässä (esim. Gobuster-työkalulla)
+Näillä ohjelmilla voin oletettavasti suorittaa web -tehtävät ja kuva-tehtävät / Forensics. Selaimena käytän Firefoxia. Tähän haasteeseen loin debian trixie - ympäristöön erillisen prohektikansion (~/SecLeaf) ja sinne sanalistat-alihakemiston. Latasin sinne Daniel Miesslerin SecLists-kokoelmasta common.txt-sanalistan, jota hyödynnetään Web-haasteiden piilotettujen hakemistojen ja tiedostojen automatisoidussa etsinnässä, esim Gobuster - ohjelmalla. 
 
 
+Lopuksi tutustuin artikkeliin, jossa kerrotaan CTF haasteesta. (https://medium.com/@bhagwani6260/how-to-develop-ctf-challenges-d49697d28572).
 
 
+Kone pitäisi olla nyt 100 % valmis siihen, että voin suorittaa perustehtävät haasteesta. Mikäli ongelmia esiintyy, kirjaan ne tänne raporttiin. Haasteessa on hyvin aikaa, koska se on avoinna kaikille kaksikymmentäneljätuntia. Tämän jälkeen haaste sulkeutuu.
 
-
+###### 16:12 
+###### 22.5.2026.
 
 
 
@@ -79,5 +82,7 @@ Näillä ohjelmilla voin oletettavasti suorittaa web -tehtävät ja kuva-tehtäv
 Lähde:
 
 Joonas Janttonen GitHub 2026. Luettu: 22.5.2026. Luettavissa: https://github.com/JoonasJanttonen/Verkkoon-tunkeutuminen-ja-tiedustelu/edit/main/h7%20Aaltoja%20harjaamassa.md.
+
+Medium. Anshuman Bhagwani 27.4.2023. How to develop CTF Challenges. Luettu: 22.5.2026. Luettavissa: https://medium.com/@bhagwani6260/how-to-develop-ctf-challenges-d49697d28572.
 
 SecLeaf CTF 2026. Rekisteröinti sivulta. Luettu: 22.5.2026. Luettavissa: https://ctf.secleaf.tech/
