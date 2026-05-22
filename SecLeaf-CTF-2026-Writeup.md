@@ -54,8 +54,13 @@ WifiChallenge Lab minulla on virtuaalikoneessa, mikäli sitä tarvitaan CTF - ha
 
 Koneessa näyttäisi olevan vielä hyvin tilaa: 15 Gt.
 
+Lataan vain tavallisimmat ohjelmat, jotta voin suorittaa helpoimmat tehtävät haasteesta. Tässä haasteessa en keskity haastavampimiin, koska ohjeena oli suorittaa aloittelijan tehtävät.
 
+```
+sudo apt update && sudo apt install -y exiftool binwalk seclists gobuster curl p7zip-full
+```
 
+Näillä ohjelmilla voin oletettavasti suorittaa web -tehtävät ja kuva-tehtävät / Forensics. Selaimena käytän Firefoxia.   Valmistautuessani CTF-haasteeseen loin Debian Trixie -ympäristöön erillisen projektikansion (~/SecLeaf) ja sinne sanalistat-alihakemiston. Latasin sinne Daniel Miesslerin SecLists-kokoelmasta common.txt-sanalistan, jota hyödynnetään Web-haasteiden piilotettujen hakemistojen ja tiedostojen automatisoidussa etsinnässä (esim. Gobuster-työkalulla)
 
 
 
