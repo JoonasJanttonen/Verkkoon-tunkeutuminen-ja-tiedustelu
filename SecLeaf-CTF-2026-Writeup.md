@@ -36,7 +36,7 @@ Kuva 2. Tiimi rekisteröity.
 
 
 
-Reksiteröinnin jälkeen virtuaalikoneen valmistelua huomista (23.5.2026) haastetta ajatellen!
+Reksiteröinnin jälkeen avaan virtuaalikoneen ja valmistelen tämän huomista haastetta ajatellen. Varmistan vielä, että kaikki toimii, kuten pitää.
 ```
 sudo apt-get update
 sudo dpkg --configure -a
@@ -50,6 +50,9 @@ sudo timedatectl set-timezone Europe/Helsinki
 sudo timedatectl
 set-ntp true
 ```
+WifiChallenge Lab minulla on virtuaalikoneessa, mikäli sitä tarvitaan CTF - haasteessa. Päivitän koneen ja asennan joitakin ohjelmia debianille. WireShark minulta näyttääkin jo löytyvän, joten sitä ei tarvitse asentaa uudelleen. 
+
+Koneessa näyttäisi olevan vielä hyvin tilaa: 15 Gt.
 
 
 
