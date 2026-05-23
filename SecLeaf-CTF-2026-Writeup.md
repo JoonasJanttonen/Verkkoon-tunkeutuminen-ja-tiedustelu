@@ -194,9 +194,14 @@ cat flag.txt
 Kuva 10. Terminaali
 
 ###### 14:23 
-Tauko. Selaan myös haasteen nettisivuja ja katson, minkälaisia tehtäviä siellä on
+Tauko. Selaan myös haasteen nettisivuja ja huomaan, että SecLeaf - sivuille on ilmestynyt uusia haasteita. Tällä hetkellä olen suorittanut neljä haastetta. Tehtävien suorittaminen on keskittynyt seuraaviin aihealueisiin, kuten MISC, Cryptography, Forensics. 
 ###### 22:24
 
+Community tehtävissä näyttäisi olevan kolme lisättyä tehtävää, joten päätän työstää tästä aiheesta tehtävän. Kaksi ensimmäisestä tehtävästä olivat helppoja tehtäviä, jossa oli jaettu vastaus suoraan tehtänannossa. Kolmannessa tehtävässä piti etsiä instagram postauksista. Tarkoituksena oli seuraa: @knight_secured - tiliä ja @secleafofficial profiilia. Tämän jälkeen tarinoista muodostuivat flag: SecLeaf{1_FOLLOW_YOU}
+
+###### 23:29
+
+Tässä vaiheessa olen käyttänyt tämän tehtävän työstämiseen noin kuusi tuntia, kun lasketaan esivalmistelut, itsenäistä opiskelua sekä raportin (writeupin) - kirjoittamista. kahdeksan tehtävää on suoritettu ja aikaa on jäljellä noin 7,5 tuntia haasteen sulkeutumiseen. 
 
 
 
