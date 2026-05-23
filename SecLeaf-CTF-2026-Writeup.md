@@ -74,10 +74,15 @@ Kone pitäisi olla nyt 100 % valmis siihen, että voin suorittaa perustehtävät
 ###### 11:40 
 ###### 23.5.2026.
 
+Edellisenä iltana priiffasin itseäni katsomalla aiheesta YouTube - videoita, kuten: https://www.youtube.com/watch?v=P07NH5F-t3s&pp=ygUZYmVnaW5uZXIgY2FwdHVyZSB0aGUgZmxhZw%3D%3D & https://www.youtube.com/watch?v=KQiTDIkZTo0&pp=ygUeY2FwdHVyZSB0aGUgZmxhZyBuYWhhbWNvbiAyMDI0.
+
 Käynnistän haasteen kirjautumalla SecLeafin - sivuille. Navigoin sivuilta kohtaan: haasteet. Aihealueet: Misc, Cryptography, Forensics ja REV. Keskityn työstämään helpoimpia tehtäviä, kuten sähköpostissa neuvoit. 
 
-Ensimmäinen tehtävä on SanityCheck, jossa pitää löytää lippu Youtubelinkin takaa: https://www.youtube.com/@SecLeaf. . Edellisenä iltana priiffasin itseäni katsomalla aiheesta YouTube - videoita, kuten: https://www.youtube.com/watch?v=P07NH5F-t3s&pp=ygUZYmVnaW5uZXIgY2FwdHVyZSB0aGUgZmxhZw%3D%3D & https://www.youtube.com/watch?v=KQiTDIkZTo0&pp=ygUeY2FwdHVyZSB0aGUgZmxhZyBuYWhhbWNvbiAyMDI0.
+Ensimmäinen tehtävä on SanityCheck, jossa pitää löytää lippu Youtubelinkin takaa: https://www.youtube.com/@SecLeaf. Edellisenä iltana priiffasin itseäni katsomalla aiheesta YouTube - videoita, kuten: https://www.youtube.com/watch?v=P07NH5F-t3s&pp=ygUZYmVnaW5uZXIgY2FwdHVyZSB0aGUgZmxhZw%3D%3D & https://www.youtube.com/watch?v=KQiTDIkZTo0&pp=ygUeY2FwdHVyZSB0aGUgZmxhZyBuYWhhbWNvbiAyMDI0.
 
+Tehtävä näyttäisi olevan johdanto, jossa osoitetaan, kuinka lippu palautetaan. Lippu näkyy etusivula, kun linkin avaa. Palautan tämän ja saan ensimmäisen pisteen haasteesta.
+
+Kuva 2. 
 
 
 
