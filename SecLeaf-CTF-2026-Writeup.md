@@ -191,6 +191,9 @@ Kuva 10. Terminaali
 
 ###### 14:23 
 
+Tauko. Tämän jälkeen yritän suorittaa vielä yhden 100 p tehtävän, mikäli onnistun siinä
+
+###### 
 
 
 Lähde:
