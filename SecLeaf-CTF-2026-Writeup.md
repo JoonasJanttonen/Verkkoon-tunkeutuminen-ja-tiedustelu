@@ -36,7 +36,9 @@ Kuva 2. Tiimi rekisteröity.
 
 
 
-Reksiteröinnin jälkeen avaan virtuaalikoneen ja valmistelen tämän huomista haastetta ajatellen. Varmistan vielä, että kaikki toimii, kuten pitää.
+Reksiteröinnin jälkeen avaan virtuaalikoneen ja valmistelen virtuaalikoneen huomista haastetta varten. Varmistan vielä, että kaikki toimii, kuten pitää.
+
+
 ```
 sudo apt-get update
 sudo dpkg --configure -a
@@ -50,23 +52,23 @@ sudo timedatectl set-timezone Europe/Helsinki
 sudo timedatectl
 set-ntp true
 ```
-WifiChallenge Lab minulla on virtuaalikoneessa, mikäli sitä tarvitaan CTF - haasteessa. Päivitän koneen ja asennan joitakin ohjelmia debianille. WireShark minulta näyttääkin jo löytyvän, joten sitä ei tarvitse asentaa uudelleen. 
+WifiChallenge Lab minulla on virtuaalikoneessa, mikäli sitä tarvitaan CTF - haasteessa. Päivitän koneen ja asennan joitakin ohjelmia debianille. WireShark minulta näyttääkin jo löytyvän, joten se on kunnossa. Itsenäisen opiskelun kautta rakennan itselleni ymmärrtystä siitä, mistä on kyse, kun puhutaan CTF - haasteesta. 
 
 Koneessa näyttäisi olevan vielä hyvin tilaa: 15 Gt.
 
-Lataan vain tavallisimmat ohjelmat, jotta voin suorittaa helpoimmat tehtävät haasteesta. Tässä haasteessa en keskity haastavampimiin, koska ohjeena oli suorittaa aloittelijan tehtävät.
+Lataan ohjelmat valmiiksi, mikäli niitä tarvitaan huomisessa haasteessa. Tavoitteena on oppia ja ymmärtää haasteesta työstämällä perustason tehtäviä.
 
 ```
 sudo apt update && sudo apt install -y exiftool binwalk seclists gobuster curl p7zip-full
 ```
 
-Näillä ohjelmilla voin oletettavasti suorittaa web -tehtävät ja kuva-tehtävät / Forensics. Selaimena käytän Firefoxia. Tähän haasteeseen loin debian trixie - ympäristöön erillisen prohektikansion (~/SecLeaf) ja sinne sanalistat-alihakemiston. Latasin sinne Daniel Miesslerin SecLists-kokoelmasta common.txt-sanalistan, jota hyödynnetään Web-haasteiden piilotettujen hakemistojen ja tiedostojen automatisoidussa etsinnässä, esim Gobuster - ohjelmalla. 
+Linuxin huolellinen päivittäminen mahdollistaa sen, että voin (oletettavasti) suorittaa erilaisia tehtäviä, kuten web -tehtävät ja kuva-tehtävät / Forensics. Selaimena käytän Firefoxia. Tähän haasteeseen loin debian trixie - ympäristöön erillisen prohektikansion (~/SecLeaf) ja sinne sanalistat-alihakemiston. Tämän pitäisi auttaa tehtävien työstämisessä terminaalin kautta.
 
 
-Lopuksi tutustuin artikkeliin, jossa kerrotaan CTF haasteesta. (https://medium.com/@bhagwani6260/how-to-develop-ctf-challenges-d49697d28572).
+Tämän jälkeen tutustuin rauhassa artikkeliin, jossa kerrotaan CTF - haasteesta. (https://medium.com/@bhagwani6260/how-to-develop-ctf-challenges-d49697d28572).
 
 
-Kone pitäisi olla nyt 100 % valmis siihen, että voin suorittaa perustehtävät haasteesta. Mikäli ongelmia esiintyy, kirjaan ne tänne raporttiin. Haasteessa on hyvin aikaa, koska se on avoinna kaikille kaksikymmentäneljätuntia. Tämän jälkeen haaste sulkeutuu.
+Tässä vaiheessa kone on olettavasti pitäisi 100 % valmis. Mikäli ongelmia esiintyy, kirjaan ne tänne raporttiin. Haasteessa on hyvin aikaa, koska se kestää kaksikymmentäneljätuntia.
 
 ###### 16:12 
 ###### 22.5.2026.
@@ -74,11 +76,13 @@ Kone pitäisi olla nyt 100 % valmis siihen, että voin suorittaa perustehtävät
 ###### 11:40 
 ###### 23.5.2026.
 
-Edellisenä iltana priiffasin itseäni katsomalla aiheesta YouTube - videoita, kuten: https://www.youtube.com/watch?v=P07NH5F-t3s&pp=ygUZYmVnaW5uZXIgY2FwdHVyZSB0aGUgZmxhZw%3D%3D & https://www.youtube.com/watch?v=KQiTDIkZTo0&pp=ygUeY2FwdHVyZSB0aGUgZmxhZyBuYWhhbWNvbiAyMDI0.
+Edellisenä iltana briiffasin itseäni katsomalla aiheesta YouTube - videoita, kuten: https://www.youtube.com/watch?v=P07NH5F-t3s&pp=ygUZYmVnaW5uZXIgY2FwdHVyZSB0aGUgZmxhZw%3D%3D & https://www.youtube.com/watch?v=KQiTDIkZTo0&pp=ygUeY2FwdHVyZSB0aGUgZmxhZyBuYWhhbWNvbiAyMDI0.
 
-Käynnistän haasteen kirjautumalla SecLeafin - sivuille. Navigoin sivuilta kohtaan: haasteet. Aihealueet: Misc, Cryptography, Forensics, REV ja PWN. Keskityn työstämään helpoimpia tehtäviä, kuten sähköpostissa neuvoit. 
+Ja sitten itse haasteeseen...
 
-Ensimmäinen tehtävä on SanityCheck, jossa pitää löytää lippu Youtubelinkin takaa: https://www.youtube.com/@SecLeaf. Edellisenä iltana priiffasin itseäni katsomalla aiheesta YouTube - videoita, kuten: https://www.youtube.com/watch?v=P07NH5F-t3s&pp=ygUZYmVnaW5uZXIgY2FwdHVyZSB0aGUgZmxhZw%3D%3D & https://www.youtube.com/watch?v=KQiTDIkZTo0&pp=ygUeY2FwdHVyZSB0aGUgZmxhZyBuYWhhbWNvbiAyMDI0.
+Käynnistän haasteen kirjautumalla SecLeafin - sivuille. Navigoin sivuilta kohtaan: haasteet. Aihealueet: Misc, Cryptography, Forensics, REV ja PWN. Tavoitteena on suorittaa ainakin neljä tai viisi tehtävää eri osa-alueista. 
+
+Ensimmäinen tehtävä on SanityCheck, jossa pitää löytää lippu Youtubelinkin takaa: https://www.youtube.com/@SecLeaf. Tehtävä oli ilmeisen helppo eikä sen suorittaminen vaatinut temppuja.
 
 Tehtävä näyttäisi olevan johdanto, jossa osoitetaan, kuinka lippu palautetaan. Lippu näkyy etusivula, kun linkin avaa. Palautan tämän ja saan ensimmäisen pisteen haasteesta.
 
@@ -107,7 +111,7 @@ Siirrä tiedoston SecLeaf-kansioon.
 mv ~/Lataukset/vaultcore .
 ```
 
-Tehtävän etusivulla annettiin ymmärtää, että kyseessä on anti-debugging, mutta todellisuudessa lippua ei oltu piilotettu tiedoston sisälle, vaan sen pystyi ratkaisemaan Linuxin komentoriviltä. Ratkaisuksi osottautui pelkästään strings - komentoa käyttämällä. YouTube videoissa kehotettiin alkuosan tehtävissä keskittymään tavallisiin toimintoihin, joissa ei vaadita syvällisempää koodausosaamista. 
+Tehtävän etusivulla annettiin ymmärtää, että kyseessä on anti-debugging, mutta todellisuudessa lippua ei piilotettu tiedoston sisälle, vaan sen pystyi ratkaisemaan Linuxin komentoriviltä. Ratkaisuksi löytyi pelkästään strings - komentoa käyttämällä. Ensimmäiset tehtävät eivät näytä vaativan erikoista osaamista, eikä vaadi suurta määrää koodaamista.
 
 
 <img width="334" height="21" alt="Image" src="https://github.com/user-attachments/assets/41489b1d-de07-4133-8598-ceaad868cb00" />
@@ -121,7 +125,7 @@ Kuva 5. Ratkaisu tehtävään, Vaultcore.
 
 ###### 13:01
 
-Kolmas tehtävä näyttäisi sekin olevan tasoa: helppo. Tehtävän on suorittaunut jo miltein 500 ratkaisua. Kyseessä on kryptografiasta. Aloitan lataamalla tiedoston: encrypted.txt. Klikkaan tiedostoa sen ladattua ja näkymyä aukeaa LibreOfficella. Tässä vaiheessa hyödynnän CyberChef - sivustoa. Maalaan kuvassa näkyvän koodin ja syötän sen kokille. Tämän jälkeen raahaan magicin keskelle, ja inputirsta näkyy vastaus: base64 ei ole salausta (suom.)
+Kolmas tehtävä näyttäisi sekin olevan tasoa: helppo. Tehtävän on suorittaunut jo miltein 500 ratkaisua. Kyseessä on kryptografiasta. Aloitan lataamalla tiedoston: encrypted.txt. Klikkaan tiedostoa sen ladattua ja näkymyä aukeaa LibreOfficella. Tässä vaiheessa hyödynnän CyberChef - sivustoa. Maalaan kuvassa näkyvän koodin ja syötän sen CyberChef - sivulle. Tämän jälkeen raahaan magicin keskelle, ja vastaus ilmestyy input - osioon. Vastaus: "base64 ei ole salausta" (suom.)
 
 <img width="391" height="25" alt="Image" src="https://github.com/user-attachments/assets/86cb3416-8b88-4c77-a9b9-022e8dc7c695" />
 
@@ -190,10 +194,10 @@ cat flag.txt
 Kuva 10. Terminaali
 
 ###### 14:23 
+Tauko. Selaan myös haasteen nettisivuja ja katson, minkälaisia tehtäviä siellä on
+###### 22:24
 
-Tauko. Tämän jälkeen yritän suorittaa vielä yhden 100 p tehtävän, mikäli onnistun siinä
 
-###### 
 
 
 Lähde:
