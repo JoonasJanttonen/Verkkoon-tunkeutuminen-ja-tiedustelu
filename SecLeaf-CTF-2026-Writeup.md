@@ -92,12 +92,23 @@ Vastaus näkyy kuvan yläosassa.
 
 Kuva 3. Tehtävä ratkaistu.
 
+###### 12:15
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 Lähde:
+===
 
 Joonas Janttonen GitHub 2026. Luettu: 22.5.2026. Luettavissa: https://github.com/JoonasJanttonen/Verkkoon-tunkeutuminen-ja-tiedustelu/edit/main/h7%20Aaltoja%20harjaamassa.md.
 
