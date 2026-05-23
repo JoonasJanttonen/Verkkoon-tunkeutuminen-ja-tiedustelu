@@ -208,11 +208,28 @@ Tässä vaiheessa olen käyttänyt tämän tehtävän työstämiseen noin kuusi 
 Steganography aiheen tehtävä: vector_ghost. En saanut suoritettua kyseistä tehtävää, koska en löytänyt tekstitiedostosta lippua. Kokeilin terminaalin kautta sekä CyberChefin kautta. 
 
 
+<img width="401" height="218" alt="Image" src="https://github.com/user-attachments/assets/858bf582-cc0e-4d0c-8d58-240c8e6f1b3f" />
 
-Kuva 11.
+Kuva 11. Tekstitiedosto avattuna terminaalissa
 
-Kuva 12. 
+Voi olla, että väsymyksestä johtuen en hoksaa enkä löydä vastausta.
 
+<img width="403" height="31" alt="Image" src="https://github.com/user-attachments/assets/04a658e8-551c-4cce-b7dd-661bf9083034" />
+
+Kuva 12. Terminaalissa ja CyberChehissä sama näkymä.
+
+###### 0:21 
+
+Tässä vaiheessa totean, että aika alkaa olla täynnä sekä muut tehtävät vaativat huomiota ja aikaa. TÄmä haaste oli erittäin mielenkiintoinen ja aion osallistua uudestaan, kun aika on suotuisa. Tehtävät olivat erilaisia, mutta kuvatehtävä(t) toistuivat muutamaan kertaan. Instagram postauksista lipun etsiminen oli ehkä se mielenkiintoisin. Tämä oli erittäin opettavainen haaste, ja minusta tuntuu, että olen käyttänyt tähän hyvin aikaa. Tämä on mahdollistanut sen, että olen oppinut uutta ja sisäistänyt tämän aihealueen ainakin pintapuolisesti ja hieman syvällisemmin, kun mietitään että kyseessä oli kaikentasoisille toteutettu haaste. Toki tätä olisi voinut jatkaa pitkälle aamuun saakka, mutta aika ei riitä. Web, Osint ja PWN - aihealueen tehtäviä en ehtinyt suorittamaan. Näkisin, että raportti osoittaa jo monipuolisuutta tehtävien työstämisessä. Tämä on ollut hyvää harjoittelua.
+
+Tässä kohtaa kisaa näyttäisi olevan sijalla 664. Saavutettu pistemäärä: 455.
+
+<img width="454" height="34" alt="Image" src="https://github.com/user-attachments/assets/00f1c0ee-d605-46fc-b838-1fec8c32e5d2" />
+
+Kuva 13. Sijoittuminen kisoissa tehtävää lopetettaessa
+
+###### 24.5.2026.
+###### 0:39
 
 Lähde:
 ===
