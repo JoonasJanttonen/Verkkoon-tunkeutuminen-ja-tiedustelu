@@ -112,11 +112,11 @@ Tehtävän etusivulla annettiin ymmärtää, että kyseessä on anti-debugging, 
 
 <img width="334" height="21" alt="Image" src="https://github.com/user-attachments/assets/41489b1d-de07-4133-8598-ceaad868cb00" />
 
-Kuva 3. Näkymä terminaalissa.
+Kuva 4. Näkymä terminaalissa.
 
 <img width="238" height="55" alt="Image" src="https://github.com/user-attachments/assets/c8df2a4f-f1ef-49f7-beb9-9eb93e457cd6" />
 
-Kuva 4. Ratkaisu tehtävään, Vaultcore.
+Kuva 5. Ratkaisu tehtävään, Vaultcore.
 
 
 ###### 13:01
@@ -125,13 +125,13 @@ Kolmas tehtävä näyttäisi sekin olevan tasoa: helppo. Tehtävän on suorittau
 
 <img width="391" height="25" alt="Image" src="https://github.com/user-attachments/assets/86cb3416-8b88-4c77-a9b9-022e8dc7c695" />
 
-Kuva 5. LibreOffice.
+Kuva 6. LibreOffice.
  
 Sivu on käteävä tapa löytämään ratkaisu. Katsoin myös terminaalista, johon oli ladannut kyseisen tehtävän SecLeaf - kansioon, mutta ratkaisu muodostettiin CyberChef - sivujen kautta. (https://gchq.github.io/CyberChef/) 
 
 <img width="300" height="59" alt="Image" src="https://github.com/user-attachments/assets/d4ec1fd9-959e-4133-a185-8d6bc3485714" />
 
-Kuva 6. Tehtävän ratkaisu.
+Kuva 7. Tehtävän ratkaisu.
 
 CyberChef - työkalua hyödyntämällä lipusta voitiin tunnistaa, että kyseessä ei ollut varsinainen kryptografinen salaus, vaan pelkkä Base64-koodaus. 
 
@@ -144,9 +144,9 @@ Tämän jälkeen selaan tehtäviä läpi ja yritän etsiä helpompia tehtäviä.
 
 Neljännessä tehtävässä (Forensics), eli kuvatehtävässä näyttäisi olevan nopein ratkaisu hyödyntää samaa työkalua kuin aiemmassa tehtävässä. Lataan tiedoston koneelle, ja rahaan tämän kuvan input - laatikkoon. 
 
+<img width="95" height="91" alt="Image" src="https://github.com/user-attachments/assets/d0eb6f23-afb1-4be1-82aa-0ac416240db2" />
 
-
-Kuva 7. CyberChef
+Kuva 8. CyberChef
 
 ###### 13:55 
 
@@ -175,14 +175,19 @@ Tsekataan lista(t)
 ```
 ls
 ```
+<img width="236" height="20" alt="Image" src="https://github.com/user-attachments/assets/827c34d0-70fa-4c8c-b1b7-44980578270b" />
+
+Kuva 9. ls
+
+
 lopuksi luetaan lipun sisältö
 
 ```
 cat flag.txt
 ```
+<img width="211" height="19" alt="Image" src="https://github.com/user-attachments/assets/69ddea1a-a4cd-4c0b-9f54-de691dc0f0d8" />
 
-
-Kuva 8. Terminaali
+Kuva 10. Terminaali
 
 Tarkistus
 
