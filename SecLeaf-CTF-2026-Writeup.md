@@ -222,14 +222,24 @@ Kuva 12. Terminaalissa ja CyberChehissä sama näkymä.
 
 Tässä vaiheessa totean, että aika alkaa olla täynnä sekä muut tehtävät vaativat huomiota ja aikaa. TÄmä haaste oli erittäin mielenkiintoinen ja aion osallistua uudestaan, kun aika on suotuisa. Tehtävät olivat erilaisia, mutta kuvatehtävä(t) toistuivat muutamaan kertaan. Instagram postauksista lipun etsiminen oli ehkä se mielenkiintoisin. Tämä oli erittäin opettavainen haaste, ja minusta tuntuu, että olen käyttänyt tähän hyvin aikaa. Tämä on mahdollistanut sen, että olen oppinut uutta ja sisäistänyt tämän aihealueen ainakin pintapuolisesti ja hieman syvällisemmin, kun mietitään että kyseessä oli kaikentasoisille toteutettu haaste. Toki tätä olisi voinut jatkaa pitkälle aamuun saakka, mutta aika ei riitä. Web, Osint ja PWN - aihealueen tehtäviä en ehtinyt suorittamaan. Näkisin, että raportti osoittaa jo monipuolisuutta tehtävien työstämisessä. Tämä on ollut hyvää harjoittelua.
 
-Tässä kohtaa kisaa näyttäisi olevan sijalla 664. Saavutettu pistemäärä: 455.
+Lopuksi listaan tähän saavutetut tulokset liittyen haasteeseen.
 
-<img width="454" height="34" alt="Image" src="https://github.com/user-attachments/assets/00f1c0ee-d605-46fc-b838-1fec8c32e5d2" />
+<img width="785" height="220" alt="Image" src="https://github.com/user-attachments/assets/dd38913f-2f86-4ea1-b077-6a34d5280e66" />
 
-Kuva 13. Sijoittuminen kisoissa tehtävää lopetettaessa
+Kuva 13. Kilpailussa sijoittuminen lopetettaessa
+
+<img width="753" height="377" alt="Image" src="https://github.com/user-attachments/assets/525dcd29-e9e1-44f2-b6b3-beb36681f060" />
+
+Kuva 14. Aikaleima(t)
+
+<img width="753" height="378" alt="Image" src="https://github.com/user-attachments/assets/5150e5a1-528d-40b5-a9fb-c307621c67e8" />
+
+Kuva 15. Aktiivisuus tehtäviä tehdessä
 
 ###### 24.5.2026.
-###### 0:39
+###### 0:43 
+
+
 
 Lähde:
 ===
