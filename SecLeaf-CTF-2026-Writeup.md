@@ -107,6 +107,10 @@ Siirrä tiedoston SecLeaf-kansioon.
 mv ~/Lataukset/vaultcore .
 ```
 
+Tehtävän etusivulla annettiin ymmärtää, että kyseessä on anti-debugging, mutta todellisuudessa lippua ei oltu piilotettu tiedoston sisälle, vaan sen pyrtyi ratkaisemaan Linuxin komentoriviltä. Alkuun en päässyt tähän ratkaisuun, mutta komentoriviltä se löytyi.
+
+
+
 <img width="238" height="55" alt="Image" src="https://github.com/user-attachments/assets/c8df2a4f-f1ef-49f7-beb9-9eb93e457cd6" />
 
 Kuva 3. Ratkaisu tehtävään, Vaultcore.
