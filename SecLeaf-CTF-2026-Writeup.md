@@ -205,6 +205,15 @@ Tässä vaiheessa olen käyttänyt tämän tehtävän työstämiseen noin kuusi 
 
 
 
+Steganography aiheen tehtävä: vector_ghost. En saanut suoritettua kyseistä tehtävää, koska en löytänyt tekstitiedostosta lippua. Kokeilin terminaalin kautta sekä CyberChefin kautta. 
+
+
+
+Kuva 11.
+
+Kuva 12. 
+
+
 Lähde:
 ===
 
