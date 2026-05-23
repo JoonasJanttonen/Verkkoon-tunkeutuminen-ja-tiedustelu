@@ -189,20 +189,7 @@ cat flag.txt
 
 Kuva 10. Terminaali
 
-Tarkistus
-
-Lähde:
-===
-
-GitHub.io/CryptoChef 2026. Kolmannessa tehtävässä syötetty ratkaisu. Luettavissa: https://gchq.github.io/CyberChef/. Katsottu: 23.5.2026.
-
-Joonas Janttonen GitHub 2026. Luettu: 22.5.2026. Luettavissa: https://github.com/JoonasJanttonen/Verkkoon-tunkeutuminen-ja-tiedustelu/edit/main/h7%20Aaltoja%20harjaamassa.md.
-
-Medium. Anshuman Bhagwani 27.4.2023. How to develop CTF Challenges. Luettu: 22.5.2026. Luettavissa: https://medium.com/@bhagwani6260/how-to-develop-ctf-challenges-d49697d28572.
-
-SecLeaf CTF 2026. Rekisteröinti sivulta. Luettu: 22.5.2026. Luettavissa: https://ctf.secleaf.tech/
-
-SecLeaf 2026. SanityCheck, ensimmäinen tehtävä (Misc). Katsottavissa: https://www.youtube.com/@SecLeaf. Luettu: 23.5.2026.
+###### 14:23 
 
 
 
@@ -218,3 +205,5 @@ Medium. Anshuman Bhagwani 27.4.2023. How to develop CTF Challenges. Luettu: 22.5
 SecLeaf CTF 2026. Rekisteröinti sivulta. Luettu: 22.5.2026. Luettavissa: https://ctf.secleaf.tech/
 
 SecLeaf 2026. SanityCheck, ensimmäinen tehtävä (Misc). Katsottavissa: https://www.youtube.com/@SecLeaf. Luettu: 23.5.2026.
+
+
