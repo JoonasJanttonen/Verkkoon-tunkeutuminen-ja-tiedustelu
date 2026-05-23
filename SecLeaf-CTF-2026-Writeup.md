@@ -107,7 +107,7 @@ Siirrä tiedoston SecLeaf-kansioon.
 mv ~/Lataukset/vaultcore .
 ```
 
-Tehtävän etusivulla annettiin ymmärtää, että kyseessä on anti-debugging, mutta todellisuudessa lippua ei oltu piilotettu tiedoston sisälle, vaan sen pyrtyi ratkaisemaan Linuxin komentoriviltä. Alkuun en päässyt tähän ratkaisuun, mutta komentoriviltä se löytyi.
+Tehtävän etusivulla annettiin ymmärtää, että kyseessä on anti-debugging, mutta todellisuudessa lippua ei oltu piilotettu tiedoston sisälle, vaan sen pystyi ratkaisemaan Linuxin komentoriviltä. Ratkaisuksi osottautui pelkästään strings - komentoa käyttämällä. YouTube videoissa kehotettiin alkuosan tehtävissä keskittymään tavallisiin toimintoihin, joissa ei vaadita syvällisempää koodausosaamista. 
 
 
 <img width="334" height="21" alt="Image" src="https://github.com/user-attachments/assets/41489b1d-de07-4133-8598-ceaad868cb00" />
@@ -119,8 +119,14 @@ Kuva 3. Näkymä terminaalissa.
 Kuva 4. Ratkaisu tehtävään, Vaultcore.
 
 
+###### 13:01
+
+Kolmas tehtävä näyttäisi sekin olevan tasoa: helppo. Tehtävän on suorittaunut jo miltein 500 ratkaisua. Kyseessä on kryptografiasta. Aloitan lataamalla tiedoston: encrypted.txt. Klikkaan tiedostoa sen ladattua ja näkymyä aukeaa LibreOfficella. Tässä vaiheessa hyödynnän CyberChef - sivustoa. Maalaan kuvassa näkyvän koodin ja syötän sen kokille. Tämän jälkeen raahaan magicin keskelle, ja inputirsta näkyy vastaus: base64 ei ole salausta (suom.)
 
 
+
+Kuva 5. LibreOffice.
+ 
 
 
 
