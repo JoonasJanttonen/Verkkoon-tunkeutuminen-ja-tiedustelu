@@ -82,9 +82,15 @@ Ensimmäinen tehtävä on SanityCheck, jossa pitää löytää lippu Youtubelink
 
 Tehtävä näyttäisi olevan johdanto, jossa osoitetaan, kuinka lippu palautetaan. Lippu näkyy etusivula, kun linkin avaa. Palautan tämän ja saan ensimmäisen pisteen haasteesta.
 
-Kuva 2. 
+<img width="256" height="280" alt="Image" src="https://github.com/user-attachments/assets/4e76a5c9-103e-4b46-abfd-43defa420e1e" />
 
+Kuva 2. Ensimmäinen tehtävä, Misc.
 
+Vastaus näkyy kuvan yläosassa.
+
+<img width="394" height="257" alt="Image" src="https://github.com/user-attachments/assets/a05bd88e-0896-4c4f-9fd9-e227068352d3" />
+
+Kuva 3. Tehtävä ratkaistu.
 
 
 
