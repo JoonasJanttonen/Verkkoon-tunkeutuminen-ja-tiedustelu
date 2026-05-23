@@ -209,4 +209,8 @@ SecLeaf CTF 2026. Rekisteröinti sivulta. Luettu: 22.5.2026. Luettavissa: https:
 
 SecLeaf 2026. SanityCheck, ensimmäinen tehtävä (Misc). Katsottavissa: https://www.youtube.com/@SecLeaf. Luettu: 23.5.2026.
 
+Youtube 20.4.2021. BEGINNER Capture The Flag - PicoCTF 2021 001 "Obedient Cat". (Itsenäistä opiskelua). Katsottavissa: https://www.youtube.com/watch?v=P07NH5F-t3s. Katsottu: 22.5.2026.
+
+Youtune 27.5.2024. Capture The Flag! NahamCon 2024 CTF Warmups. (Itsenäistä opiskelua). Katsottavissa: https://www.youtube.com/watch?v=KQiTDIkZTo0. Katsottu: 22.5.2026.
+
 
