@@ -133,9 +133,10 @@ Sivu on käteävä tapa löytämään ratkaisu. Katsoin myös terminaalista, joh
 
 Kuva 6. Tehtävän ratkaisu.
 
-Sivun alaosasta löysin ratkaisun.
+CyberChef - työkalua hyödyntämällä lipusta voitiin tunnistaa, että kyseessä ei ollut varsinainen kryptografinen salaus, vaan pelkkä Base64-koodaus.
 
-###### 13:24
+
+###### 13:29
 
 
 
