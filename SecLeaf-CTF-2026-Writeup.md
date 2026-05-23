@@ -76,7 +76,7 @@ Kone pitäisi olla nyt 100 % valmis siihen, että voin suorittaa perustehtävät
 
 Edellisenä iltana priiffasin itseäni katsomalla aiheesta YouTube - videoita, kuten: https://www.youtube.com/watch?v=P07NH5F-t3s&pp=ygUZYmVnaW5uZXIgY2FwdHVyZSB0aGUgZmxhZw%3D%3D & https://www.youtube.com/watch?v=KQiTDIkZTo0&pp=ygUeY2FwdHVyZSB0aGUgZmxhZyBuYWhhbWNvbiAyMDI0.
 
-Käynnistän haasteen kirjautumalla SecLeafin - sivuille. Navigoin sivuilta kohtaan: haasteet. Aihealueet: Misc, Cryptography, Forensics ja REV. Keskityn työstämään helpoimpia tehtäviä, kuten sähköpostissa neuvoit. 
+Käynnistän haasteen kirjautumalla SecLeafin - sivuille. Navigoin sivuilta kohtaan: haasteet. Aihealueet: Misc, Cryptography, Forensics, REV ja PWN. Keskityn työstämään helpoimpia tehtäviä, kuten sähköpostissa neuvoit. 
 
 Ensimmäinen tehtävä on SanityCheck, jossa pitää löytää lippu Youtubelinkin takaa: https://www.youtube.com/@SecLeaf. Edellisenä iltana priiffasin itseäni katsomalla aiheesta YouTube - videoita, kuten: https://www.youtube.com/watch?v=P07NH5F-t3s&pp=ygUZYmVnaW5uZXIgY2FwdHVyZSB0aGUgZmxhZw%3D%3D & https://www.youtube.com/watch?v=KQiTDIkZTo0&pp=ygUeY2FwdHVyZSB0aGUgZmxhZyBuYWhhbWNvbiAyMDI0.
 
@@ -93,11 +93,22 @@ Vastaus näkyy kuvan yläosassa.
 Kuva 3. Tehtävä ratkaistu.
 
 ###### 12:15
+###### 12:24
+
+Tehtävä kaksi, Vaultcore. Aloitan tehtävän lataamalla tiedoston. Tämän jälkeen avaan terminaalin ja syötän komennon:
+
+```
+ls ~/Lataukset
+```
+
+Siirrä tiedoston SecLeaf-kansioon.
+
+```
+mv ~/Lataukset/vaultcore .
+```
 
 
-
-
-
+Kuva 3. Ratkaisu tehtävään, Vaultcore.
 
 
 
