@@ -123,17 +123,26 @@ Kuva 4. Ratkaisu tehtävään, Vaultcore.
 
 Kolmas tehtävä näyttäisi sekin olevan tasoa: helppo. Tehtävän on suorittaunut jo miltein 500 ratkaisua. Kyseessä on kryptografiasta. Aloitan lataamalla tiedoston: encrypted.txt. Klikkaan tiedostoa sen ladattua ja näkymyä aukeaa LibreOfficella. Tässä vaiheessa hyödynnän CyberChef - sivustoa. Maalaan kuvassa näkyvän koodin ja syötän sen kokille. Tämän jälkeen raahaan magicin keskelle, ja inputirsta näkyy vastaus: base64 ei ole salausta (suom.)
 
-
+<img width="391" height="25" alt="Image" src="https://github.com/user-attachments/assets/86cb3416-8b88-4c77-a9b9-022e8dc7c695" />
 
 Kuva 5. LibreOffice.
  
+Sivu on käteävä tapa löytämään ratkaisu. Katsoin myös terminaalista, johon oli ladannut kyseisen tehtävän SecLeaf - kansioon, mutta ratkaisu muodostettiin CyberChef - sivujen kautta. (https://gchq.github.io/CyberChef/) 
 
+<img width="300" height="59" alt="Image" src="https://github.com/user-attachments/assets/d4ec1fd9-959e-4133-a185-8d6bc3485714" />
 
+Kuva 6. Tehtävän ratkaisu.
+
+Sivun alaosasta löysin ratkaisun.
+
+###### 13:24
 
 
 
 Lähde:
 ===
+
+GitHub.io/CryptoChef 2026. Kolmannessa tehtävässä syötetty ratkaisu. Luettavissa: https://gchq.github.io/CyberChef/. Katsottu: 23.5.2026.
 
 Joonas Janttonen GitHub 2026. Luettu: 22.5.2026. Luettavissa: https://github.com/JoonasJanttonen/Verkkoon-tunkeutuminen-ja-tiedustelu/edit/main/h7%20Aaltoja%20harjaamassa.md.
 
