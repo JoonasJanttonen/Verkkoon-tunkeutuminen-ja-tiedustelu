@@ -133,10 +133,71 @@ Sivu on käteävä tapa löytämään ratkaisu. Katsoin myös terminaalista, joh
 
 Kuva 6. Tehtävän ratkaisu.
 
-CyberChef - työkalua hyödyntämällä lipusta voitiin tunnistaa, että kyseessä ei ollut varsinainen kryptografinen salaus, vaan pelkkä Base64-koodaus.
+CyberChef - työkalua hyödyntämällä lipusta voitiin tunnistaa, että kyseessä ei ollut varsinainen kryptografinen salaus, vaan pelkkä Base64-koodaus. 
 
 
 ###### 13:29
+
+Tämän jälkeen selaan tehtäviä läpi ja yritän etsiä helpompia tehtäviä. Huomaan, että osassa tehtäviässä on pisteytyksenä 250. En yritä ratkaista näitä, koska ne vaikuttavat erittäin haasteellisilta. 
+
+###### 13:40 
+
+Neljännessä tehtävässä (Forensics), eli kuvatehtävässä näyttäisi olevan nopein ratkaisu hyödyntää samaa työkalua kuin aiemmassa tehtävässä. Lataan tiedoston koneelle, ja rahaan tämän kuvan input - laatikkoon. 
+
+
+
+Kuva 7. CyberChef
+
+###### 13:55 
+
+Seuraavassa tehtävässä pyydetään lataamaan kuva. Yritän samaa kikkaa, mutta se osoittautuu vesiperäksi. En saa lippua ilmestymään CyberChefillä. Raahamalla magicin recipe kohtaan, saan ratkaistua tehtävän. 
+
+Yritin ratkaista tämän myös terminaalin kautta, jotta tämä osio tulee tehtyä oiken. Lataan tiedoston. Syötän seuraavat komennot:
+
+Siirretään tiedosto oikealla nimelle.
+
+```
+mv ~/Lataukset/Important.jpg .
+```
+
+Selvitetään oikea muoto
+
+```
+file Important.jpg
+```
+Puretaan Zip-tiedosto
+
+```
+unzip Important.jpg
+```
+Tsekataan lista(t)
+
+```
+ls
+```
+lopuksi luetaan lipun sisältö
+
+```
+cat flag.txt
+```
+
+
+Kuva 8. Terminaali
+
+Tarkistus
+
+Lähde:
+===
+
+GitHub.io/CryptoChef 2026. Kolmannessa tehtävässä syötetty ratkaisu. Luettavissa: https://gchq.github.io/CyberChef/. Katsottu: 23.5.2026.
+
+Joonas Janttonen GitHub 2026. Luettu: 22.5.2026. Luettavissa: https://github.com/JoonasJanttonen/Verkkoon-tunkeutuminen-ja-tiedustelu/edit/main/h7%20Aaltoja%20harjaamassa.md.
+
+Medium. Anshuman Bhagwani 27.4.2023. How to develop CTF Challenges. Luettu: 22.5.2026. Luettavissa: https://medium.com/@bhagwani6260/how-to-develop-ctf-challenges-d49697d28572.
+
+SecLeaf CTF 2026. Rekisteröinti sivulta. Luettu: 22.5.2026. Luettavissa: https://ctf.secleaf.tech/
+
+SecLeaf 2026. SanityCheck, ensimmäinen tehtävä (Misc). Katsottavissa: https://www.youtube.com/@SecLeaf. Luettu: 23.5.2026.
 
 
 
