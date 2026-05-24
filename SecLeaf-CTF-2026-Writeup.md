@@ -184,7 +184,7 @@ ls
 Kuva 9. ls
 
 
-lopuksi luetaan lipun sisältö
+Lopuksi luetaan tiedoston sisältö
 
 ```
 cat flag.txt
