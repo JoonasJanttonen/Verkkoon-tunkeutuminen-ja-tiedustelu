@@ -239,6 +239,18 @@ Kuva 15. Aktiivisuus tehtäviä tehdessä
 ###### 24.5.2026.
 ###### 0:43 
 
+###### 24.5.2026.
+###### 5:23 
+
+Haaste on ilmeisesti avoinna vielä noin 35 minuutin ajan. Katson, jos löytäisin jonkun tehtävän, jonka voisin suorittaa. Lopuksi viimeistelen raporttia. En ehtinyt tekemään tehtävää nimeltä: "Digital Rockstar". Tehtävässä latasin tiedoston nimeltä, "poem.rock". Tämän jälkeen lähdin selvittämään tehtävää Linuxin terminaalissa, mutta tulokseksi sain  englanninkielisen runon: " Midnight is Sec Shadow is leaf Chaos is poetry Neon is is fun Dreams are Midnight with Shadow with Chaos with Neon Says Dreams. Kun sain avattua tämän runon, niin ensimmäisenä silmiini osuivat sanat Sec ja leaf. Arvelin tämän olevan osa lippua, mutta ajanpuutteen vuoksi pääsi en ehtinyt suorittamaan tehtävää loppuun. Lopulta asia jäi mietittymään, ja kysyin Googlelta. Googlen mukaan kyseessä on Rockstar-ohjelmointikieli. Tämä oli itselleni täysin uusi ohjelmointikieli, ja sen on kehittänyt Dylan Beattie vuonna 2018. Ohjelmointikieli muistuttaa rock-lyriikkaa, mikä tekee siitä mielenkiintoisen.
+
+Lopuksi jäin pohtimaan, että seuraava haaste kannattaisi suorittaa yhdessä tiimin kanssa, jotta voisimme jakaa ja oppia tietoa. Tämä parantaisi onnistumisen mahdollisuuksia ja tehostaisi oppimista. 
+
+Päätän raportin tähän.
+
+###### 24.5.2026
+###### 6:13   
+
 
 
 Lähde:
